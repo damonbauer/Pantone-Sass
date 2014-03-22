@@ -1,4 +1,4 @@
-Pantone-Sass [Demo](http://damonbauer.github.io/Pantone-Sass)
+Pantone-Sass | [Demo](http://damonbauer.github.io/Pantone-Sass)
 ============
 
 A Sass map of Pantone colors (coated Pantone colors only). Feel free to steal the ones you want and use them as variables. Please don’t use the entire stylesheet supplied - it’s huge; rather, cherry pick what you need to keep file size down.
