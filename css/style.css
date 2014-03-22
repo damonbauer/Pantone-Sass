@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.colors {
+  text-align: center;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  font-family: sans-serif;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.box:before, .box:after {
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  left: 10%;
+}
+.box:before {
+  top: 25px;
+}
+.box:after {
+  top: 75%;
+}
