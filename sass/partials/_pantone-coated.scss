@@ -1,1357 +1,1341 @@
-$colors: (
-	pantone-Yellow-C: #fedd00,
-	pantone-Yellow-012-C: #ffd700,
-	pantone-Orange-021-C: #fe5000,
-	pantone-Warm-Red-C: #f9423a,
-	pantone-Red-032-C: #ef3340,
-	pantone-Rubine-Red-C: #ce0058,
-	pantone-Rhodamine-Red-C: #e10098,
-	pantone-Purple-C: #bb29bb,
-	pantone-Violet-C: #440099,
-	pantone-Blue-072-C: #10069f,
-	pantone-Reflex-Blue-C: #001489,
-	pantone-Process-Blue-C: #0085ca,
-	pantone-Green-C: #00ab84,
-	pantone-Black-C: #2d2926,
-	pantone-Yellow-0131-C: #f2f0a1,
-	pantone-Red-0331-C: #fcaebb,
-	pantone-Magenta-0521-C: #f1b2dc,
-	pantone-Violet-0631-C: #bf9bde,
-	pantone-Blue-0821-C: #74d1ea,
-	pantone-Green-0921-C: #9de7d7,
-	pantone-Black-0961-C: #9e978e,
-	pantone-801-C: #009ace,
-	pantone-802-C: #44d62c,
-	pantone-803-C: #ffe900,
-	pantone-804-C: #ffaa4d,
-	pantone-805-C: #ff7276,
-	pantone-806-C: #ff3eb5,
-	pantone-807-C: #ea27c2,
-	pantone-871-C: #84754e,
-	pantone-872-C: #85714d,
-	pantone-873-C: #866d4b,
-	pantone-874-C: #8b6f4e,
-	pantone-875-C: #87674f,
-	pantone-876-C: #8b634b,
-	pantone-877-C: #8a8d8f,
-	pantone-Medium-Yellow-C: #ffd900,
-	pantone-Bright-Orange-C: #ff5e00,
-	pantone-Bright-Red-C: #f93822,
-	pantone-Strong-Red-C: #ce0056,
-	pantone-Pink-C: #d62598,
-	pantone-Medium-Purple-C: #4e008e,
-	pantone-Dark-Blue-C: #00239c,
-	pantone-Medium-Blue-C: #0084ca,
-	pantone-Bright-Green-C: #00b08b,
-	pantone-Neutral-Black-C: #222223,
-	pantone-100-C: #f6eb61,
-	pantone-101-C: #f7ea48,
-	pantone-102-C: #fce300,
-	pantone-103-C: #c5a900,
-	pantone-104-C: #af9800,
-	pantone-105-C: #897a27,
-	pantone-7401-C: #f5e1a4,
-	pantone-7402-C: #ecd898,
-	pantone-7403-C: #eed484,
-	pantone-7404-C: #f4da40,
-	pantone-7405-C: #f2cd00,
-	pantone-7406-C: #f1c400,
-	pantone-7407-C: #cba052,
-	pantone-106-C: #f9e547,
-	pantone-107-C: #fbe122,
-	pantone-108-C: #fedb00,
-	pantone-109-C: #ffd100,
-	pantone-110-C: #daaa00,
-	pantone-111-C: #aa8a00,
-	pantone-112-C: #9c8412,
-	pantone-113-C: #fae053,
-	pantone-114-C: #fbdd40,
-	pantone-115-C: #fdda24,
-	pantone-116-C: #ffcd00,
-	pantone-117-C: #c99700,
-	pantone-118-C: #ac8400,
-	pantone-119-C: #897322,
-	pantone-127-C: #f3dd6d,
-	pantone-128-C: #f3d54e,
-	pantone-129-C: #f3d03e,
-	pantone-130-C: #f2a900,
-	pantone-131-C: #cc8a00,
-	pantone-132-C: #a07400,
-	pantone-133-C: #6c571b,
-	pantone-1205-C: #f8e08e,
-	pantone-1215-C: #fbd872,
-	pantone-1225-C: #ffc845,
-	pantone-1235-C: #ffb81c,
-	pantone-1245-C: #c69214,
-	pantone-1255-C: #ad841f,
-	pantone-1265-C: #886b25,
-	pantone-120-C: #fbdb65,
-	pantone-121-C: #fdd757,
-	pantone-122-C: #fed141,
-	pantone-123-C: #ffc72c,
-	pantone-124-C: #eaaa00,
-	pantone-125-C: #b58500,
-	pantone-126-C: #9a7611,
-	pantone-7548-C: #ffc600,
-	pantone-7549-C: #ffb500,
-	pantone-7550-C: #d19000,
-	pantone-7551-C: #b47e00,
-	pantone-7552-C: #73531d,
-	pantone-7553-C: #5a4522,
-	pantone-7554-C: #4b3d2a,
-	pantone-7555-C: #d29f13,
-	pantone-7556-C: #b78b20,
-	pantone-7557-C: #9f7d23,
-	pantone-7558-C: #967126,
-	pantone-7559-C: #8f6a2a,
-	pantone-7560-C: #7d622e,
-	pantone-7561-C: #6c5d34,
-	pantone-134-C: #fdd26e,
-	pantone-135-C: #ffc658,
-	pantone-136-C: #ffbf3f,
-	pantone-137-C: #ffa300,
-	pantone-138-C: #de7c00,
-	pantone-139-C: #af6d04,
-	pantone-140-C: #74531c,
-	pantone-1345-C: #fdd086,
-	pantone-1355-C: #ffc56e,
-	pantone-1365-C: #ffb549,
-	pantone-1375-C: #ff9e1b,
-	pantone-1385-C: #d57800,
-	pantone-1395-C: #996017,
-	pantone-1405-C: #6e4c1e,
-	pantone-141-C: #f2c75c,
-	pantone-142-C: #f1be48,
-	pantone-143-C: #f1b434,
-	pantone-144-C: #ed8b00,
-	pantone-145-C: #cf7f00,
-	pantone-146-C: #a76d11,
-	pantone-147-C: #715c2a,
-	pantone-7408-C: #f6be00,
-	pantone-7409-C: #f0b323,
-	pantone-7410-C: #fead77,
-	pantone-7411-C: #e6a65d,
-	pantone-7412-C: #d38235,
-	pantone-7413-C: #dc8633,
-	pantone-7414-C: #c16c18,
-	pantone-7562-C: #bd9b60,
-	pantone-7563-C: #d69a2d,
-	pantone-7564-C: #db8a06,
-	pantone-7565-C: #cd7925,
-	pantone-7566-C: #ad6433,
-	pantone-7567-C: #89532f,
-	pantone-7568-C: #775135,
-	pantone-7569-C: #d78825,
-	pantone-7570-C: #d3832b,
-	pantone-7571-C: #c67d30,
-	pantone-7572-C: #b67233,
-	pantone-7573-C: #a7662b,
-	pantone-7574-C: #9e6a38,
-	pantone-7575-C: #835d32,
-	pantone-712-C: #fcc89b,
-	pantone-713-C: #fdbe87,
-	pantone-714-C: #fdaa63,
-	pantone-715-C: #f68d2e,
-	pantone-716-C: #ea7600,
-	pantone-717-C: #d45d00,
-	pantone-718-C: #be4d00,
-	pantone-148-C: #fecb8b,
-	pantone-149-C: #ffc27b,
-	pantone-150-C: #ffb25b,
-	pantone-151-C: #ff8200,
-	pantone-152-C: #e57200,
-	pantone-153-C: #be6a14,
-	pantone-154-C: #9b5a1a,
-	pantone-155-C: #efd19f,
-	pantone-156-C: #efbe7d,
-	pantone-157-C: #eca154,
-	pantone-158-C: #e87722,
-	pantone-159-C: #cb6015,
-	pantone-160-C: #a1561c,
-	pantone-161-C: #603d20,
-	pantone-1485-C: #ffae62,
-	pantone-1495-C: #ff8f1c,
-	pantone-1505-C: #ff6900,
-	pantone-1525-C: #b94700,
-	pantone-1535-C: #94450b,
-	pantone-1545-C: #653819,
-	pantone-1555-C: #ffb990,
-	pantone-1565-C: #ffa06a,
-	pantone-1575-C: #ff7f32,
-	pantone-1585-C: #ff6a13,
-	pantone-1595-C: #d86018,
-	pantone-1605-C: #a65523,
-	pantone-1615-C: #8b4720,
-	pantone-162-C: #ffbe9f,
-	pantone-163-C: #ff9d6e,
-	pantone-164-C: #ff7f41,
-	pantone-165-C: #ff671f,
-	pantone-166-C: #e35205,
-	pantone-167-C: #be531c,
-	pantone-168-C: #73381d,
-	pantone-7576-C: #db864e,
-	pantone-7577-C: #e07e3c,
-	pantone-7578-C: #dc6b2f,
-	pantone-7579-C: #dc582a,
-	pantone-7580-C: #c05131,
-	pantone-7581-C: #864a33,
-	pantone-7582-C: #674736,
-	pantone-1625-C: #ffa38b,
-	pantone-1635-C: #ff8d6d,
-	pantone-1645-C: #ff6a39,
-	pantone-1655-C: #fc4c02,
-	pantone-1665-C: #dc4405,
-	pantone-1675-C: #a9431e,
-	pantone-1685-C: #833921,
-	pantone-169-C: #ffb3ab,
-	pantone-170-C: #ff8674,
-	pantone-171-C: #ff5c39,
-	pantone-172-C: #fa4616,
-	pantone-173-C: #cf4520,
-	pantone-174-C: #963821,
-	pantone-175-C: #6b3529,
-	pantone-7583-C: #c4622d,
-	pantone-7584-C: #ba5826,
-	pantone-7585-C: #af5c37,
-	pantone-7586-C: #9e5330,
-	pantone-7587-C: #924c2e,
-	pantone-7588-C: #7b4d35,
-	pantone-7589-C: #5c4738,
-	pantone-7590-C: #d4b59e,
-	pantone-7591-C: #c07d59,
-	pantone-7592-C: #b15533,
-	pantone-7593-C: #9d432c,
-	pantone-7594-C: #7c3a2d,
-	pantone-7595-C: #6b3d2e,
-	pantone-7596-C: #5c3d31,
-	pantone-7597-C: #d14124,
-	pantone-7598-C: #bd472a,
-	pantone-7599-C: #b33d26,
-	pantone-7600-C: #8d3f2b,
-	pantone-7601-C: #83412c,
-	pantone-7602-C: #7b4931,
-	pantone-7603-C: #674230,
-	pantone-7604-C: #e4d5d3,
-	pantone-7605-C: #e1bbb4,
-	pantone-7606-C: #d6938a,
-	pantone-7607-C: #c26e60,
-	pantone-7608-C: #a4493d,
-	pantone-7609-C: #823b34,
-	pantone-7610-C: #683431,
-	pantone-7611-C: #ddbcb0,
-	pantone-7612-C: #ca9a8e,
-	pantone-7613-C: #bc8a7e,
-	pantone-7614-C: #a37f74,
-	pantone-7615-C: #866761,
-	pantone-7616-C: #6b4c4c,
-	pantone-7617-C: #583d3e,
-	pantone-7520-C: #eabeb0,
-	pantone-7521-C: #c09c83,
-	pantone-7522-C: #b46a55,
-	pantone-7523-C: #ab5c57,
-	pantone-7524-C: #a45248,
-	pantone-7525-C: #9a6a4f,
-	pantone-7526-C: #8a391b,
-	pantone-489-C: #ecc3b2,
-	pantone-488-C: #ecbaa8,
-	pantone-487-C: #eaa794,
-	pantone-486-C: #e8927c,
-	pantone-485-C: #da291c,
-	pantone-484-C: #9a3324,
-	pantone-483-C: #653024,
-	pantone-176-C: #ffb1bb,
-	pantone-177-C: #ff808b,
-	pantone-178-C: #ff585d,
-	pantone-179-C: #e03c31,
-	pantone-180-C: #be3a34,
-	pantone-181-C: #81312f,
-	pantone-1765-C: #ffa3b5,
-	pantone-1775-C: #ff8da1,
-	pantone-1785-C: #f8485e,
-	pantone-1788-C: #ee2737,
-	pantone-1795-C: #d22630,
-	pantone-1805-C: #af272f,
-	pantone-1815-C: #7c2529,
-	pantone-1767-C: #fcafc0,
-	pantone-1777-C: #fb637e,
-	pantone-1787-C: #f4364c,
-	pantone-1797-C: #cb333b,
-	pantone-1807-C: #a4343a,
-	pantone-1817-C: #643335,
-	pantone-7618-C: #c66e4e,
-	pantone-7619-C: #c04c36,
-	pantone-7620-C: #b7312c,
-	pantone-7621-C: #ab2328,
-	pantone-7622-C: #93272c,
-	pantone-7623-C: #8a2a2b,
-	pantone-7624-C: #802f2d,
-	pantone-7625-C: #e1523d,
-	pantone-7626-C: #c63527,
-	pantone-7627-C: #a72b2a,
-	pantone-7628-C: #9e2a2b,
-	pantone-7629-C: #6d3332,
-	pantone-7630-C: #633231,
-	pantone-7631-C: #572d2d,
-	pantone-7415-C: #e6baa8,
-	pantone-7416-C: #e56a54,
-	pantone-7417-C: #e04e39,
-	pantone-7418-C: #cd545b,
-	pantone-7419-C: #b04a5a,
-	pantone-7420-C: #9b2242,
-	pantone-7421-C: #651d32,
-	pantone-182-C: #fabbcb,
-	pantone-183-C: #fc9bb3,
-	pantone-184-C: #f65275,
-	pantone-185-C: #e4002b,
-	pantone-186-C: #c8102e,
-	pantone-187-C: #a6192e,
-	pantone-188-C: #76232f,
-	pantone-196-C: #ecc7cd,
-	pantone-197-C: #e89cae,
-	pantone-198-C: #df4661,
-	pantone-199-C: #d50032,
-	pantone-200-C: #ba0c2f,
-	pantone-201-C: #9d2235,
-	pantone-202-C: #862633,
-	pantone-189-C: #f8a3bc,
-	pantone-190-C: #f67599,
-	pantone-191-C: #ef426f,
-	pantone-192-C: #e40046,
-	pantone-193-C: #bf0d3e,
-	pantone-194-C: #9b2743,
-	pantone-195-C: #782f40,
-	pantone-1895-C: #f5b6cd,
-	pantone-1905-C: #f59bbb,
-	pantone-1915-C: #ef4a81,
-	pantone-1925-C: #e0004d,
-	pantone-1935-C: #c5003e,
-	pantone-1945-C: #a6093d,
-	pantone-1955-C: #8a1538,
-	pantone-705-C: #f5dadf,
-	pantone-706-C: #f7ced7,
-	pantone-707-C: #f9b5c4,
-	pantone-708-C: #f890a5,
-	pantone-709-C: #ef6079,
-	pantone-710-C: #e03e52,
-	pantone-711-C: #cb2c30,
-	pantone-698-C: #f2d4d7,
-	pantone-699-C: #f4c3cc,
-	pantone-700-C: #f2acb9,
-	pantone-701-C: #e68699,
-	pantone-702-C: #d25b73,
-	pantone-703-C: #b83a4b,
-	pantone-704-C: #9e2a2f,
-	pantone-203-C: #ecb3cb,
-	pantone-204-C: #e782a9,
-	pantone-205-C: #e0457b,
-	pantone-206-C: #ce0037,
-	pantone-207-C: #a50034,
-	pantone-208-C: #861f41,
-	pantone-209-C: #6f263d,
-	pantone-210-C: #f99fc9,
-	pantone-211-C: #f57eb6,
-	pantone-212-C: #f04e98,
-	pantone-213-C: #e31c79,
-	pantone-214-C: #ce0f69,
-	pantone-215-C: #ac145a,
-	pantone-216-C: #7d2248,
-	pantone-7422-C: #f4cdd4,
-	pantone-7423-C: #e06287,
-	pantone-7424-C: #e24585,
-	pantone-7425-C: #b52555,
-	pantone-7426-C: #a4123f,
-	pantone-7427-C: #971b2f,
-	pantone-7428-C: #6a2c3e,
-	pantone-7632-C: #d6c9ca,
-	pantone-7633-C: #c4a4a7,
-	pantone-7634-C: #c16784,
-	pantone-7635-C: #c63663,
-	pantone-7636-C: #bc204b,
-	pantone-7637-C: #912f46,
-	pantone-7638-C: #7e2d40,
-	pantone-217-C: #eabedb,
-	pantone-218-C: #e56db1,
-	pantone-219-C: #da1884,
-	pantone-220-C: #a50050,
-	pantone-221-C: #910048,
-	pantone-222-C: #6c1d45,
-	pantone-7639-C: #936d73,
-	pantone-7640-C: #934054,
-	pantone-7641-C: #8e2c48,
-	pantone-7642-C: #732e4a,
-	pantone-7643-C: #672e45,
-	pantone-7644-C: #582d40,
-	pantone-7645-C: #502b3a,
-	pantone-223-C: #ef95cf,
-	pantone-224-C: #eb6fbd,
-	pantone-225-C: #df1995,
-	pantone-226-C: #d0006f,
-	pantone-227-C: #aa0061,
-	pantone-228-C: #890c58,
-	pantone-229-C: #672146,
-	pantone-230-C: #f4a6d7,
-	pantone-231-C: #f277c6,
-	pantone-232-C: #e93cac,
-	pantone-233-C: #c6007e,
-	pantone-234-C: #a20067,
-	pantone-235-C: #840b55,
-	pantone-670-C: #ead3e2,
-	pantone-671-C: #e6bcd8,
-	pantone-672-C: #dfa0c9,
-	pantone-673-C: #d986ba,
-	pantone-674-C: #c6579a,
-	pantone-675-C: #ae2573,
-	pantone-676-C: #960051,
-	pantone-677-C: #e5cedb,
-	pantone-678-C: #e3c8d8,
-	pantone-679-C: #debed2,
-	pantone-680-C: #c996b6,
-	pantone-681-C: #b06c96,
-	pantone-682-C: #994878,
-	pantone-683-C: #7c2855,
-	pantone-684-C: #e4c6d4,
-	pantone-685-C: #dcb6c9,
-	pantone-686-C: #d0a1ba,
-	pantone-687-C: #be84a3,
-	pantone-688-C: #a76389,
-	pantone-689-C: #893b67,
-	pantone-690-C: #612141,
-	pantone-510-C: #ebbecb,
-	pantone-509-C: #e8b3c3,
-	pantone-508-C: #e4a9bb,
-	pantone-507-C: #d592aa,
-	pantone-506-C: #84344e,
-	pantone-505-C: #6f2c3f,
-	pantone-504-C: #572932,
-	pantone-7429-C: #e2bccb,
-	pantone-7430-C: #dca9bf,
-	pantone-7431-C: #c9809e,
-	pantone-7432-C: #b55c80,
-	pantone-7433-C: #a73a64,
-	pantone-7434-C: #9b3259,
-	pantone-7435-C: #872651,
-	pantone-691-C: #e9cdd0,
-	pantone-692-C: #e4bec3,
-	pantone-693-C: #d7a3ab,
-	pantone-694-C: #c48490,
-	pantone-695-C: #b46b7a,
-	pantone-696-C: #984856,
-	pantone-697-C: #893c47,
-	pantone-496-C: #f2c6cf,
-	pantone-495-C: #f1bdc8,
-	pantone-494-C: #e9a2b2,
-	pantone-493-C: #dc8699,
-	pantone-492-C: #8f3237,
-	pantone-491-C: #7f3035,
-	pantone-490-C: #5d2a2c,
-	pantone-503-C: #e9c4c7,
-	pantone-502-C: #e5bac1,
-	pantone-501-C: #daa5ad,
-	pantone-500-C: #c6858f,
-	pantone-499-C: #7a3e3a,
-	pantone-498-C: #6a3735,
-	pantone-497-C: #512f2e,
-	pantone-5035-C: #dfc2c3,
-	pantone-5025-C: #dbb7bb,
-	pantone-5015-C: #cca1a6,
-	pantone-5005-C: #b07c83,
-	pantone-4995-C: #9c6169,
-	pantone-4985-C: #874b52,
-	pantone-4975-C: #3f2021,
-	pantone-236-C: #f1a7dc,
-	pantone-237-C: #ec86d0,
-	pantone-238-C: #e45dbf,
-	pantone-239-C: #db3eb1,
-	pantone-240-C: #c5299b,
-	pantone-241-C: #af1685,
-	pantone-242-C: #80225f,
-	pantone-2365-C: #efbae1,
-	pantone-2375-C: #e277cd,
-	pantone-2385-C: #d539b5,
-	pantone-2395-C: #c800a1,
-	pantone-2405-C: #b0008e,
-	pantone-2415-C: #9e007e,
-	pantone-2425-C: #830065,
-	pantone-243-C: #eab8e4,
-	pantone-244-C: #e59bdc,
-	pantone-245-C: #dd7fd3,
-	pantone-246-C: #c724b1,
-	pantone-247-C: #bb16a3,
-	pantone-248-C: #a51890,
-	pantone-249-C: #80276c,
-	pantone-7646-C: #a56e87,
-	pantone-7647-C: #a83d72,
-	pantone-7648-C: #991e66,
-	pantone-7649-C: #8a1b61,
-	pantone-7650-C: #722257,
-	pantone-7651-C: #6a2a5b,
-	pantone-7652-C: #5e2751,
-	pantone-250-C: #e7bae4,
-	pantone-251-C: #dd9cdf,
-	pantone-252-C: #c964cf,
-	pantone-253-C: #ad1aac,
-	pantone-254-C: #981d97,
-	pantone-255-C: #72246c,
-	pantone-517-C: #ebc6df,
-	pantone-516-C: #e6bedd,
-	pantone-515-C: #e2acd7,
-	pantone-514-C: #d48bc8,
-	pantone-513-C: #93328e,
-	pantone-512-C: #833177,
-	pantone-511-C: #612c51,
-	pantone-7436-C: #eedaea,
-	pantone-7437-C: #ccaed0,
-	pantone-7438-C: #d59ed7,
-	pantone-7439-C: #b288b9,
-	pantone-7440-C: #a277a6,
-	pantone-7441-C: #9f5cc0,
-	pantone-7442-C: #963cbd,
-	pantone-2562-C: #d7a9e3,
-	pantone-2572-C: #c98bdb,
-	pantone-2582-C: #ac4fc6,
-	pantone-2592-C: #9b26b6,
-	pantone-2602-C: #87189d,
-	pantone-2612-C: #772583,
-	pantone-2622-C: #653165,
-	pantone-7653-C: #948794,
-	pantone-7654-C: #a2789c,
-	pantone-7655-C: #a15a95,
-	pantone-7656-C: #8e3a80,
-	pantone-7657-C: #6e2b62,
-	pantone-7658-C: #6a3460,
-	pantone-7659-C: #5d3754,
-	pantone-524-C: #d5c2d8,
-	pantone-523-C: #c9b1d0,
-	pantone-522-C: #ba9cc5,
-	pantone-521-C: #a57fb2,
-	pantone-520-C: #642f6c,
-	pantone-519-C: #59315f,
-	pantone-518-C: #4b3048,
-	pantone-5245-C: #dbcdd3,
-	pantone-5235-C: #d0bec7,
-	pantone-5225-C: #c6b0bc,
-	pantone-5215-C: #af95a6,
-	pantone-5205-C: #86647a,
-	pantone-5195-C: #66435a,
-	pantone-5185-C: #4a3041,
-	pantone-5175-C: #d8c8d1,
-	pantone-5165-C: #d3c0cd,
-	pantone-5155-C: #bfa5b8,
-	pantone-5145-C: #9b7793,
-	pantone-5135-C: #7e5475,
-	pantone-5125-C: #693c5e,
-	pantone-5115-C: #512a44,
-	pantone-531-C: #dfc8e7,
-	pantone-530-C: #d7b9e4,
-	pantone-529-C: #caa2dd,
-	pantone-528-C: #b580d1,
-	pantone-527-C: #8031a7,
-	pantone-526-C: #702f8a,
-	pantone-525-C: #572c5f,
-	pantone-256-C: #d6bfdd,
-	pantone-257-C: #c6a1cf,
-	pantone-258-C: #8c4799,
-	pantone-259-C: #6d2077,
-	pantone-260-C: #642667,
-	pantone-261-C: #5d285f,
-	pantone-262-C: #51284f,
-	pantone-2563-C: #cba3d8,
-	pantone-2573-C: #b884cb,
-	pantone-2583-C: #a05eb5,
-	pantone-2593-C: #84329b,
-	pantone-2603-C: #702082,
-	pantone-2613-C: #671e75,
-	pantone-2623-C: #5f2167,
-	pantone-7660-C: #9991a4,
-	pantone-7661-C: #8d6e97,
-	pantone-7662-C: #7a4183,
-	pantone-7663-C: #6b3077,
-	pantone-7664-C: #653279,
-	pantone-7665-C: #5e366e,
-	pantone-7666-C: #5c4e63,
-	pantone-2567-C: #c1a0da,
-	pantone-2577-C: #a77bca,
-	pantone-2587-C: #8246af,
-	pantone-2597-C: #5c068c,
-	pantone-2607-C: #500778,
-	pantone-2617-C: #470a68,
-	pantone-2627-C: #3c1053,
-	pantone-263-C: #d7c6e6,
-	pantone-264-C: #c1a7e2,
-	pantone-265-C: #9063cd,
-	pantone-266-C: #753bbd,
-	pantone-267-C: #5f259f,
-	pantone-268-C: #582c83,
-	pantone-269-C: #512d6d,
-	pantone-2635-C: #c5b4e3,
-	pantone-2645-C: #ad96dc,
-	pantone-2655-C: #9678d3,
-	pantone-2665-C: #7d55c7,
-	pantone-2685-C: #330072,
-	pantone-2695-C: #2e1a47,
-	pantone-270-C: #b4b5df,
-	pantone-271-C: #9595d2,
-	pantone-272-C: #7474c1,
-	pantone-273-C: #24135f,
-	pantone-274-C: #211551,
-	pantone-275-C: #201747,
-	pantone-276-C: #221c35,
-	pantone-2705-C: #a7a4e0,
-	pantone-2715-C: #8b84d7,
-	pantone-2725-C: #685bc7,
-	pantone-2735-C: #2e008b,
-	pantone-2745-C: #280071,
-	pantone-2755-C: #250e62,
-	pantone-2765-C: #201547,
-	pantone-7667-C: #6e7ca0,
-	pantone-7668-C: #686e9f,
-	pantone-7669-C: #615e9b,
-	pantone-7670-C: #565294,
-	pantone-7671-C: #514689,
-	pantone-7672-C: #4c4184,
-	pantone-7673-C: #535486,
-	pantone-7443-C: #dddae8,
-	pantone-7444-C: #b6b8dc,
-	pantone-7445-C: #a7a2c3,
-	pantone-7446-C: #8986ca,
-	pantone-7447-C: #5d4777,
-	pantone-7448-C: #4b384c,
-	pantone-7449-C: #41273b,
-	pantone-7674-C: #878cb4,
-	pantone-7675-C: #7c7fab,
-	pantone-7676-C: #7566a0,
-	pantone-7677-C: #6f5091,
-	pantone-7678-C: #68478d,
-	pantone-7679-C: #563d82,
-	pantone-7680-C: #523178,
-	pantone-663-C: #e5e1e6,
-	pantone-664-C: #e0dbe3,
-	pantone-665-C: #c6bcd0,
-	pantone-666-C: #a192b2,
-	pantone-667-C: #7c6992,
-	pantone-668-C: #614b79,
-	pantone-669-C: #3f2a56,
-	pantone-5315-C: #d8d7df,
-	pantone-5305-C: #c6c4d2,
-	pantone-5295-C: #b3b0c4,
-	pantone-5285-C: #8d89a5,
-	pantone-5275-C: #595478,
-	pantone-5265-C: #403a60,
-	pantone-5255-C: #1e1a34,
-	pantone-538-C: #c5cfda,
-	pantone-537-C: #bbc7d6,
-	pantone-536-C: #a2b2c8,
-	pantone-535-C: #8e9fbc,
-	pantone-534-C: #1b365d,
-	pantone-533-C: #1f2a44,
-	pantone-532-C: #1c1f2a,
-	pantone-7541-C: #d9e1e2,
-	pantone-7542-C: #a4bcc2,
-	pantone-7543-C: #98a4ae,
-	pantone-7544-C: #768692,
-	pantone-7545-C: #425563,
-	pantone-7546-C: #253746,
-	pantone-7547-C: #131e29,
-	pantone-552-C: #b9d3dc,
-	pantone-551-C: #a3c7d2,
-	pantone-550-C: #8db9ca,
-	pantone-549-C: #6ba4b8,
-	pantone-548-C: #003d4c,
-	pantone-547-C: #00313c,
-	pantone-546-C: #072b31,
-	pantone-5455-C: #bfced6,
-	pantone-5445-C: #b7c9d3,
-	pantone-5435-C: #a6bbc8,
-	pantone-5425-C: #7a99ac,
-	pantone-5415-C: #5b7f95,
-	pantone-5405-C: #4f758b,
-	pantone-5395-C: #081f2c,
-	pantone-642-C: #d1dde6,
-	pantone-643-C: #c6d6e3,
-	pantone-644-C: #9bb8d3,
-	pantone-645-C: #7da1c4,
-	pantone-646-C: #5e8ab4,
-	pantone-647-C: #236192,
-	pantone-648-C: #002e5d,
-	pantone-649-C: #dbe2e9,
-	pantone-650-C: #ced9e5,
-	pantone-651-C: #a7bcd6,
-	pantone-652-C: #7d9bc1,
-	pantone-653-C: #326295,
-	pantone-654-C: #003a70,
-	pantone-655-C: #002554,
-	pantone-656-C: #dde5ed,
-	pantone-657-C: #c8d8eb,
-	pantone-658-C: #b1c9e8,
-	pantone-659-C: #7ba4db,
-	pantone-660-C: #407ec9,
-	pantone-661-C: #003594,
-	pantone-662-C: #001a70,
-	pantone-7450-C: #bdc5db,
-	pantone-7451-C: #89abe3,
-	pantone-7452-C: #8094dd,
-	pantone-7453-C: #7ba6de,
-	pantone-7454-C: #5f8fb4,
-	pantone-7455-C: #3a5dae,
-	pantone-7456-C: #606eb2,
-	pantone-2706-C: #cbd3eb,
-	pantone-2716-C: #9faee5,
-	pantone-2726-C: #485cc7,
-	pantone-2736-C: #1e22aa,
-	pantone-2746-C: #171c8f,
-	pantone-2756-C: #151f6d,
-	pantone-2766-C: #141b4d,
-	pantone-2708-C: #b8ccea,
-	pantone-2718-C: #5c88da,
-	pantone-2728-C: #0047bb,
-	pantone-2738-C: #06038d,
-	pantone-2748-C: #001871,
-	pantone-2758-C: #001e62,
-	pantone-2768-C: #071d49,
-	pantone-2707-C: #c3d7ee,
-	pantone-2717-C: #a7c6ed,
-	pantone-2727-C: #307fe2,
-	pantone-2747-C: #001a72,
-	pantone-2757-C: #001e60,
-	pantone-2767-C: #13294b,
-	pantone-277-C: #abcae9,
-	pantone-278-C: #8bb8e8,
-	pantone-279-C: #418fde,
-	pantone-280-C: #012169,
-	pantone-281-C: #00205b,
-	pantone-282-C: #041e42,
-	pantone-283-C: #92c1e9,
-	pantone-284-C: #6cace4,
-	pantone-285-C: #0072ce,
-	pantone-286-C: #0033a0,
-	pantone-287-C: #003087,
-	pantone-288-C: #002d72,
-	pantone-289-C: #0c2340,
-	pantone-7681-C: #94a9cb,
-	pantone-7682-C: #6787b7,
-	pantone-7683-C: #426da9,
-	pantone-7684-C: #385e9d,
-	pantone-7685-C: #2c5697,
-	pantone-7686-C: #1d4f91,
-	pantone-7687-C: #1d428a,
-	pantone-545-C: #c6dae7,
-	pantone-544-C: #bdd6e6,
-	pantone-543-C: #a4c8e1,
-	pantone-542-C: #7bafd4,
-	pantone-541-C: #003c71,
-	pantone-540-C: #003057,
-	pantone-539-C: #00263a,
-	pantone-290-C: #b9d9eb,
-	pantone-291-C: #9bcbeb,
-	pantone-292-C: #69b3e7,
-	pantone-293-C: #003da5,
-	pantone-294-C: #002f6c,
-	pantone-295-C: #002855,
-	pantone-296-C: #041c2c,
-	pantone-2905-C: #8dc8e8,
-	pantone-2915-C: #62b5e5,
-	pantone-2925-C: #009cde,
-	pantone-2935-C: #0057b8,
-	pantone-2945-C: #004c97,
-	pantone-2955-C: #003865,
-	pantone-2965-C: #00263e,
-	pantone-297-C: #71c5e8,
-	pantone-298-C: #41b6e6,
-	pantone-299-C: #00a3e0,
-	pantone-300-C: #005eb8,
-	pantone-301-C: #004b87,
-	pantone-302-C: #003b5c,
-	pantone-303-C: #002a3a,
-	pantone-7688-C: #4698cb,
-	pantone-7689-C: #298fc2,
-	pantone-7690-C: #0076a8,
-	pantone-7691-C: #006298,
-	pantone-7692-C: #005587,
-	pantone-7693-C: #004976,
-	pantone-7694-C: #01426a,
-	pantone-2975-C: #99d6ea,
-	pantone-2985-C: #5bc2e7,
-	pantone-2995-C: #00a9e0,
-	pantone-3005-C: #0077c8,
-	pantone-3015-C: #00629b,
-	pantone-3025-C: #004f71,
-	pantone-3035-C: #003e51,
-	pantone-7695-C: #7ba7bc,
-	pantone-7696-C: #6399ae,
-	pantone-7697-C: #4e87a0,
-	pantone-7698-C: #41748d,
-	pantone-7699-C: #34657f,
-	pantone-7700-C: #165c7d,
-	pantone-7701-C: #005776,
-	pantone-7457-C: #bbdde6,
-	pantone-7458-C: #71b2c9,
-	pantone-7459-C: #4298b5,
-	pantone-7460-C: #0086bf,
-	pantone-7461-C: #007dba,
-	pantone-7462-C: #00558c,
-	pantone-7463-C: #002b49,
-	pantone-304-C: #9adbe8,
-	pantone-305-C: #59cbe8,
-	pantone-306-C: #00b5e2,
-	pantone-307-C: #006ba6,
-	pantone-308-C: #00587c,
-	pantone-309-C: #003b49,
-	pantone-635-C: #a4dbe8,
-	pantone-636-C: #8bd3e6,
-	pantone-637-C: #4ec3e0,
-	pantone-638-C: #00afd7,
-	pantone-639-C: #0095c8,
-	pantone-640-C: #0082ba,
-	pantone-641-C: #0067a0,
-	pantone-7702-C: #48a9c5,
-	pantone-7703-C: #009cbd,
-	pantone-7704-C: #0085ad,
-	pantone-7705-C: #007096,
-	pantone-7706-C: #006a8e,
-	pantone-7707-C: #00617f,
-	pantone-7708-C: #005670,
-	pantone-628-C: #b8dde1,
-	pantone-629-C: #9bd3dd,
-	pantone-630-C: #77c5d5,
-	pantone-631-C: #3eb1c8,
-	pantone-632-C: #0093b2,
-	pantone-633-C: #007396,
-	pantone-634-C: #005f83,
-	pantone-310-C: #6ad1e3,
-	pantone-311-C: #05c3de,
-	pantone-312-C: #00a9ce,
-	pantone-313-C: #0092bc,
-	pantone-314-C: #007fa3,
-	pantone-315-C: #00677f,
-	pantone-316-C: #004851,
-	pantone-3105-C: #68d2df,
-	pantone-3115-C: #00c1d5,
-	pantone-3125-C: #00aec7,
-	pantone-3135-C: #008eaa,
-	pantone-3145-C: #00778b,
-	pantone-3155-C: #006272,
-	pantone-3165-C: #004f59,
-	pantone-7709-C: #63b1bc,
-	pantone-7710-C: #00a7b5,
-	pantone-7711-C: #0097a9,
-	pantone-7712-C: #00859b,
-	pantone-7713-C: #007d8a,
-	pantone-7714-C: #007680,
-	pantone-7715-C: #006269,
-	pantone-317-C: #b1e4e3,
-	pantone-318-C: #88dbdf,
-	pantone-319-C: #2dccd3,
-	pantone-320-C: #009ca6,
-	pantone-321-C: #008c95,
-	pantone-322-C: #007377,
-	pantone-323-C: #005f61,
-	pantone-7464-C: #a0d1ca,
-	pantone-7465-C: #40c1ac,
-	pantone-7466-C: #00b0b9,
-	pantone-7467-C: #00a3ad,
-	pantone-7468-C: #007398,
-	pantone-7469-C: #005f86,
-	pantone-7470-C: #005a70,
-	pantone-7471-C: #7eddd3,
-	pantone-7472-C: #5cb8b2,
-	pantone-7473-C: #279989,
-	pantone-7474-C: #007681,
-	pantone-7475-C: #487a7b,
-	pantone-7476-C: #0d5257,
-	pantone-7477-C: #244c5a,
-	pantone-5523-C: #b6cfd0,
-	pantone-5513-C: #abc7ca,
-	pantone-5503-C: #94b7bb,
-	pantone-5493-C: #7fa9ae,
-	pantone-5483-C: #4f868e,
-	pantone-5473-C: #115e67,
-	pantone-5463-C: #07272d,
-	pantone-7716-C: #00968f,
-	pantone-7717-C: #00857d,
-	pantone-7718-C: #007672,
-	pantone-7719-C: #006d68,
-	pantone-7720-C: #00635b,
-	pantone-7721-C: #005e5d,
-	pantone-7722-C: #005151,
-	pantone-324-C: #9cdbd9,
-	pantone-325-C: #64ccc9,
-	pantone-326-C: #00b2a9,
-	pantone-327-C: #008675,
-	pantone-328-C: #007367,
-	pantone-329-C: #00685e,
-	pantone-330-C: #00534c,
-	pantone-3242-C: #71dbd4,
-	pantone-3252-C: #2ad2c9,
-	pantone-3262-C: #00bfb3,
-	pantone-3272-C: #00a499,
-	pantone-3282-C: #008578,
-	pantone-3292-C: #00594f,
-	pantone-3302-C: #004c45,
-	pantone-3245-C: #7ce0d3,
-	pantone-3255-C: #2cd5c4,
-	pantone-3265-C: #00c7b1,
-	pantone-3275-C: #00b398,
-	pantone-3285-C: #009681,
-	pantone-3295-C: #007864,
-	pantone-3305-C: #004e42,
-	pantone-3248-C: #6dcdb8,
-	pantone-3258-C: #49c5b1,
-	pantone-3268-C: #00ab8e,
-	pantone-3278-C: #009b77,
-	pantone-3288-C: #008264,
-	pantone-3298-C: #006a52,
-	pantone-3308-C: #034638,
-	pantone-566-C: #b9dcd2,
-	pantone-565-C: #a1d6ca,
-	pantone-564-C: #86c8bc,
-	pantone-563-C: #6bbbae,
-	pantone-562-C: #006f62,
-	pantone-561-C: #00594c,
-	pantone-560-C: #1d3c34,
-	pantone-573-C: #b5e3d8,
-	pantone-572-C: #a5dfd3,
-	pantone-571-C: #98dbce,
-	pantone-570-C: #6bcaba,
-	pantone-569-C: #00816d,
-	pantone-568-C: #006c5b,
-	pantone-567-C: #173f35,
-	pantone-559-C: #adcab8,
-	pantone-558-C: #9abeaa,
-	pantone-557-C: #85b09a,
-	pantone-556-C: #6fa287,
-	pantone-555-C: #28724f,
-	pantone-554-C: #205c40,
-	pantone-553-C: #284734,
-	pantone-5595-C: #bfcec2,
-	pantone-5585-C: #a7bdb1,
-	pantone-5575-C: #92aca0,
-	pantone-5565-C: #7f9c90,
-	pantone-5555-C: #5c7f71,
-	pantone-5545-C: #43695b,
-	pantone-5535-C: #183028,
-	pantone-5665-C: #bac5b9,
-	pantone-5655-C: #b0bdb0,
-	pantone-5645-C: #a3b2a4,
-	pantone-5635-C: #94a596,
-	pantone-5625-C: #708573,
-	pantone-5615-C: #5e7461,
-	pantone-5605-C: #22372b,
-	pantone-5527-C: #bcc9c5,
-	pantone-5517-C: #b1c0bc,
-	pantone-5507-C: #9db0ac,
-	pantone-5497-C: #829995,
-	pantone-5487-C: #5d7975,
-	pantone-5477-C: #3e5d58,
-	pantone-5467-C: #18332f,
-	pantone-621-C: #d1e0d7,
-	pantone-622-C: #b7cdc2,
-	pantone-623-C: #9ab9ad,
-	pantone-624-C: #789f90,
-	pantone-625-C: #507f70,
-	pantone-626-C: #285c4d,
-	pantone-627-C: #13322b,
-	pantone-331-C: #a7e6d7,
-	pantone-332-C: #8ce2d0,
-	pantone-333-C: #3cdbc0,
-	pantone-334-C: #009775,
-	pantone-335-C: #007b5f,
-	pantone-336-C: #00664f,
-	pantone-337-C: #8fd6bd,
-	pantone-338-C: #6eceb2,
-	pantone-339-C: #00b388,
-	pantone-340-C: #00965e,
-	pantone-341-C: #007a53,
-	pantone-342-C: #006747,
-	pantone-343-C: #115740,
-	pantone-7723-C: #50a684,
-	pantone-7724-C: #00966c,
-	pantone-7725-C: #008755,
-	pantone-7726-C: #007b4b,
-	pantone-7727-C: #006f44,
-	pantone-7728-C: #006845,
-	pantone-7729-C: #005844,
-	pantone-3375-C: #7ae1bf,
-	pantone-3385-C: #47d7ac,
-	pantone-3395-C: #00c389,
-	pantone-3405-C: #00af66,
-	pantone-3415-C: #007749,
-	pantone-3425-C: #006341,
-	pantone-3435-C: #154734,
-	pantone-344-C: #a0dab3,
-	pantone-345-C: #91d6ac,
-	pantone-346-C: #71cc98,
-	pantone-347-C: #009a44,
-	pantone-348-C: #00843d,
-	pantone-349-C: #046a38,
-	pantone-350-C: #2c5234,
-	pantone-351-C: #a2e4b8,
-	pantone-352-C: #8fe2b0,
-	pantone-353-C: #80e0a7,
-	pantone-354-C: #00b140,
-	pantone-355-C: #009639,
-	pantone-356-C: #007a33,
-	pantone-357-C: #215732,
-	pantone-7478-C: #9be3bf,
-	pantone-7479-C: #26d07c,
-	pantone-7480-C: #00bf6f,
-	pantone-7481-C: #00b74f,
-	pantone-7482-C: #009f4d,
-	pantone-7483-C: #275d38,
-	pantone-7484-C: #00573f,
-	pantone-7730-C: #4b9560,
-	pantone-7731-C: #228848,
-	pantone-7732-C: #007a3e,
-	pantone-7733-C: #007041,
-	pantone-7734-C: #286140,
-	pantone-7735-C: #36573b,
-	pantone-7736-C: #395542,
-	pantone-7737-C: #6ba539,
-	pantone-7738-C: #48a23f,
-	pantone-7739-C: #319b42,
-	pantone-7740-C: #3a913f,
-	pantone-7741-C: #44883e,
-	pantone-7742-C: #4a773c,
-	pantone-7743-C: #44693d,
-	pantone-358-C: #addc91,
-	pantone-359-C: #a1d884,
-	pantone-360-C: #6cc24a,
-	pantone-361-C: #43b02a,
-	pantone-362-C: #509e2f,
-	pantone-363-C: #4c8c2b,
-	pantone-364-C: #4a7729,
-	pantone-7485-C: #d0debb,
-	pantone-7486-C: #bce194,
-	pantone-7487-C: #8edd65,
-	pantone-7488-C: #78d64b,
-	pantone-7489-C: #74aa50,
-	pantone-7490-C: #719949,
-	pantone-7491-C: #79863c,
-	pantone-365-C: #c2e189,
-	pantone-366-C: #b7dd79,
-	pantone-367-C: #a4d65e,
-	pantone-368-C: #78be20,
-	pantone-369-C: #64a70b,
-	pantone-370-C: #658d1b,
-	pantone-371-C: #546223,
-	pantone-372-C: #d4eb8e,
-	pantone-373-C: #cdea80,
-	pantone-374-C: #c5e86c,
-	pantone-375-C: #97d700,
-	pantone-376-C: #84bd00,
-	pantone-377-C: #7a9a01,
-	pantone-378-C: #59621d,
-	pantone-580-C: #c4d6a4,
-	pantone-579-C: #bcd19b,
-	pantone-578-C: #b7ce95,
-	pantone-577-C: #a9c47f,
-	pantone-576-C: #789d4a,
-	pantone-575-C: #67823a,
-	pantone-574-C: #4e5b31,
-	pantone-5807-C: #d0d1ab,
-	pantone-5797-C: #c6c89b,
-	pantone-5787-C: #babd8b,
-	pantone-5777-C: #a2a569,
-	pantone-5767-C: #8a8d4a,
-	pantone-5757-C: #6d712e,
-	pantone-5747-C: #3d441e,
-	pantone-5875-C: #d2ce9e,
-	pantone-5865-C: #cbc793,
-	pantone-5855-C: #c0bb87,
-	pantone-5845-C: #afa96e,
-	pantone-5835-C: #a09958,
-	pantone-5825-C: #89813d,
-	pantone-5815-C: #555025,
-	pantone-5803-C: #c3c6a8,
-	pantone-5793-C: #b3b995,
-	pantone-5783-C: #a3aa83,
-	pantone-5773-C: #899064,
-	pantone-5763-C: #737b4c,
-	pantone-5753-C: #5e6738,
-	pantone-5743-C: #3e4827,
-	pantone-7492-C: #bfcc80,
-	pantone-7493-C: #bbc592,
-	pantone-7494-C: #9caf88,
-	pantone-7495-C: #8f993e,
-	pantone-7496-C: #76881d,
-	pantone-7497-C: #7a7256,
-	pantone-7498-C: #5b6236,
-	pantone-7744-C: #babc16,
-	pantone-7745-C: #abad23,
-	pantone-7746-C: #999b30,
-	pantone-7747-C: #888d30,
-	pantone-7748-C: #7c8034,
-	pantone-7749-C: #727337,
-	pantone-7750-C: #656635,
-	pantone-379-C: #e2e868,
-	pantone-380-C: #dbe442,
-	pantone-381-C: #cedc00,
-	pantone-382-C: #c4d600,
-	pantone-383-C: #a8ad00,
-	pantone-384-C: #949300,
-	pantone-385-C: #787121,
-	pantone-386-C: #e9ec6b,
-	pantone-387-C: #e3e935,
-	pantone-388-C: #e0e721,
-	pantone-389-C: #d0df00,
-	pantone-390-C: #b5bd00,
-	pantone-391-C: #9a9500,
-	pantone-392-C: #827a04,
-	pantone-587-C: #e3e48d,
-	pantone-586-C: #e0e27c,
-	pantone-585-C: #dbde70,
-	pantone-584-C: #d2d755,
-	pantone-583-C: #b7bf10,
-	pantone-582-C: #8e8c13,
-	pantone-581-C: #625d20,
-	pantone-393-C: #f0ec74,
-	pantone-394-C: #ede939,
-	pantone-395-C: #ece81a,
-	pantone-396-C: #e1e000,
-	pantone-397-C: #bfb800,
-	pantone-398-C: #ada400,
-	pantone-399-C: #a09200,
-	pantone-3935-C: #f3ea5d,
-	pantone-3945-C: #f3e500,
-	pantone-3955-C: #efdf00,
-	pantone-3965-C: #eedc00,
-	pantone-3975-C: #bba600,
-	pantone-3985-C: #9a8700,
-	pantone-3995-C: #685c20,
-	pantone-600-C: #f1eb9c,
-	pantone-601-C: #f0e991,
-	pantone-602-C: #f0e87b,
-	pantone-603-C: #ede04b,
-	pantone-604-C: #eada24,
-	pantone-605-C: #e1cd00,
-	pantone-606-C: #cfb500,
-	pantone-607-C: #ebe49a,
-	pantone-608-C: #e9e186,
-	pantone-609-C: #e6de77,
-	pantone-610-C: #e1d555,
-	pantone-611-C: #d7c826,
-	pantone-612-C: #c4b000,
-	pantone-613-C: #b39b00,
-	pantone-461-C: #e9df97,
-	pantone-460-C: #e4d77e,
-	pantone-459-C: #decd63,
-	pantone-458-C: #d9c756,
-	pantone-457-C: #b89d18,
-	pantone-456-C: #a28e2a,
-	pantone-455-C: #695b24,
-	pantone-614-C: #dcd59a,
-	pantone-615-C: #d6cf8d,
-	pantone-616-C: #d0c883,
-	pantone-617-C: #c0b561,
-	pantone-618-C: #ac9f3c,
-	pantone-619-C: #9f912a,
-	pantone-620-C: #8a7b19,
-	pantone-7751-C: #cab64b,
-	pantone-7752-C: #cfb023,
-	pantone-7753-C: #c1a01e,
-	pantone-7754-C: #a08629,
-	pantone-7755-C: #897630,
-	pantone-7756-C: #736635,
-	pantone-7757-C: #675e33,
-	pantone-7758-C: #d4c304,
-	pantone-7759-C: #c4b200,
-	pantone-7760-C: #91852c,
-	pantone-7761-C: #747136,
-	pantone-7762-C: #5d6439,
-	pantone-7763-C: #585c3b,
-	pantone-7764-C: #535435,
-	pantone-7765-C: #bbb323,
-	pantone-7766-C: #b4a91f,
-	pantone-7767-C: #aa9d2e,
-	pantone-7768-C: #8f7e35,
-	pantone-7769-C: #716135,
-	pantone-7770-C: #635939,
-	pantone-7771-C: #4e4934,
-	pantone-4545-C: #d5cb9f,
-	pantone-4535-C: #cfc493,
-	pantone-4525-C: #c5b783,
-	pantone-4515-C: #b3a369,
-	pantone-4505-C: #998542,
-	pantone-4495-C: #8c7732,
-	pantone-4485-C: #614f25,
-	pantone-454-C: #cac7a7,
-	pantone-453-C: #bfbb98,
-	pantone-452-C: #b0aa7e,
-	pantone-451-C: #9b945f,
-	pantone-450-C: #594a25,
-	pantone-449-C: #524727,
-	pantone-448-C: #4a412a,
-	pantone-7499-C: #f1e6b2,
-	pantone-7500-C: #dfd1a7,
-	pantone-7501-C: #d9c89e,
-	pantone-7502-C: #ceb888,
-	pantone-7503-C: #a89968,
-	pantone-7504-C: #94795d,
-	pantone-7505-C: #816040,
-	pantone-468-C: #ddcba4,
-	pantone-467-C: #d3bc8d,
-	pantone-466-C: #c6aa76,
-	pantone-465-C: #b9975b,
-	pantone-464-C: #8b5b29,
-	pantone-463-C: #744f28,
-	pantone-462-C: #5c462b,
-	pantone-7506-C: #efdbb2,
-	pantone-7507-C: #fcd299,
-	pantone-7508-C: #e1b87f,
-	pantone-7509-C: #d6a461,
-	pantone-7510-C: #c6893f,
-	pantone-7511-C: #b77729,
-	pantone-7512-C: #a6631b,
-	pantone-719-C: #edc8a3,
-	pantone-720-C: #e7b78a,
-	pantone-721-C: #dda46f,
-	pantone-722-C: #c88242,
-	pantone-723-C: #b36924,
-	pantone-724-C: #934d11,
-	pantone-725-C: #7d3f16,
-	pantone-475-C: #f3cfb3,
-	pantone-474-C: #f1c6a7,
-	pantone-473-C: #f0bf9b,
-	pantone-472-C: #e59e6d,
-	pantone-471-C: #b86125,
-	pantone-470-C: #a45a2a,
-	pantone-469-C: #693f23,
-	pantone-726-C: #e0c09f,
-	pantone-727-C: #d9b48f,
-	pantone-728-C: #cda077,
-	pantone-729-C: #b58150,
-	pantone-730-C: #9e652e,
-	pantone-731-C: #774212,
-	pantone-732-C: #623412,
-	pantone-4685-C: #e0c6ad,
-	pantone-4675-C: #dcbfa6,
-	pantone-4665-C: #cda788,
-	pantone-4655-C: #bf9474,
-	pantone-4645-C: #ad7c59,
-	pantone-4635-C: #946037,
-	pantone-4625-C: #4f2c1d,
-	pantone-7513-C: #e1b7a7,
-	pantone-7514-C: #d5a286,
-	pantone-7515-C: #c58b68,
-	pantone-7516-C: #99552b,
-	pantone-7517-C: #85431e,
-	pantone-7518-C: #6d4f47,
-	pantone-7519-C: #5e4b3c,
-	pantone-4755-C: #d7c4b7,
-	pantone-4745-C: #cdb5a7,
-	pantone-4735-C: #c0a392,
-	pantone-4725-C: #ae8a79,
-	pantone-4715-C: #956c58,
-	pantone-4705-C: #7c4d3a,
-	pantone-4695-C: #5b3427,
-	pantone-482-C: #dbc8b6,
-	pantone-481-C: #d3bba8,
-	pantone-480-C: #c6a992,
-	pantone-479-C: #aa8066,
-	pantone-478-C: #703f2a,
-	pantone-477-C: #623b2a,
-	pantone-476-C: #4e3629,
-	pantone-7527-C: #d6d2c4,
-	pantone-7528-C: #c5b9ac,
-	pantone-7529-C: #b7a99a,
-	pantone-7530-C: #a39382,
-	pantone-7531-C: #7a6855,
-	pantone-7532-C: #63513d,
-	pantone-7533-C: #473729,
-	pantone-7534-C: #d1ccbd,
-	pantone-7535-C: #b7b09c,
-	pantone-7536-C: #a69f88,
-	pantone-7537-C: #a7aca2,
-	pantone-7538-C: #949a90,
-	pantone-7539-C: #8e9089,
-	pantone-7540-C: #4b4f54,
-	pantone-427-C: #d0d3d4,
-	pantone-428-C: #c1c6c8,
-	pantone-429-C: #a2aaad,
-	pantone-430-C: #7c878e,
-	pantone-431-C: #5b6770,
-	pantone-432-C: #333f48,
-	pantone-433-C: #1d252d,
-	pantone-420-C: #c7c9c7,
-	pantone-421-C: #b2b4b2,
-	pantone-422-C: #9ea2a2,
-	pantone-423-C: #898d8d,
-	pantone-424-C: #707372,
-	pantone-425-C: #54585a,
-	pantone-426-C: #25282a,
-	pantone-441-C: #bec6c4,
-	pantone-442-C: #a2acab,
-	pantone-443-C: #919d9d,
-	pantone-444-C: #717c7d,
-	pantone-445-C: #505759,
-	pantone-446-C: #3f4444,
-	pantone-447-C: #373a36,
-	pantone-413-C: #babbb1,
-	pantone-414-C: #a8a99e,
-	pantone-415-C: #919388,
-	pantone-416-C: #7e7f74,
-	pantone-417-C: #65665c,
-	pantone-418-C: #51534a,
-	pantone-419-C: #212322,
-	pantone-400-C: #c4bfb6,
-	pantone-401-C: #afa9a0,
-	pantone-402-C: #9d968d,
-	pantone-403-C: #8c857b,
-	pantone-404-C: #776e64,
-	pantone-405-C: #696158,
-	pantone-406-C: #c4bcb7,
-	pantone-407-C: #b2a8a2,
-	pantone-408-C: #978c87,
-	pantone-409-C: #857874,
-	pantone-410-C: #746661,
-	pantone-411-C: #5e514d,
-	pantone-412-C: #382f2d,
-	pantone-434-C: #d0c4c5,
-	pantone-435-C: #c1b2b6,
-	pantone-436-C: #ab989d,
-	pantone-437-C: #7b6469,
-	pantone-438-C: #584446,
-	pantone-439-C: #453536,
-	pantone-440-C: #382e2c,
-	pantone-Warm-Gray-1-C: #d7d2cb,
-	pantone-Warm-Gray-2-C: #cbc4bc,
-	pantone-Warm-Gray-3-C: #bfb8af,
-	pantone-Warm-Gray-4-C: #b6ada5,
-	pantone-Warm-Gray-5-C: #aca39a,
-	pantone-Warm-Gray-6-C: #a59c94,
-	pantone-Warm-Gray-7-C: #968c83,
-	pantone-Warm-Gray-8-C: #8c8279,
-	pantone-Warm-Gray-9-C: #83786f,
-	pantone-Warm-Gray-10-C: #796e65,
-	pantone-Warm-Gray-11-C: #6e6259,
-	pantone-Cool-Gray-1-C: #d9d9d6,
-	pantone-Cool-Gray-2-C: #d0d0ce,
-	pantone-Cool-Gray-3-C: #c8c9c7,
-	pantone-Cool-Gray-4-C: #bbbcbc,
-	pantone-Cool-Gray-5-C: #b1b3b3,
-	pantone-Cool-Gray-6-C: #a7a8aa,
-	pantone-Cool-Gray-7-C: #97999b,
-	pantone-Cool-Gray-8-C: #888b8d,
-	pantone-Cool-Gray-9-C: #75787b,
-	pantone-Cool-Gray-10-C: #63666a,
-	pantone-Cool-Gray-11-C: #53565a,
-	pantone-Black-2-C: #332f21,
-	pantone-Black-3-C: #212721,
-	pantone-Black-4-C: #31261d,
-	pantone-Black-5-C: #3e2b2e,
-	pantone-Black-6-C: #101820,
-	pantone-Black-7-C: #3d3935
-);
-
-@each $color, $bgcolor in $colors {
-    .box.#{$color} {
-        background: $bgcolor;
-
-        &:before {
-        	content: "$#{$color}";
-        }
-
-        &:after {
-        	content: "#{$bgcolor}";
-        }
-    }
-}
+$pantone-Yellow-C: #fedd00;
+$pantone-Yellow-012-C: #ffd700;
+$pantone-Orange-021-C: #fe5000;
+$pantone-Warm-Red-C: #f9423a;
+$pantone-Red-032-C: #ef3340;
+$pantone-Rubine-Red-C: #ce0058;
+$pantone-Rhodamine-Red-C: #e10098;
+$pantone-Purple-C: #bb29bb;
+$pantone-Violet-C: #440099;
+$pantone-Blue-072-C: #10069f;
+$pantone-Reflex-Blue-C: #001489;
+$pantone-Process-Blue-C: #0085ca;
+$pantone-Green-C: #00ab84;
+$pantone-Black-C: #2d2926;
+$pantone-Yellow-0131-C: #f2f0a1;
+$pantone-Red-0331-C: #fcaebb;
+$pantone-Magenta-0521-C: #f1b2dc;
+$pantone-Violet-0631-C: #bf9bde;
+$pantone-Blue-0821-C: #74d1ea;
+$pantone-Green-0921-C: #9de7d7;
+$pantone-Black-0961-C: #9e978e;
+$pantone-801-C: #009ace;
+$pantone-802-C: #44d62c;
+$pantone-803-C: #ffe900;
+$pantone-804-C: #ffaa4d;
+$pantone-805-C: #ff7276;
+$pantone-806-C: #ff3eb5;
+$pantone-807-C: #ea27c2;
+$pantone-871-C: #84754e;
+$pantone-872-C: #85714d;
+$pantone-873-C: #866d4b;
+$pantone-874-C: #8b6f4e;
+$pantone-875-C: #87674f;
+$pantone-876-C: #8b634b;
+$pantone-877-C: #8a8d8f;
+$pantone-Medium-Yellow-C: #ffd900;
+$pantone-Bright-Orange-C: #ff5e00;
+$pantone-Bright-Red-C: #f93822;
+$pantone-Strong-Red-C: #ce0056;
+$pantone-Pink-C: #d62598;
+$pantone-Medium-Purple-C: #4e008e;
+$pantone-Dark-Blue-C: #00239c;
+$pantone-Medium-Blue-C: #0084ca;
+$pantone-Bright-Green-C: #00b08b;
+$pantone-Neutral-Black-C: #222223;
+$pantone-100-C: #f6eb61;
+$pantone-101-C: #f7ea48;
+$pantone-102-C: #fce300;
+$pantone-103-C: #c5a900;
+$pantone-104-C: #af9800;
+$pantone-105-C: #897a27;
+$pantone-7401-C: #f5e1a4;
+$pantone-7402-C: #ecd898;
+$pantone-7403-C: #eed484;
+$pantone-7404-C: #f4da40;
+$pantone-7405-C: #f2cd00;
+$pantone-7406-C: #f1c400;
+$pantone-7407-C: #cba052;
+$pantone-106-C: #f9e547;
+$pantone-107-C: #fbe122;
+$pantone-108-C: #fedb00;
+$pantone-109-C: #ffd100;
+$pantone-110-C: #daaa00;
+$pantone-111-C: #aa8a00;
+$pantone-112-C: #9c8412;
+$pantone-113-C: #fae053;
+$pantone-114-C: #fbdd40;
+$pantone-115-C: #fdda24;
+$pantone-116-C: #ffcd00;
+$pantone-117-C: #c99700;
+$pantone-118-C: #ac8400;
+$pantone-119-C: #897322;
+$pantone-127-C: #f3dd6d;
+$pantone-128-C: #f3d54e;
+$pantone-129-C: #f3d03e;
+$pantone-130-C: #f2a900;
+$pantone-131-C: #cc8a00;
+$pantone-132-C: #a07400;
+$pantone-133-C: #6c571b;
+$pantone-1205-C: #f8e08e;
+$pantone-1215-C: #fbd872;
+$pantone-1225-C: #ffc845;
+$pantone-1235-C: #ffb81c;
+$pantone-1245-C: #c69214;
+$pantone-1255-C: #ad841f;
+$pantone-1265-C: #886b25;
+$pantone-120-C: #fbdb65;
+$pantone-121-C: #fdd757;
+$pantone-122-C: #fed141;
+$pantone-123-C: #ffc72c;
+$pantone-124-C: #eaaa00;
+$pantone-125-C: #b58500;
+$pantone-126-C: #9a7611;
+$pantone-7548-C: #ffc600;
+$pantone-7549-C: #ffb500;
+$pantone-7550-C: #d19000;
+$pantone-7551-C: #b47e00;
+$pantone-7552-C: #73531d;
+$pantone-7553-C: #5a4522;
+$pantone-7554-C: #4b3d2a;
+$pantone-7555-C: #d29f13;
+$pantone-7556-C: #b78b20;
+$pantone-7557-C: #9f7d23;
+$pantone-7558-C: #967126;
+$pantone-7559-C: #8f6a2a;
+$pantone-7560-C: #7d622e;
+$pantone-7561-C: #6c5d34;
+$pantone-134-C: #fdd26e;
+$pantone-135-C: #ffc658;
+$pantone-136-C: #ffbf3f;
+$pantone-137-C: #ffa300;
+$pantone-138-C: #de7c00;
+$pantone-139-C: #af6d04;
+$pantone-140-C: #74531c;
+$pantone-1345-C: #fdd086;
+$pantone-1355-C: #ffc56e;
+$pantone-1365-C: #ffb549;
+$pantone-1375-C: #ff9e1b;
+$pantone-1385-C: #d57800;
+$pantone-1395-C: #996017;
+$pantone-1405-C: #6e4c1e;
+$pantone-141-C: #f2c75c;
+$pantone-142-C: #f1be48;
+$pantone-143-C: #f1b434;
+$pantone-144-C: #ed8b00;
+$pantone-145-C: #cf7f00;
+$pantone-146-C: #a76d11;
+$pantone-147-C: #715c2a;
+$pantone-7408-C: #f6be00;
+$pantone-7409-C: #f0b323;
+$pantone-7410-C: #fead77;
+$pantone-7411-C: #e6a65d;
+$pantone-7412-C: #d38235;
+$pantone-7413-C: #dc8633;
+$pantone-7414-C: #c16c18;
+$pantone-7562-C: #bd9b60;
+$pantone-7563-C: #d69a2d;
+$pantone-7564-C: #db8a06;
+$pantone-7565-C: #cd7925;
+$pantone-7566-C: #ad6433;
+$pantone-7567-C: #89532f;
+$pantone-7568-C: #775135;
+$pantone-7569-C: #d78825;
+$pantone-7570-C: #d3832b;
+$pantone-7571-C: #c67d30;
+$pantone-7572-C: #b67233;
+$pantone-7573-C: #a7662b;
+$pantone-7574-C: #9e6a38;
+$pantone-7575-C: #835d32;
+$pantone-712-C: #fcc89b;
+$pantone-713-C: #fdbe87;
+$pantone-714-C: #fdaa63;
+$pantone-715-C: #f68d2e;
+$pantone-716-C: #ea7600;
+$pantone-717-C: #d45d00;
+$pantone-718-C: #be4d00;
+$pantone-148-C: #fecb8b;
+$pantone-149-C: #ffc27b;
+$pantone-150-C: #ffb25b;
+$pantone-151-C: #ff8200;
+$pantone-152-C: #e57200;
+$pantone-153-C: #be6a14;
+$pantone-154-C: #9b5a1a;
+$pantone-155-C: #efd19f;
+$pantone-156-C: #efbe7d;
+$pantone-157-C: #eca154;
+$pantone-158-C: #e87722;
+$pantone-159-C: #cb6015;
+$pantone-160-C: #a1561c;
+$pantone-161-C: #603d20;
+$pantone-1485-C: #ffae62;
+$pantone-1495-C: #ff8f1c;
+$pantone-1505-C: #ff6900;
+$pantone-1525-C: #b94700;
+$pantone-1535-C: #94450b;
+$pantone-1545-C: #653819;
+$pantone-1555-C: #ffb990;
+$pantone-1565-C: #ffa06a;
+$pantone-1575-C: #ff7f32;
+$pantone-1585-C: #ff6a13;
+$pantone-1595-C: #d86018;
+$pantone-1605-C: #a65523;
+$pantone-1615-C: #8b4720;
+$pantone-162-C: #ffbe9f;
+$pantone-163-C: #ff9d6e;
+$pantone-164-C: #ff7f41;
+$pantone-165-C: #ff671f;
+$pantone-166-C: #e35205;
+$pantone-167-C: #be531c;
+$pantone-168-C: #73381d;
+$pantone-7576-C: #db864e;
+$pantone-7577-C: #e07e3c;
+$pantone-7578-C: #dc6b2f;
+$pantone-7579-C: #dc582a;
+$pantone-7580-C: #c05131;
+$pantone-7581-C: #864a33;
+$pantone-7582-C: #674736;
+$pantone-1625-C: #ffa38b;
+$pantone-1635-C: #ff8d6d;
+$pantone-1645-C: #ff6a39;
+$pantone-1655-C: #fc4c02;
+$pantone-1665-C: #dc4405;
+$pantone-1675-C: #a9431e;
+$pantone-1685-C: #833921;
+$pantone-169-C: #ffb3ab;
+$pantone-170-C: #ff8674;
+$pantone-171-C: #ff5c39;
+$pantone-172-C: #fa4616;
+$pantone-173-C: #cf4520;
+$pantone-174-C: #963821;
+$pantone-175-C: #6b3529;
+$pantone-7583-C: #c4622d;
+$pantone-7584-C: #ba5826;
+$pantone-7585-C: #af5c37;
+$pantone-7586-C: #9e5330;
+$pantone-7587-C: #924c2e;
+$pantone-7588-C: #7b4d35;
+$pantone-7589-C: #5c4738;
+$pantone-7590-C: #d4b59e;
+$pantone-7591-C: #c07d59;
+$pantone-7592-C: #b15533;
+$pantone-7593-C: #9d432c;
+$pantone-7594-C: #7c3a2d;
+$pantone-7595-C: #6b3d2e;
+$pantone-7596-C: #5c3d31;
+$pantone-7597-C: #d14124;
+$pantone-7598-C: #bd472a;
+$pantone-7599-C: #b33d26;
+$pantone-7600-C: #8d3f2b;
+$pantone-7601-C: #83412c;
+$pantone-7602-C: #7b4931;
+$pantone-7603-C: #674230;
+$pantone-7604-C: #e4d5d3;
+$pantone-7605-C: #e1bbb4;
+$pantone-7606-C: #d6938a;
+$pantone-7607-C: #c26e60;
+$pantone-7608-C: #a4493d;
+$pantone-7609-C: #823b34;
+$pantone-7610-C: #683431;
+$pantone-7611-C: #ddbcb0;
+$pantone-7612-C: #ca9a8e;
+$pantone-7613-C: #bc8a7e;
+$pantone-7614-C: #a37f74;
+$pantone-7615-C: #866761;
+$pantone-7616-C: #6b4c4c;
+$pantone-7617-C: #583d3e;
+$pantone-7520-C: #eabeb0;
+$pantone-7521-C: #c09c83;
+$pantone-7522-C: #b46a55;
+$pantone-7523-C: #ab5c57;
+$pantone-7524-C: #a45248;
+$pantone-7525-C: #9a6a4f;
+$pantone-7526-C: #8a391b;
+$pantone-489-C: #ecc3b2;
+$pantone-488-C: #ecbaa8;
+$pantone-487-C: #eaa794;
+$pantone-486-C: #e8927c;
+$pantone-485-C: #da291c;
+$pantone-484-C: #9a3324;
+$pantone-483-C: #653024;
+$pantone-176-C: #ffb1bb;
+$pantone-177-C: #ff808b;
+$pantone-178-C: #ff585d;
+$pantone-179-C: #e03c31;
+$pantone-180-C: #be3a34;
+$pantone-181-C: #81312f;
+$pantone-1765-C: #ffa3b5;
+$pantone-1775-C: #ff8da1;
+$pantone-1785-C: #f8485e;
+$pantone-1788-C: #ee2737;
+$pantone-1795-C: #d22630;
+$pantone-1805-C: #af272f;
+$pantone-1815-C: #7c2529;
+$pantone-1767-C: #fcafc0;
+$pantone-1777-C: #fb637e;
+$pantone-1787-C: #f4364c;
+$pantone-1797-C: #cb333b;
+$pantone-1807-C: #a4343a;
+$pantone-1817-C: #643335;
+$pantone-7618-C: #c66e4e;
+$pantone-7619-C: #c04c36;
+$pantone-7620-C: #b7312c;
+$pantone-7621-C: #ab2328;
+$pantone-7622-C: #93272c;
+$pantone-7623-C: #8a2a2b;
+$pantone-7624-C: #802f2d;
+$pantone-7625-C: #e1523d;
+$pantone-7626-C: #c63527;
+$pantone-7627-C: #a72b2a;
+$pantone-7628-C: #9e2a2b;
+$pantone-7629-C: #6d3332;
+$pantone-7630-C: #633231;
+$pantone-7631-C: #572d2d;
+$pantone-7415-C: #e6baa8;
+$pantone-7416-C: #e56a54;
+$pantone-7417-C: #e04e39;
+$pantone-7418-C: #cd545b;
+$pantone-7419-C: #b04a5a;
+$pantone-7420-C: #9b2242;
+$pantone-7421-C: #651d32;
+$pantone-182-C: #fabbcb;
+$pantone-183-C: #fc9bb3;
+$pantone-184-C: #f65275;
+$pantone-185-C: #e4002b;
+$pantone-186-C: #c8102e;
+$pantone-187-C: #a6192e;
+$pantone-188-C: #76232f;
+$pantone-196-C: #ecc7cd;
+$pantone-197-C: #e89cae;
+$pantone-198-C: #df4661;
+$pantone-199-C: #d50032;
+$pantone-200-C: #ba0c2f;
+$pantone-201-C: #9d2235;
+$pantone-202-C: #862633;
+$pantone-189-C: #f8a3bc;
+$pantone-190-C: #f67599;
+$pantone-191-C: #ef426f;
+$pantone-192-C: #e40046;
+$pantone-193-C: #bf0d3e;
+$pantone-194-C: #9b2743;
+$pantone-195-C: #782f40;
+$pantone-1895-C: #f5b6cd;
+$pantone-1905-C: #f59bbb;
+$pantone-1915-C: #ef4a81;
+$pantone-1925-C: #e0004d;
+$pantone-1935-C: #c5003e;
+$pantone-1945-C: #a6093d;
+$pantone-1955-C: #8a1538;
+$pantone-705-C: #f5dadf;
+$pantone-706-C: #f7ced7;
+$pantone-707-C: #f9b5c4;
+$pantone-708-C: #f890a5;
+$pantone-709-C: #ef6079;
+$pantone-710-C: #e03e52;
+$pantone-711-C: #cb2c30;
+$pantone-698-C: #f2d4d7;
+$pantone-699-C: #f4c3cc;
+$pantone-700-C: #f2acb9;
+$pantone-701-C: #e68699;
+$pantone-702-C: #d25b73;
+$pantone-703-C: #b83a4b;
+$pantone-704-C: #9e2a2f;
+$pantone-203-C: #ecb3cb;
+$pantone-204-C: #e782a9;
+$pantone-205-C: #e0457b;
+$pantone-206-C: #ce0037;
+$pantone-207-C: #a50034;
+$pantone-208-C: #861f41;
+$pantone-209-C: #6f263d;
+$pantone-210-C: #f99fc9;
+$pantone-211-C: #f57eb6;
+$pantone-212-C: #f04e98;
+$pantone-213-C: #e31c79;
+$pantone-214-C: #ce0f69;
+$pantone-215-C: #ac145a;
+$pantone-216-C: #7d2248;
+$pantone-7422-C: #f4cdd4;
+$pantone-7423-C: #e06287;
+$pantone-7424-C: #e24585;
+$pantone-7425-C: #b52555;
+$pantone-7426-C: #a4123f;
+$pantone-7427-C: #971b2f;
+$pantone-7428-C: #6a2c3e;
+$pantone-7632-C: #d6c9ca;
+$pantone-7633-C: #c4a4a7;
+$pantone-7634-C: #c16784;
+$pantone-7635-C: #c63663;
+$pantone-7636-C: #bc204b;
+$pantone-7637-C: #912f46;
+$pantone-7638-C: #7e2d40;
+$pantone-217-C: #eabedb;
+$pantone-218-C: #e56db1;
+$pantone-219-C: #da1884;
+$pantone-220-C: #a50050;
+$pantone-221-C: #910048;
+$pantone-222-C: #6c1d45;
+$pantone-7639-C: #936d73;
+$pantone-7640-C: #934054;
+$pantone-7641-C: #8e2c48;
+$pantone-7642-C: #732e4a;
+$pantone-7643-C: #672e45;
+$pantone-7644-C: #582d40;
+$pantone-7645-C: #502b3a;
+$pantone-223-C: #ef95cf;
+$pantone-224-C: #eb6fbd;
+$pantone-225-C: #df1995;
+$pantone-226-C: #d0006f;
+$pantone-227-C: #aa0061;
+$pantone-228-C: #890c58;
+$pantone-229-C: #672146;
+$pantone-230-C: #f4a6d7;
+$pantone-231-C: #f277c6;
+$pantone-232-C: #e93cac;
+$pantone-233-C: #c6007e;
+$pantone-234-C: #a20067;
+$pantone-235-C: #840b55;
+$pantone-670-C: #ead3e2;
+$pantone-671-C: #e6bcd8;
+$pantone-672-C: #dfa0c9;
+$pantone-673-C: #d986ba;
+$pantone-674-C: #c6579a;
+$pantone-675-C: #ae2573;
+$pantone-676-C: #960051;
+$pantone-677-C: #e5cedb;
+$pantone-678-C: #e3c8d8;
+$pantone-679-C: #debed2;
+$pantone-680-C: #c996b6;
+$pantone-681-C: #b06c96;
+$pantone-682-C: #994878;
+$pantone-683-C: #7c2855;
+$pantone-684-C: #e4c6d4;
+$pantone-685-C: #dcb6c9;
+$pantone-686-C: #d0a1ba;
+$pantone-687-C: #be84a3;
+$pantone-688-C: #a76389;
+$pantone-689-C: #893b67;
+$pantone-690-C: #612141;
+$pantone-510-C: #ebbecb;
+$pantone-509-C: #e8b3c3;
+$pantone-508-C: #e4a9bb;
+$pantone-507-C: #d592aa;
+$pantone-506-C: #84344e;
+$pantone-505-C: #6f2c3f;
+$pantone-504-C: #572932;
+$pantone-7429-C: #e2bccb;
+$pantone-7430-C: #dca9bf;
+$pantone-7431-C: #c9809e;
+$pantone-7432-C: #b55c80;
+$pantone-7433-C: #a73a64;
+$pantone-7434-C: #9b3259;
+$pantone-7435-C: #872651;
+$pantone-691-C: #e9cdd0;
+$pantone-692-C: #e4bec3;
+$pantone-693-C: #d7a3ab;
+$pantone-694-C: #c48490;
+$pantone-695-C: #b46b7a;
+$pantone-696-C: #984856;
+$pantone-697-C: #893c47;
+$pantone-496-C: #f2c6cf;
+$pantone-495-C: #f1bdc8;
+$pantone-494-C: #e9a2b2;
+$pantone-493-C: #dc8699;
+$pantone-492-C: #8f3237;
+$pantone-491-C: #7f3035;
+$pantone-490-C: #5d2a2c;
+$pantone-503-C: #e9c4c7;
+$pantone-502-C: #e5bac1;
+$pantone-501-C: #daa5ad;
+$pantone-500-C: #c6858f;
+$pantone-499-C: #7a3e3a;
+$pantone-498-C: #6a3735;
+$pantone-497-C: #512f2e;
+$pantone-5035-C: #dfc2c3;
+$pantone-5025-C: #dbb7bb;
+$pantone-5015-C: #cca1a6;
+$pantone-5005-C: #b07c83;
+$pantone-4995-C: #9c6169;
+$pantone-4985-C: #874b52;
+$pantone-4975-C: #3f2021;
+$pantone-236-C: #f1a7dc;
+$pantone-237-C: #ec86d0;
+$pantone-238-C: #e45dbf;
+$pantone-239-C: #db3eb1;
+$pantone-240-C: #c5299b;
+$pantone-241-C: #af1685;
+$pantone-242-C: #80225f;
+$pantone-2365-C: #efbae1;
+$pantone-2375-C: #e277cd;
+$pantone-2385-C: #d539b5;
+$pantone-2395-C: #c800a1;
+$pantone-2405-C: #b0008e;
+$pantone-2415-C: #9e007e;
+$pantone-2425-C: #830065;
+$pantone-243-C: #eab8e4;
+$pantone-244-C: #e59bdc;
+$pantone-245-C: #dd7fd3;
+$pantone-246-C: #c724b1;
+$pantone-247-C: #bb16a3;
+$pantone-248-C: #a51890;
+$pantone-249-C: #80276c;
+$pantone-7646-C: #a56e87;
+$pantone-7647-C: #a83d72;
+$pantone-7648-C: #991e66;
+$pantone-7649-C: #8a1b61;
+$pantone-7650-C: #722257;
+$pantone-7651-C: #6a2a5b;
+$pantone-7652-C: #5e2751;
+$pantone-250-C: #e7bae4;
+$pantone-251-C: #dd9cdf;
+$pantone-252-C: #c964cf;
+$pantone-253-C: #ad1aac;
+$pantone-254-C: #981d97;
+$pantone-255-C: #72246c;
+$pantone-517-C: #ebc6df;
+$pantone-516-C: #e6bedd;
+$pantone-515-C: #e2acd7;
+$pantone-514-C: #d48bc8;
+$pantone-513-C: #93328e;
+$pantone-512-C: #833177;
+$pantone-511-C: #612c51;
+$pantone-7436-C: #eedaea;
+$pantone-7437-C: #ccaed0;
+$pantone-7438-C: #d59ed7;
+$pantone-7439-C: #b288b9;
+$pantone-7440-C: #a277a6;
+$pantone-7441-C: #9f5cc0;
+$pantone-7442-C: #963cbd;
+$pantone-2562-C: #d7a9e3;
+$pantone-2572-C: #c98bdb;
+$pantone-2582-C: #ac4fc6;
+$pantone-2592-C: #9b26b6;
+$pantone-2602-C: #87189d;
+$pantone-2612-C: #772583;
+$pantone-2622-C: #653165;
+$pantone-7653-C: #948794;
+$pantone-7654-C: #a2789c;
+$pantone-7655-C: #a15a95;
+$pantone-7656-C: #8e3a80;
+$pantone-7657-C: #6e2b62;
+$pantone-7658-C: #6a3460;
+$pantone-7659-C: #5d3754;
+$pantone-524-C: #d5c2d8;
+$pantone-523-C: #c9b1d0;
+$pantone-522-C: #ba9cc5;
+$pantone-521-C: #a57fb2;
+$pantone-520-C: #642f6c;
+$pantone-519-C: #59315f;
+$pantone-518-C: #4b3048;
+$pantone-5245-C: #dbcdd3;
+$pantone-5235-C: #d0bec7;
+$pantone-5225-C: #c6b0bc;
+$pantone-5215-C: #af95a6;
+$pantone-5205-C: #86647a;
+$pantone-5195-C: #66435a;
+$pantone-5185-C: #4a3041;
+$pantone-5175-C: #d8c8d1;
+$pantone-5165-C: #d3c0cd;
+$pantone-5155-C: #bfa5b8;
+$pantone-5145-C: #9b7793;
+$pantone-5135-C: #7e5475;
+$pantone-5125-C: #693c5e;
+$pantone-5115-C: #512a44;
+$pantone-531-C: #dfc8e7;
+$pantone-530-C: #d7b9e4;
+$pantone-529-C: #caa2dd;
+$pantone-528-C: #b580d1;
+$pantone-527-C: #8031a7;
+$pantone-526-C: #702f8a;
+$pantone-525-C: #572c5f;
+$pantone-256-C: #d6bfdd;
+$pantone-257-C: #c6a1cf;
+$pantone-258-C: #8c4799;
+$pantone-259-C: #6d2077;
+$pantone-260-C: #642667;
+$pantone-261-C: #5d285f;
+$pantone-262-C: #51284f;
+$pantone-2563-C: #cba3d8;
+$pantone-2573-C: #b884cb;
+$pantone-2583-C: #a05eb5;
+$pantone-2593-C: #84329b;
+$pantone-2603-C: #702082;
+$pantone-2613-C: #671e75;
+$pantone-2623-C: #5f2167;
+$pantone-7660-C: #9991a4;
+$pantone-7661-C: #8d6e97;
+$pantone-7662-C: #7a4183;
+$pantone-7663-C: #6b3077;
+$pantone-7664-C: #653279;
+$pantone-7665-C: #5e366e;
+$pantone-7666-C: #5c4e63;
+$pantone-2567-C: #c1a0da;
+$pantone-2577-C: #a77bca;
+$pantone-2587-C: #8246af;
+$pantone-2597-C: #5c068c;
+$pantone-2607-C: #500778;
+$pantone-2617-C: #470a68;
+$pantone-2627-C: #3c1053;
+$pantone-263-C: #d7c6e6;
+$pantone-264-C: #c1a7e2;
+$pantone-265-C: #9063cd;
+$pantone-266-C: #753bbd;
+$pantone-267-C: #5f259f;
+$pantone-268-C: #582c83;
+$pantone-269-C: #512d6d;
+$pantone-2635-C: #c5b4e3;
+$pantone-2645-C: #ad96dc;
+$pantone-2655-C: #9678d3;
+$pantone-2665-C: #7d55c7;
+$pantone-2685-C: #330072;
+$pantone-2695-C: #2e1a47;
+$pantone-270-C: #b4b5df;
+$pantone-271-C: #9595d2;
+$pantone-272-C: #7474c1;
+$pantone-273-C: #24135f;
+$pantone-274-C: #211551;
+$pantone-275-C: #201747;
+$pantone-276-C: #221c35;
+$pantone-2705-C: #a7a4e0;
+$pantone-2715-C: #8b84d7;
+$pantone-2725-C: #685bc7;
+$pantone-2735-C: #2e008b;
+$pantone-2745-C: #280071;
+$pantone-2755-C: #250e62;
+$pantone-2765-C: #201547;
+$pantone-7667-C: #6e7ca0;
+$pantone-7668-C: #686e9f;
+$pantone-7669-C: #615e9b;
+$pantone-7670-C: #565294;
+$pantone-7671-C: #514689;
+$pantone-7672-C: #4c4184;
+$pantone-7673-C: #535486;
+$pantone-7443-C: #dddae8;
+$pantone-7444-C: #b6b8dc;
+$pantone-7445-C: #a7a2c3;
+$pantone-7446-C: #8986ca;
+$pantone-7447-C: #5d4777;
+$pantone-7448-C: #4b384c;
+$pantone-7449-C: #41273b;
+$pantone-7674-C: #878cb4;
+$pantone-7675-C: #7c7fab;
+$pantone-7676-C: #7566a0;
+$pantone-7677-C: #6f5091;
+$pantone-7678-C: #68478d;
+$pantone-7679-C: #563d82;
+$pantone-7680-C: #523178;
+$pantone-663-C: #e5e1e6;
+$pantone-664-C: #e0dbe3;
+$pantone-665-C: #c6bcd0;
+$pantone-666-C: #a192b2;
+$pantone-667-C: #7c6992;
+$pantone-668-C: #614b79;
+$pantone-669-C: #3f2a56;
+$pantone-5315-C: #d8d7df;
+$pantone-5305-C: #c6c4d2;
+$pantone-5295-C: #b3b0c4;
+$pantone-5285-C: #8d89a5;
+$pantone-5275-C: #595478;
+$pantone-5265-C: #403a60;
+$pantone-5255-C: #1e1a34;
+$pantone-538-C: #c5cfda;
+$pantone-537-C: #bbc7d6;
+$pantone-536-C: #a2b2c8;
+$pantone-535-C: #8e9fbc;
+$pantone-534-C: #1b365d;
+$pantone-533-C: #1f2a44;
+$pantone-532-C: #1c1f2a;
+$pantone-7541-C: #d9e1e2;
+$pantone-7542-C: #a4bcc2;
+$pantone-7543-C: #98a4ae;
+$pantone-7544-C: #768692;
+$pantone-7545-C: #425563;
+$pantone-7546-C: #253746;
+$pantone-7547-C: #131e29;
+$pantone-552-C: #b9d3dc;
+$pantone-551-C: #a3c7d2;
+$pantone-550-C: #8db9ca;
+$pantone-549-C: #6ba4b8;
+$pantone-548-C: #003d4c;
+$pantone-547-C: #00313c;
+$pantone-546-C: #072b31;
+$pantone-5455-C: #bfced6;
+$pantone-5445-C: #b7c9d3;
+$pantone-5435-C: #a6bbc8;
+$pantone-5425-C: #7a99ac;
+$pantone-5415-C: #5b7f95;
+$pantone-5405-C: #4f758b;
+$pantone-5395-C: #081f2c;
+$pantone-642-C: #d1dde6;
+$pantone-643-C: #c6d6e3;
+$pantone-644-C: #9bb8d3;
+$pantone-645-C: #7da1c4;
+$pantone-646-C: #5e8ab4;
+$pantone-647-C: #236192;
+$pantone-648-C: #002e5d;
+$pantone-649-C: #dbe2e9;
+$pantone-650-C: #ced9e5;
+$pantone-651-C: #a7bcd6;
+$pantone-652-C: #7d9bc1;
+$pantone-653-C: #326295;
+$pantone-654-C: #003a70;
+$pantone-655-C: #002554;
+$pantone-656-C: #dde5ed;
+$pantone-657-C: #c8d8eb;
+$pantone-658-C: #b1c9e8;
+$pantone-659-C: #7ba4db;
+$pantone-660-C: #407ec9;
+$pantone-661-C: #003594;
+$pantone-662-C: #001a70;
+$pantone-7450-C: #bdc5db;
+$pantone-7451-C: #89abe3;
+$pantone-7452-C: #8094dd;
+$pantone-7453-C: #7ba6de;
+$pantone-7454-C: #5f8fb4;
+$pantone-7455-C: #3a5dae;
+$pantone-7456-C: #606eb2;
+$pantone-2706-C: #cbd3eb;
+$pantone-2716-C: #9faee5;
+$pantone-2726-C: #485cc7;
+$pantone-2736-C: #1e22aa;
+$pantone-2746-C: #171c8f;
+$pantone-2756-C: #151f6d;
+$pantone-2766-C: #141b4d;
+$pantone-2708-C: #b8ccea;
+$pantone-2718-C: #5c88da;
+$pantone-2728-C: #0047bb;
+$pantone-2738-C: #06038d;
+$pantone-2748-C: #001871;
+$pantone-2758-C: #001e62;
+$pantone-2768-C: #071d49;
+$pantone-2707-C: #c3d7ee;
+$pantone-2717-C: #a7c6ed;
+$pantone-2727-C: #307fe2;
+$pantone-2747-C: #001a72;
+$pantone-2757-C: #001e60;
+$pantone-2767-C: #13294b;
+$pantone-277-C: #abcae9;
+$pantone-278-C: #8bb8e8;
+$pantone-279-C: #418fde;
+$pantone-280-C: #012169;
+$pantone-281-C: #00205b;
+$pantone-282-C: #041e42;
+$pantone-283-C: #92c1e9;
+$pantone-284-C: #6cace4;
+$pantone-285-C: #0072ce;
+$pantone-286-C: #0033a0;
+$pantone-287-C: #003087;
+$pantone-288-C: #002d72;
+$pantone-289-C: #0c2340;
+$pantone-7681-C: #94a9cb;
+$pantone-7682-C: #6787b7;
+$pantone-7683-C: #426da9;
+$pantone-7684-C: #385e9d;
+$pantone-7685-C: #2c5697;
+$pantone-7686-C: #1d4f91;
+$pantone-7687-C: #1d428a;
+$pantone-545-C: #c6dae7;
+$pantone-544-C: #bdd6e6;
+$pantone-543-C: #a4c8e1;
+$pantone-542-C: #7bafd4;
+$pantone-541-C: #003c71;
+$pantone-540-C: #003057;
+$pantone-539-C: #00263a;
+$pantone-290-C: #b9d9eb;
+$pantone-291-C: #9bcbeb;
+$pantone-292-C: #69b3e7;
+$pantone-293-C: #003da5;
+$pantone-294-C: #002f6c;
+$pantone-295-C: #002855;
+$pantone-296-C: #041c2c;
+$pantone-2905-C: #8dc8e8;
+$pantone-2915-C: #62b5e5;
+$pantone-2925-C: #009cde;
+$pantone-2935-C: #0057b8;
+$pantone-2945-C: #004c97;
+$pantone-2955-C: #003865;
+$pantone-2965-C: #00263e;
+$pantone-297-C: #71c5e8;
+$pantone-298-C: #41b6e6;
+$pantone-299-C: #00a3e0;
+$pantone-300-C: #005eb8;
+$pantone-301-C: #004b87;
+$pantone-302-C: #003b5c;
+$pantone-303-C: #002a3a;
+$pantone-7688-C: #4698cb;
+$pantone-7689-C: #298fc2;
+$pantone-7690-C: #0076a8;
+$pantone-7691-C: #006298;
+$pantone-7692-C: #005587;
+$pantone-7693-C: #004976;
+$pantone-7694-C: #01426a;
+$pantone-2975-C: #99d6ea;
+$pantone-2985-C: #5bc2e7;
+$pantone-2995-C: #00a9e0;
+$pantone-3005-C: #0077c8;
+$pantone-3015-C: #00629b;
+$pantone-3025-C: #004f71;
+$pantone-3035-C: #003e51;
+$pantone-7695-C: #7ba7bc;
+$pantone-7696-C: #6399ae;
+$pantone-7697-C: #4e87a0;
+$pantone-7698-C: #41748d;
+$pantone-7699-C: #34657f;
+$pantone-7700-C: #165c7d;
+$pantone-7701-C: #005776;
+$pantone-7457-C: #bbdde6;
+$pantone-7458-C: #71b2c9;
+$pantone-7459-C: #4298b5;
+$pantone-7460-C: #0086bf;
+$pantone-7461-C: #007dba;
+$pantone-7462-C: #00558c;
+$pantone-7463-C: #002b49;
+$pantone-304-C: #9adbe8;
+$pantone-305-C: #59cbe8;
+$pantone-306-C: #00b5e2;
+$pantone-307-C: #006ba6;
+$pantone-308-C: #00587c;
+$pantone-309-C: #003b49;
+$pantone-635-C: #a4dbe8;
+$pantone-636-C: #8bd3e6;
+$pantone-637-C: #4ec3e0;
+$pantone-638-C: #00afd7;
+$pantone-639-C: #0095c8;
+$pantone-640-C: #0082ba;
+$pantone-641-C: #0067a0;
+$pantone-7702-C: #48a9c5;
+$pantone-7703-C: #009cbd;
+$pantone-7704-C: #0085ad;
+$pantone-7705-C: #007096;
+$pantone-7706-C: #006a8e;
+$pantone-7707-C: #00617f;
+$pantone-7708-C: #005670;
+$pantone-628-C: #b8dde1;
+$pantone-629-C: #9bd3dd;
+$pantone-630-C: #77c5d5;
+$pantone-631-C: #3eb1c8;
+$pantone-632-C: #0093b2;
+$pantone-633-C: #007396;
+$pantone-634-C: #005f83;
+$pantone-310-C: #6ad1e3;
+$pantone-311-C: #05c3de;
+$pantone-312-C: #00a9ce;
+$pantone-313-C: #0092bc;
+$pantone-314-C: #007fa3;
+$pantone-315-C: #00677f;
+$pantone-316-C: #004851;
+$pantone-3105-C: #68d2df;
+$pantone-3115-C: #00c1d5;
+$pantone-3125-C: #00aec7;
+$pantone-3135-C: #008eaa;
+$pantone-3145-C: #00778b;
+$pantone-3155-C: #006272;
+$pantone-3165-C: #004f59;
+$pantone-7709-C: #63b1bc;
+$pantone-7710-C: #00a7b5;
+$pantone-7711-C: #0097a9;
+$pantone-7712-C: #00859b;
+$pantone-7713-C: #007d8a;
+$pantone-7714-C: #007680;
+$pantone-7715-C: #006269;
+$pantone-317-C: #b1e4e3;
+$pantone-318-C: #88dbdf;
+$pantone-319-C: #2dccd3;
+$pantone-320-C: #009ca6;
+$pantone-321-C: #008c95;
+$pantone-322-C: #007377;
+$pantone-323-C: #005f61;
+$pantone-7464-C: #a0d1ca;
+$pantone-7465-C: #40c1ac;
+$pantone-7466-C: #00b0b9;
+$pantone-7467-C: #00a3ad;
+$pantone-7468-C: #007398;
+$pantone-7469-C: #005f86;
+$pantone-7470-C: #005a70;
+$pantone-7471-C: #7eddd3;
+$pantone-7472-C: #5cb8b2;
+$pantone-7473-C: #279989;
+$pantone-7474-C: #007681;
+$pantone-7475-C: #487a7b;
+$pantone-7476-C: #0d5257;
+$pantone-7477-C: #244c5a;
+$pantone-5523-C: #b6cfd0;
+$pantone-5513-C: #abc7ca;
+$pantone-5503-C: #94b7bb;
+$pantone-5493-C: #7fa9ae;
+$pantone-5483-C: #4f868e;
+$pantone-5473-C: #115e67;
+$pantone-5463-C: #07272d;
+$pantone-7716-C: #00968f;
+$pantone-7717-C: #00857d;
+$pantone-7718-C: #007672;
+$pantone-7719-C: #006d68;
+$pantone-7720-C: #00635b;
+$pantone-7721-C: #005e5d;
+$pantone-7722-C: #005151;
+$pantone-324-C: #9cdbd9;
+$pantone-325-C: #64ccc9;
+$pantone-326-C: #00b2a9;
+$pantone-327-C: #008675;
+$pantone-328-C: #007367;
+$pantone-329-C: #00685e;
+$pantone-330-C: #00534c;
+$pantone-3242-C: #71dbd4;
+$pantone-3252-C: #2ad2c9;
+$pantone-3262-C: #00bfb3;
+$pantone-3272-C: #00a499;
+$pantone-3282-C: #008578;
+$pantone-3292-C: #00594f;
+$pantone-3302-C: #004c45;
+$pantone-3245-C: #7ce0d3;
+$pantone-3255-C: #2cd5c4;
+$pantone-3265-C: #00c7b1;
+$pantone-3275-C: #00b398;
+$pantone-3285-C: #009681;
+$pantone-3295-C: #007864;
+$pantone-3305-C: #004e42;
+$pantone-3248-C: #6dcdb8;
+$pantone-3258-C: #49c5b1;
+$pantone-3268-C: #00ab8e;
+$pantone-3278-C: #009b77;
+$pantone-3288-C: #008264;
+$pantone-3298-C: #006a52;
+$pantone-3308-C: #034638;
+$pantone-566-C: #b9dcd2;
+$pantone-565-C: #a1d6ca;
+$pantone-564-C: #86c8bc;
+$pantone-563-C: #6bbbae;
+$pantone-562-C: #006f62;
+$pantone-561-C: #00594c;
+$pantone-560-C: #1d3c34;
+$pantone-573-C: #b5e3d8;
+$pantone-572-C: #a5dfd3;
+$pantone-571-C: #98dbce;
+$pantone-570-C: #6bcaba;
+$pantone-569-C: #00816d;
+$pantone-568-C: #006c5b;
+$pantone-567-C: #173f35;
+$pantone-559-C: #adcab8;
+$pantone-558-C: #9abeaa;
+$pantone-557-C: #85b09a;
+$pantone-556-C: #6fa287;
+$pantone-555-C: #28724f;
+$pantone-554-C: #205c40;
+$pantone-553-C: #284734;
+$pantone-5595-C: #bfcec2;
+$pantone-5585-C: #a7bdb1;
+$pantone-5575-C: #92aca0;
+$pantone-5565-C: #7f9c90;
+$pantone-5555-C: #5c7f71;
+$pantone-5545-C: #43695b;
+$pantone-5535-C: #183028;
+$pantone-5665-C: #bac5b9;
+$pantone-5655-C: #b0bdb0;
+$pantone-5645-C: #a3b2a4;
+$pantone-5635-C: #94a596;
+$pantone-5625-C: #708573;
+$pantone-5615-C: #5e7461;
+$pantone-5605-C: #22372b;
+$pantone-5527-C: #bcc9c5;
+$pantone-5517-C: #b1c0bc;
+$pantone-5507-C: #9db0ac;
+$pantone-5497-C: #829995;
+$pantone-5487-C: #5d7975;
+$pantone-5477-C: #3e5d58;
+$pantone-5467-C: #18332f;
+$pantone-621-C: #d1e0d7;
+$pantone-622-C: #b7cdc2;
+$pantone-623-C: #9ab9ad;
+$pantone-624-C: #789f90;
+$pantone-625-C: #507f70;
+$pantone-626-C: #285c4d;
+$pantone-627-C: #13322b;
+$pantone-331-C: #a7e6d7;
+$pantone-332-C: #8ce2d0;
+$pantone-333-C: #3cdbc0;
+$pantone-334-C: #009775;
+$pantone-335-C: #007b5f;
+$pantone-336-C: #00664f;
+$pantone-337-C: #8fd6bd;
+$pantone-338-C: #6eceb2;
+$pantone-339-C: #00b388;
+$pantone-340-C: #00965e;
+$pantone-341-C: #007a53;
+$pantone-342-C: #006747;
+$pantone-343-C: #115740;
+$pantone-7723-C: #50a684;
+$pantone-7724-C: #00966c;
+$pantone-7725-C: #008755;
+$pantone-7726-C: #007b4b;
+$pantone-7727-C: #006f44;
+$pantone-7728-C: #006845;
+$pantone-7729-C: #005844;
+$pantone-3375-C: #7ae1bf;
+$pantone-3385-C: #47d7ac;
+$pantone-3395-C: #00c389;
+$pantone-3405-C: #00af66;
+$pantone-3415-C: #007749;
+$pantone-3425-C: #006341;
+$pantone-3435-C: #154734;
+$pantone-344-C: #a0dab3;
+$pantone-345-C: #91d6ac;
+$pantone-346-C: #71cc98;
+$pantone-347-C: #009a44;
+$pantone-348-C: #00843d;
+$pantone-349-C: #046a38;
+$pantone-350-C: #2c5234;
+$pantone-351-C: #a2e4b8;
+$pantone-352-C: #8fe2b0;
+$pantone-353-C: #80e0a7;
+$pantone-354-C: #00b140;
+$pantone-355-C: #009639;
+$pantone-356-C: #007a33;
+$pantone-357-C: #215732;
+$pantone-7478-C: #9be3bf;
+$pantone-7479-C: #26d07c;
+$pantone-7480-C: #00bf6f;
+$pantone-7481-C: #00b74f;
+$pantone-7482-C: #009f4d;
+$pantone-7483-C: #275d38;
+$pantone-7484-C: #00573f;
+$pantone-7730-C: #4b9560;
+$pantone-7731-C: #228848;
+$pantone-7732-C: #007a3e;
+$pantone-7733-C: #007041;
+$pantone-7734-C: #286140;
+$pantone-7735-C: #36573b;
+$pantone-7736-C: #395542;
+$pantone-7737-C: #6ba539;
+$pantone-7738-C: #48a23f;
+$pantone-7739-C: #319b42;
+$pantone-7740-C: #3a913f;
+$pantone-7741-C: #44883e;
+$pantone-7742-C: #4a773c;
+$pantone-7743-C: #44693d;
+$pantone-358-C: #addc91;
+$pantone-359-C: #a1d884;
+$pantone-360-C: #6cc24a;
+$pantone-361-C: #43b02a;
+$pantone-362-C: #509e2f;
+$pantone-363-C: #4c8c2b;
+$pantone-364-C: #4a7729;
+$pantone-7485-C: #d0debb;
+$pantone-7486-C: #bce194;
+$pantone-7487-C: #8edd65;
+$pantone-7488-C: #78d64b;
+$pantone-7489-C: #74aa50;
+$pantone-7490-C: #719949;
+$pantone-7491-C: #79863c;
+$pantone-365-C: #c2e189;
+$pantone-366-C: #b7dd79;
+$pantone-367-C: #a4d65e;
+$pantone-368-C: #78be20;
+$pantone-369-C: #64a70b;
+$pantone-370-C: #658d1b;
+$pantone-371-C: #546223;
+$pantone-372-C: #d4eb8e;
+$pantone-373-C: #cdea80;
+$pantone-374-C: #c5e86c;
+$pantone-375-C: #97d700;
+$pantone-376-C: #84bd00;
+$pantone-377-C: #7a9a01;
+$pantone-378-C: #59621d;
+$pantone-580-C: #c4d6a4;
+$pantone-579-C: #bcd19b;
+$pantone-578-C: #b7ce95;
+$pantone-577-C: #a9c47f;
+$pantone-576-C: #789d4a;
+$pantone-575-C: #67823a;
+$pantone-574-C: #4e5b31;
+$pantone-5807-C: #d0d1ab;
+$pantone-5797-C: #c6c89b;
+$pantone-5787-C: #babd8b;
+$pantone-5777-C: #a2a569;
+$pantone-5767-C: #8a8d4a;
+$pantone-5757-C: #6d712e;
+$pantone-5747-C: #3d441e;
+$pantone-5875-C: #d2ce9e;
+$pantone-5865-C: #cbc793;
+$pantone-5855-C: #c0bb87;
+$pantone-5845-C: #afa96e;
+$pantone-5835-C: #a09958;
+$pantone-5825-C: #89813d;
+$pantone-5815-C: #555025;
+$pantone-5803-C: #c3c6a8;
+$pantone-5793-C: #b3b995;
+$pantone-5783-C: #a3aa83;
+$pantone-5773-C: #899064;
+$pantone-5763-C: #737b4c;
+$pantone-5753-C: #5e6738;
+$pantone-5743-C: #3e4827;
+$pantone-7492-C: #bfcc80;
+$pantone-7493-C: #bbc592;
+$pantone-7494-C: #9caf88;
+$pantone-7495-C: #8f993e;
+$pantone-7496-C: #76881d;
+$pantone-7497-C: #7a7256;
+$pantone-7498-C: #5b6236;
+$pantone-7744-C: #babc16;
+$pantone-7745-C: #abad23;
+$pantone-7746-C: #999b30;
+$pantone-7747-C: #888d30;
+$pantone-7748-C: #7c8034;
+$pantone-7749-C: #727337;
+$pantone-7750-C: #656635;
+$pantone-379-C: #e2e868;
+$pantone-380-C: #dbe442;
+$pantone-381-C: #cedc00;
+$pantone-382-C: #c4d600;
+$pantone-383-C: #a8ad00;
+$pantone-384-C: #949300;
+$pantone-385-C: #787121;
+$pantone-386-C: #e9ec6b;
+$pantone-387-C: #e3e935;
+$pantone-388-C: #e0e721;
+$pantone-389-C: #d0df00;
+$pantone-390-C: #b5bd00;
+$pantone-391-C: #9a9500;
+$pantone-392-C: #827a04;
+$pantone-587-C: #e3e48d;
+$pantone-586-C: #e0e27c;
+$pantone-585-C: #dbde70;
+$pantone-584-C: #d2d755;
+$pantone-583-C: #b7bf10;
+$pantone-582-C: #8e8c13;
+$pantone-581-C: #625d20;
+$pantone-393-C: #f0ec74;
+$pantone-394-C: #ede939;
+$pantone-395-C: #ece81a;
+$pantone-396-C: #e1e000;
+$pantone-397-C: #bfb800;
+$pantone-398-C: #ada400;
+$pantone-399-C: #a09200;
+$pantone-3935-C: #f3ea5d;
+$pantone-3945-C: #f3e500;
+$pantone-3955-C: #efdf00;
+$pantone-3965-C: #eedc00;
+$pantone-3975-C: #bba600;
+$pantone-3985-C: #9a8700;
+$pantone-3995-C: #685c20;
+$pantone-600-C: #f1eb9c;
+$pantone-601-C: #f0e991;
+$pantone-602-C: #f0e87b;
+$pantone-603-C: #ede04b;
+$pantone-604-C: #eada24;
+$pantone-605-C: #e1cd00;
+$pantone-606-C: #cfb500;
+$pantone-607-C: #ebe49a;
+$pantone-608-C: #e9e186;
+$pantone-609-C: #e6de77;
+$pantone-610-C: #e1d555;
+$pantone-611-C: #d7c826;
+$pantone-612-C: #c4b000;
+$pantone-613-C: #b39b00;
+$pantone-461-C: #e9df97;
+$pantone-460-C: #e4d77e;
+$pantone-459-C: #decd63;
+$pantone-458-C: #d9c756;
+$pantone-457-C: #b89d18;
+$pantone-456-C: #a28e2a;
+$pantone-455-C: #695b24;
+$pantone-614-C: #dcd59a;
+$pantone-615-C: #d6cf8d;
+$pantone-616-C: #d0c883;
+$pantone-617-C: #c0b561;
+$pantone-618-C: #ac9f3c;
+$pantone-619-C: #9f912a;
+$pantone-620-C: #8a7b19;
+$pantone-7751-C: #cab64b;
+$pantone-7752-C: #cfb023;
+$pantone-7753-C: #c1a01e;
+$pantone-7754-C: #a08629;
+$pantone-7755-C: #897630;
+$pantone-7756-C: #736635;
+$pantone-7757-C: #675e33;
+$pantone-7758-C: #d4c304;
+$pantone-7759-C: #c4b200;
+$pantone-7760-C: #91852c;
+$pantone-7761-C: #747136;
+$pantone-7762-C: #5d6439;
+$pantone-7763-C: #585c3b;
+$pantone-7764-C: #535435;
+$pantone-7765-C: #bbb323;
+$pantone-7766-C: #b4a91f;
+$pantone-7767-C: #aa9d2e;
+$pantone-7768-C: #8f7e35;
+$pantone-7769-C: #716135;
+$pantone-7770-C: #635939;
+$pantone-7771-C: #4e4934;
+$pantone-4545-C: #d5cb9f;
+$pantone-4535-C: #cfc493;
+$pantone-4525-C: #c5b783;
+$pantone-4515-C: #b3a369;
+$pantone-4505-C: #998542;
+$pantone-4495-C: #8c7732;
+$pantone-4485-C: #614f25;
+$pantone-454-C: #cac7a7;
+$pantone-453-C: #bfbb98;
+$pantone-452-C: #b0aa7e;
+$pantone-451-C: #9b945f;
+$pantone-450-C: #594a25;
+$pantone-449-C: #524727;
+$pantone-448-C: #4a412a;
+$pantone-7499-C: #f1e6b2;
+$pantone-7500-C: #dfd1a7;
+$pantone-7501-C: #d9c89e;
+$pantone-7502-C: #ceb888;
+$pantone-7503-C: #a89968;
+$pantone-7504-C: #94795d;
+$pantone-7505-C: #816040;
+$pantone-468-C: #ddcba4;
+$pantone-467-C: #d3bc8d;
+$pantone-466-C: #c6aa76;
+$pantone-465-C: #b9975b;
+$pantone-464-C: #8b5b29;
+$pantone-463-C: #744f28;
+$pantone-462-C: #5c462b;
+$pantone-7506-C: #efdbb2;
+$pantone-7507-C: #fcd299;
+$pantone-7508-C: #e1b87f;
+$pantone-7509-C: #d6a461;
+$pantone-7510-C: #c6893f;
+$pantone-7511-C: #b77729;
+$pantone-7512-C: #a6631b;
+$pantone-719-C: #edc8a3;
+$pantone-720-C: #e7b78a;
+$pantone-721-C: #dda46f;
+$pantone-722-C: #c88242;
+$pantone-723-C: #b36924;
+$pantone-724-C: #934d11;
+$pantone-725-C: #7d3f16;
+$pantone-475-C: #f3cfb3;
+$pantone-474-C: #f1c6a7;
+$pantone-473-C: #f0bf9b;
+$pantone-472-C: #e59e6d;
+$pantone-471-C: #b86125;
+$pantone-470-C: #a45a2a;
+$pantone-469-C: #693f23;
+$pantone-726-C: #e0c09f;
+$pantone-727-C: #d9b48f;
+$pantone-728-C: #cda077;
+$pantone-729-C: #b58150;
+$pantone-730-C: #9e652e;
+$pantone-731-C: #774212;
+$pantone-732-C: #623412;
+$pantone-4685-C: #e0c6ad;
+$pantone-4675-C: #dcbfa6;
+$pantone-4665-C: #cda788;
+$pantone-4655-C: #bf9474;
+$pantone-4645-C: #ad7c59;
+$pantone-4635-C: #946037;
+$pantone-4625-C: #4f2c1d;
+$pantone-7513-C: #e1b7a7;
+$pantone-7514-C: #d5a286;
+$pantone-7515-C: #c58b68;
+$pantone-7516-C: #99552b;
+$pantone-7517-C: #85431e;
+$pantone-7518-C: #6d4f47;
+$pantone-7519-C: #5e4b3c;
+$pantone-4755-C: #d7c4b7;
+$pantone-4745-C: #cdb5a7;
+$pantone-4735-C: #c0a392;
+$pantone-4725-C: #ae8a79;
+$pantone-4715-C: #956c58;
+$pantone-4705-C: #7c4d3a;
+$pantone-4695-C: #5b3427;
+$pantone-482-C: #dbc8b6;
+$pantone-481-C: #d3bba8;
+$pantone-480-C: #c6a992;
+$pantone-479-C: #aa8066;
+$pantone-478-C: #703f2a;
+$pantone-477-C: #623b2a;
+$pantone-476-C: #4e3629;
+$pantone-7527-C: #d6d2c4;
+$pantone-7528-C: #c5b9ac;
+$pantone-7529-C: #b7a99a;
+$pantone-7530-C: #a39382;
+$pantone-7531-C: #7a6855;
+$pantone-7532-C: #63513d;
+$pantone-7533-C: #473729;
+$pantone-7534-C: #d1ccbd;
+$pantone-7535-C: #b7b09c;
+$pantone-7536-C: #a69f88;
+$pantone-7537-C: #a7aca2;
+$pantone-7538-C: #949a90;
+$pantone-7539-C: #8e9089;
+$pantone-7540-C: #4b4f54;
+$pantone-427-C: #d0d3d4;
+$pantone-428-C: #c1c6c8;
+$pantone-429-C: #a2aaad;
+$pantone-430-C: #7c878e;
+$pantone-431-C: #5b6770;
+$pantone-432-C: #333f48;
+$pantone-433-C: #1d252d;
+$pantone-420-C: #c7c9c7;
+$pantone-421-C: #b2b4b2;
+$pantone-422-C: #9ea2a2;
+$pantone-423-C: #898d8d;
+$pantone-424-C: #707372;
+$pantone-425-C: #54585a;
+$pantone-426-C: #25282a;
+$pantone-441-C: #bec6c4;
+$pantone-442-C: #a2acab;
+$pantone-443-C: #919d9d;
+$pantone-444-C: #717c7d;
+$pantone-445-C: #505759;
+$pantone-446-C: #3f4444;
+$pantone-447-C: #373a36;
+$pantone-413-C: #babbb1;
+$pantone-414-C: #a8a99e;
+$pantone-415-C: #919388;
+$pantone-416-C: #7e7f74;
+$pantone-417-C: #65665c;
+$pantone-418-C: #51534a;
+$pantone-419-C: #212322;
+$pantone-400-C: #c4bfb6;
+$pantone-401-C: #afa9a0;
+$pantone-402-C: #9d968d;
+$pantone-403-C: #8c857b;
+$pantone-404-C: #776e64;
+$pantone-405-C: #696158;
+$pantone-406-C: #c4bcb7;
+$pantone-407-C: #b2a8a2;
+$pantone-408-C: #978c87;
+$pantone-409-C: #857874;
+$pantone-410-C: #746661;
+$pantone-411-C: #5e514d;
+$pantone-412-C: #382f2d;
+$pantone-434-C: #d0c4c5;
+$pantone-435-C: #c1b2b6;
+$pantone-436-C: #ab989d;
+$pantone-437-C: #7b6469;
+$pantone-438-C: #584446;
+$pantone-439-C: #453536;
+$pantone-440-C: #382e2c;
+$pantone-Warm-Gray-1-C: #d7d2cb;
+$pantone-Warm-Gray-2-C: #cbc4bc;
+$pantone-Warm-Gray-3-C: #bfb8af;
+$pantone-Warm-Gray-4-C: #b6ada5;
+$pantone-Warm-Gray-5-C: #aca39a;
+$pantone-Warm-Gray-6-C: #a59c94;
+$pantone-Warm-Gray-7-C: #968c83;
+$pantone-Warm-Gray-8-C: #8c8279;
+$pantone-Warm-Gray-9-C: #83786f;
+$pantone-Warm-Gray-10-C: #796e65;
+$pantone-Warm-Gray-11-C: #6e6259;
+$pantone-Cool-Gray-1-C: #d9d9d6;
+$pantone-Cool-Gray-2-C: #d0d0ce;
+$pantone-Cool-Gray-3-C: #c8c9c7;
+$pantone-Cool-Gray-4-C: #bbbcbc;
+$pantone-Cool-Gray-5-C: #b1b3b3;
+$pantone-Cool-Gray-6-C: #a7a8aa;
+$pantone-Cool-Gray-7-C: #97999b;
+$pantone-Cool-Gray-8-C: #888b8d;
+$pantone-Cool-Gray-9-C: #75787b;
+$pantone-Cool-Gray-10-C: #63666a;
+$pantone-Cool-Gray-11-C: #53565a;
+$pantone-Black-2-C: #332f21;
+$pantone-Black-3-C: #212721;
+$pantone-Black-4-C: #31261d;
+$pantone-Black-5-C: #3e2b2e;
+$pantone-Black-6-C: #101820;
+$pantone-Black-7-C: #3d3935;
