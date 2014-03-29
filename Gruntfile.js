@@ -5,16 +5,27 @@ module.exports = function(grunt) {
 		// Import package manifest
 		pkg: grunt.file.readJSON("package.json"),
 
-		sass: {
+		// sass: {
+		// 	dist: {
+		// 		files: {
+		// 			"css/pantone-coated.css" : "sass/pantone-coated.scss",
+		// 			"css/style.css" : "sass/style.scss",
+		// 		}
+		// 	},
+		// 	options: {
+		// 		style: "expanded",
+		// 		compass: true
+		// 	}
+		// },
+
+		less: {
 			dist: {
 				files: {
-					"css/pantone-coated.css" : "sass/pantone-coated.scss",
-					"css/style.css" : "sass/style.scss",
-				}
+     				"css/pantone-coated.css" : "less/pantone-coated.less",
+     				"css/style.css" : "less/style.less",
+			    }
 			},
 			options: {
-				style: "expanded",
-				compass: true
 			}
 		},
 
@@ -28,8 +39,10 @@ module.exports = function(grunt) {
 
 		watch: {
         	css: {
-				files: "sass/**/*.scss",
-				tasks: ['sass'],
+				// files: "sass/**/*.scss",
+				// tasks: ['sass'],
+				files: "less/**/*.less",
+				tasks: ['less'],
         		options: {
         			spawn: false
         		}
@@ -41,6 +54,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-watch");
 	grunt.loadNpmTasks("grunt-contrib-sass");
 	grunt.loadNpmTasks("grunt-contrib-compass");
+	grunt.loadNpmTasks("grunt-contrib-less");
 	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-contrib-connect');
 
