@@ -1,7 +1,7 @@
 Pantone-Less
 ============
 
-Hats off to [Damon Bauer](https://github.com/damonbauer/Pantone-Sass) for the initial version of this. I've modified his original work to be compatible with [Less](https://github.com/less/less.js). I also took the liberty to modify the demo `index.html` to mimic the look of Pantone color chips.
+Hats off to [Damon Bauer](https://github.com/damonbauer/Pantone-Sass) for the initial version of this. I've modified his original work to be compatible with [Less](https://github.com/less/less.js). I also took the liberty of modifying the demo `index.html` to mimic the look of Pantone color chips.
 
 A [Less](https://github.com/less/less.js map of Pantone colors (coated Pantone colors only). Feel free to steal the ones you want and use them as variables. Please don’t use the entire stylesheet supplied - it’s huge; rather, cherry pick what you need to keep file size down.
 
