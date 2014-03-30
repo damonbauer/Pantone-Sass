@@ -22,6 +22,7 @@ module.exports = function(grunt) {
 			dist: {
 				files: {
      				"css/pantone-coated.css" : "less/pantone-coated.less",
+     				"css/pantone-uncoated.css" : "less/pantone-uncoated.less",
      				"css/style.css" : "less/style.less",
 			    }
 			},
