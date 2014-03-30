@@ -452,13 +452,6 @@
 
 
 
-// a work-around for "process out of memory" error
-@batch-1: (length(@pantone-colors)/3)*1;
-@batch-2: (length(@pantone-colors)/3)*2;
-@batch-3: (length(@pantone-colors)/3)*3;
-
-.pantone( @batch-1, 1 );
-.pantone( @batch-2, @batch-1+1 );
-.pantone( @batch-3, @batch-2+1 );
+.pantone( length(@pantone-colors), 1 );
 
 

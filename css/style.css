@@ -9,6 +9,13 @@ p {
   line-height: 9px;
   font-weight: bold;
 }
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #0000ff;
+  line-height: 15px;
+}
 .intro {
   position: relative;
   font-size: 12px;
