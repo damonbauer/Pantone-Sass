@@ -1,0 +1,2520 @@
+.pantone-Pastels-Neons-Yellow-0131-C {
+  color: #f2f0a1;
+}
+.chip.pantone-Pastels-Neons-Yellow-0131-C {
+  background: #f2f0a1;
+}
+.label.pantone-Pastels-Neons-Yellow-0131-C:before {
+  content: 'Pantone \a Pastels-Neons-Yellow-0131-C';
+}
+.label.pantone-Pastels-Neons-Yellow-0131-C:after {
+  content: '#f2f0a1';
+}
+.pantone-Pastels-Neons-Red-0331-C {
+  color: #fcaebb;
+}
+.chip.pantone-Pastels-Neons-Red-0331-C {
+  background: #fcaebb;
+}
+.label.pantone-Pastels-Neons-Red-0331-C:before {
+  content: 'Pantone \a Pastels-Neons-Red-0331-C';
+}
+.label.pantone-Pastels-Neons-Red-0331-C:after {
+  content: '#fcaebb';
+}
+.pantone-Pastels-Neons-Magenta-0521-C {
+  color: #f1b2dc;
+}
+.chip.pantone-Pastels-Neons-Magenta-0521-C {
+  background: #f1b2dc;
+}
+.label.pantone-Pastels-Neons-Magenta-0521-C:before {
+  content: 'Pantone \a Pastels-Neons-Magenta-0521-C';
+}
+.label.pantone-Pastels-Neons-Magenta-0521-C:after {
+  content: '#f1b2dc';
+}
+.pantone-Pastels-Neons-Violet-0631-C {
+  color: #bf9bde;
+}
+.chip.pantone-Pastels-Neons-Violet-0631-C {
+  background: #bf9bde;
+}
+.label.pantone-Pastels-Neons-Violet-0631-C:before {
+  content: 'Pantone \a Pastels-Neons-Violet-0631-C';
+}
+.label.pantone-Pastels-Neons-Violet-0631-C:after {
+  content: '#bf9bde';
+}
+.pantone-Pastels-Neons-Blue-0821-C {
+  color: #74d1ea;
+}
+.chip.pantone-Pastels-Neons-Blue-0821-C {
+  background: #74d1ea;
+}
+.label.pantone-Pastels-Neons-Blue-0821-C:before {
+  content: 'Pantone \a Pastels-Neons-Blue-0821-C';
+}
+.label.pantone-Pastels-Neons-Blue-0821-C:after {
+  content: '#74d1ea';
+}
+.pantone-Pastels-Neons-Green-0921-C {
+  color: #9de7d7;
+}
+.chip.pantone-Pastels-Neons-Green-0921-C {
+  background: #9de7d7;
+}
+.label.pantone-Pastels-Neons-Green-0921-C:before {
+  content: 'Pantone \a Pastels-Neons-Green-0921-C';
+}
+.label.pantone-Pastels-Neons-Green-0921-C:after {
+  content: '#9de7d7';
+}
+.pantone-Pastels-Neons-Black-0961-C {
+  color: #9e978e;
+}
+.chip.pantone-Pastels-Neons-Black-0961-C {
+  background: #9e978e;
+}
+.label.pantone-Pastels-Neons-Black-0961-C:before {
+  content: 'Pantone \a Pastels-Neons-Black-0961-C';
+}
+.label.pantone-Pastels-Neons-Black-0961-C:after {
+  content: '#9e978e';
+}
+.pantone-Pastels-Neons-9140-C {
+  color: #f2eeca;
+}
+.chip.pantone-Pastels-Neons-9140-C {
+  background: #f2eeca;
+}
+.label.pantone-Pastels-Neons-9140-C:before {
+  content: 'Pantone \a Pastels-Neons-9140-C';
+}
+.label.pantone-Pastels-Neons-9140-C:after {
+  content: '#f2eeca';
+}
+.pantone-Pastels-Neons-9284-C {
+  color: #fac9d1;
+}
+.chip.pantone-Pastels-Neons-9284-C {
+  background: #fac9d1;
+}
+.label.pantone-Pastels-Neons-9284-C:before {
+  content: 'Pantone \a Pastels-Neons-9284-C';
+}
+.label.pantone-Pastels-Neons-9284-C:after {
+  content: '#fac9d1';
+}
+.pantone-Pastels-Neons-9324-C {
+  color: #f3c9e4;
+}
+.chip.pantone-Pastels-Neons-9324-C {
+  background: #f3c9e4;
+}
+.label.pantone-Pastels-Neons-9324-C:before {
+  content: 'Pantone \a Pastels-Neons-9324-C';
+}
+.label.pantone-Pastels-Neons-9324-C:after {
+  content: '#f3c9e4';
+}
+.pantone-Pastels-Neons-9344-C {
+  color: #d1b6e4;
+}
+.chip.pantone-Pastels-Neons-9344-C {
+  background: #d1b6e4;
+}
+.label.pantone-Pastels-Neons-9344-C:before {
+  content: 'Pantone \a Pastels-Neons-9344-C';
+}
+.label.pantone-Pastels-Neons-9344-C:after {
+  content: '#d1b6e4';
+}
+.pantone-Pastels-Neons-9464-C {
+  color: #9fdded;
+}
+.chip.pantone-Pastels-Neons-9464-C {
+  background: #9fdded;
+}
+.label.pantone-Pastels-Neons-9464-C:before {
+  content: 'Pantone \a Pastels-Neons-9464-C';
+}
+.label.pantone-Pastels-Neons-9464-C:after {
+  content: '#9fdded';
+}
+.pantone-Pastels-Neons-9524-C {
+  color: #afeadc;
+}
+.chip.pantone-Pastels-Neons-9524-C {
+  background: #afeadc;
+}
+.label.pantone-Pastels-Neons-9524-C:before {
+  content: 'Pantone \a Pastels-Neons-9524-C';
+}
+.label.pantone-Pastels-Neons-9524-C:after {
+  content: '#afeadc';
+}
+.pantone-Pastels-Neons-9084-C {
+  color: #ada79e;
+}
+.chip.pantone-Pastels-Neons-9084-C {
+  background: #ada79e;
+}
+.label.pantone-Pastels-Neons-9084-C:before {
+  content: 'Pantone \a Pastels-Neons-9084-C';
+}
+.label.pantone-Pastels-Neons-9084-C:after {
+  content: '#ada79e';
+}
+.pantone-Pastels-Neons-9060-C {
+  color: #f1f0d8;
+}
+.chip.pantone-Pastels-Neons-9060-C {
+  background: #f1f0d8;
+}
+.label.pantone-Pastels-Neons-9060-C:before {
+  content: 'Pantone \a Pastels-Neons-9060-C';
+}
+.label.pantone-Pastels-Neons-9060-C:after {
+  content: '#f1f0d8';
+}
+.pantone-Pastels-Neons-9280-C {
+  color: #f5e2e2;
+}
+.chip.pantone-Pastels-Neons-9280-C {
+  background: #f5e2e2;
+}
+.label.pantone-Pastels-Neons-9280-C:before {
+  content: 'Pantone \a Pastels-Neons-9280-C';
+}
+.label.pantone-Pastels-Neons-9280-C:after {
+  content: '#f5e2e2';
+}
+.pantone-Pastels-Neons-9320-C {
+  color: #f2dee9;
+}
+.chip.pantone-Pastels-Neons-9320-C {
+  background: #f2dee9;
+}
+.label.pantone-Pastels-Neons-9320-C:before {
+  content: 'Pantone \a Pastels-Neons-9320-C';
+}
+.label.pantone-Pastels-Neons-9320-C:after {
+  content: '#f2dee9';
+}
+.pantone-Pastels-Neons-9340-C {
+  color: #e7dcea;
+}
+.chip.pantone-Pastels-Neons-9340-C {
+  background: #e7dcea;
+}
+.label.pantone-Pastels-Neons-9340-C:before {
+  content: 'Pantone \a Pastels-Neons-9340-C';
+}
+.label.pantone-Pastels-Neons-9340-C:after {
+  content: '#e7dcea';
+}
+.pantone-Pastels-Neons-9460-C {
+  color: #d5ebee;
+}
+.chip.pantone-Pastels-Neons-9460-C {
+  background: #d5ebee;
+}
+.label.pantone-Pastels-Neons-9460-C:before {
+  content: 'Pantone \a Pastels-Neons-9460-C';
+}
+.label.pantone-Pastels-Neons-9460-C:after {
+  content: '#d5ebee';
+}
+.pantone-Pastels-Neons-9520-C {
+  color: #d7efe7;
+}
+.chip.pantone-Pastels-Neons-9520-C {
+  background: #d7efe7;
+}
+.label.pantone-Pastels-Neons-9520-C:before {
+  content: 'Pantone \a Pastels-Neons-9520-C';
+}
+.label.pantone-Pastels-Neons-9520-C:after {
+  content: '#d7efe7';
+}
+.pantone-Pastels-Neons-9083-C {
+  color: #ccc8bf;
+}
+.chip.pantone-Pastels-Neons-9083-C {
+  background: #ccc8bf;
+}
+.label.pantone-Pastels-Neons-9083-C:before {
+  content: 'Pantone \a Pastels-Neons-9083-C';
+}
+.label.pantone-Pastels-Neons-9083-C:after {
+  content: '#ccc8bf';
+}
+.pantone-Pastels-Neons-9064-C {
+  color: #f1f1de;
+}
+.chip.pantone-Pastels-Neons-9064-C {
+  background: #f1f1de;
+}
+.label.pantone-Pastels-Neons-9064-C:before {
+  content: 'Pantone \a Pastels-Neons-9064-C';
+}
+.label.pantone-Pastels-Neons-9064-C:after {
+  content: '#f1f1de';
+}
+.pantone-Pastels-Neons-9285-C {
+  color: #f2ebe7;
+}
+.chip.pantone-Pastels-Neons-9285-C {
+  background: #f2ebe7;
+}
+.label.pantone-Pastels-Neons-9285-C:before {
+  content: 'Pantone \a Pastels-Neons-9285-C';
+}
+.label.pantone-Pastels-Neons-9285-C:after {
+  content: '#f2ebe7';
+}
+.pantone-Pastels-Neons-9061-C {
+  color: #f2e9ea;
+}
+.chip.pantone-Pastels-Neons-9061-C {
+  background: #f2e9ea;
+}
+.label.pantone-Pastels-Neons-9061-C:before {
+  content: 'Pantone \a Pastels-Neons-9061-C';
+}
+.label.pantone-Pastels-Neons-9061-C:after {
+  content: '#f2e9ea';
+}
+.pantone-Pastels-Neons-9345-C {
+  color: #eee9ea;
+}
+.chip.pantone-Pastels-Neons-9345-C {
+  background: #eee9ea;
+}
+.label.pantone-Pastels-Neons-9345-C:before {
+  content: 'Pantone \a Pastels-Neons-9345-C';
+}
+.label.pantone-Pastels-Neons-9345-C:after {
+  content: '#eee9ea';
+}
+.pantone-Pastels-Neons-9062-C {
+  color: #e6eeec;
+}
+.chip.pantone-Pastels-Neons-9062-C {
+  background: #e6eeec;
+}
+.label.pantone-Pastels-Neons-9062-C:before {
+  content: 'Pantone \a Pastels-Neons-9062-C';
+}
+.label.pantone-Pastels-Neons-9062-C:after {
+  content: '#e6eeec';
+}
+.pantone-Pastels-Neons-9063-C {
+  color: #e7efe7;
+}
+.chip.pantone-Pastels-Neons-9063-C {
+  background: #e7efe7;
+}
+.label.pantone-Pastels-Neons-9063-C:before {
+  content: 'Pantone \a Pastels-Neons-9063-C';
+}
+.label.pantone-Pastels-Neons-9063-C:after {
+  content: '#e7efe7';
+}
+.pantone-Pastels-Neons-9081-C {
+  color: #dfdcd4;
+}
+.chip.pantone-Pastels-Neons-9081-C {
+  background: #dfdcd4;
+}
+.label.pantone-Pastels-Neons-9081-C:before {
+  content: 'Pantone \a Pastels-Neons-9081-C';
+}
+.label.pantone-Pastels-Neons-9081-C:after {
+  content: '#dfdcd4';
+}
+.pantone-Pastels-Neons-9043-C {
+  color: #e8e6df;
+}
+.chip.pantone-Pastels-Neons-9043-C {
+  background: #e8e6df;
+}
+.label.pantone-Pastels-Neons-9043-C:before {
+  content: 'Pantone \a Pastels-Neons-9043-C';
+}
+.label.pantone-Pastels-Neons-9043-C:after {
+  content: '#e8e6df';
+}
+.pantone-Pastels-Neons-9080-C {
+  color: #e4e2db;
+}
+.chip.pantone-Pastels-Neons-9080-C {
+  background: #e4e2db;
+}
+.label.pantone-Pastels-Neons-9080-C:before {
+  content: 'Pantone \a Pastels-Neons-9080-C';
+}
+.label.pantone-Pastels-Neons-9080-C:after {
+  content: '#e4e2db';
+}
+.pantone-Pastels-Neons-9100-C {
+  color: #e7e7e0;
+}
+.chip.pantone-Pastels-Neons-9100-C {
+  background: #e7e7e0;
+}
+.label.pantone-Pastels-Neons-9100-C:before {
+  content: 'Pantone \a Pastels-Neons-9100-C';
+}
+.label.pantone-Pastels-Neons-9100-C:after {
+  content: '#e7e7e0';
+}
+.pantone-Pastels-Neons-9101-C {
+  color: #e3e3dd;
+}
+.chip.pantone-Pastels-Neons-9101-C {
+  background: #e3e3dd;
+}
+.label.pantone-Pastels-Neons-9101-C:before {
+  content: 'Pantone \a Pastels-Neons-9101-C';
+}
+.label.pantone-Pastels-Neons-9101-C:after {
+  content: '#e3e3dd';
+}
+.pantone-Pastels-Neons-9102-C {
+  color: #d9dbd5;
+}
+.chip.pantone-Pastels-Neons-9102-C {
+  background: #d9dbd5;
+}
+.label.pantone-Pastels-Neons-9102-C:before {
+  content: 'Pantone \a Pastels-Neons-9102-C';
+}
+.label.pantone-Pastels-Neons-9102-C:after {
+  content: '#d9dbd5';
+}
+.pantone-Pastels-Neons-9103-C {
+  color: #d5d8d2;
+}
+.chip.pantone-Pastels-Neons-9103-C {
+  background: #d5d8d2;
+}
+.label.pantone-Pastels-Neons-9103-C:before {
+  content: 'Pantone \a Pastels-Neons-9103-C';
+}
+.label.pantone-Pastels-Neons-9103-C:after {
+  content: '#d5d8d2';
+}
+.pantone-Pastels-Neons-9082-C {
+  color: #d2cdc3;
+}
+.chip.pantone-Pastels-Neons-9082-C {
+  background: #d2cdc3;
+}
+.label.pantone-Pastels-Neons-9082-C:before {
+  content: 'Pantone \a Pastels-Neons-9082-C';
+}
+.label.pantone-Pastels-Neons-9082-C:after {
+  content: '#d2cdc3';
+}
+.pantone-Pastels-Neons-9121-C {
+  color: #f1f0b0;
+}
+.chip.pantone-Pastels-Neons-9121-C {
+  background: #f1f0b0;
+}
+.label.pantone-Pastels-Neons-9121-C:before {
+  content: 'Pantone \a Pastels-Neons-9121-C';
+}
+.label.pantone-Pastels-Neons-9121-C:after {
+  content: '#f1f0b0';
+}
+.pantone-Pastels-Neons-9120-C {
+  color: #f1efb7;
+}
+.chip.pantone-Pastels-Neons-9120-C {
+  background: #f1efb7;
+}
+.label.pantone-Pastels-Neons-9120-C:before {
+  content: 'Pantone \a Pastels-Neons-9120-C';
+}
+.label.pantone-Pastels-Neons-9120-C:after {
+  content: '#f1efb7';
+}
+.pantone-Pastels-Neons-9141-C {
+  color: #f2edc0;
+}
+.chip.pantone-Pastels-Neons-9141-C {
+  background: #f2edc0;
+}
+.label.pantone-Pastels-Neons-9141-C:before {
+  content: 'Pantone \a Pastels-Neons-9141-C';
+}
+.label.pantone-Pastels-Neons-9141-C:after {
+  content: '#f2edc0';
+}
+.pantone-Pastels-Neons-9142-C {
+  color: #e9e4c5;
+}
+.chip.pantone-Pastels-Neons-9142-C {
+  background: #e9e4c5;
+}
+.label.pantone-Pastels-Neons-9142-C:before {
+  content: 'Pantone \a Pastels-Neons-9142-C';
+}
+.label.pantone-Pastels-Neons-9142-C:after {
+  content: '#e9e4c5';
+}
+.pantone-Pastels-Neons-9161-C {
+  color: #e7dbb9;
+}
+.chip.pantone-Pastels-Neons-9161-C {
+  background: #e7dbb9;
+}
+.label.pantone-Pastels-Neons-9161-C:before {
+  content: 'Pantone \a Pastels-Neons-9161-C';
+}
+.label.pantone-Pastels-Neons-9161-C:after {
+  content: '#e7dbb9';
+}
+.pantone-Pastels-Neons-9143-C {
+  color: #e3dfc3;
+}
+.chip.pantone-Pastels-Neons-9143-C {
+  background: #e3dfc3;
+}
+.label.pantone-Pastels-Neons-9143-C:before {
+  content: 'Pantone \a Pastels-Neons-9143-C';
+}
+.label.pantone-Pastels-Neons-9143-C:after {
+  content: '#e3dfc3';
+}
+.pantone-Pastels-Neons-9162-C {
+  color: #e2d9c2;
+}
+.chip.pantone-Pastels-Neons-9162-C {
+  background: #e2d9c2;
+}
+.label.pantone-Pastels-Neons-9162-C:before {
+  content: 'Pantone \a Pastels-Neons-9162-C';
+}
+.label.pantone-Pastels-Neons-9162-C:after {
+  content: '#e2d9c2';
+}
+.pantone-Pastels-Neons-9160-C {
+  color: #f4e5c0;
+}
+.chip.pantone-Pastels-Neons-9160-C {
+  background: #f4e5c0;
+}
+.label.pantone-Pastels-Neons-9160-C:before {
+  content: 'Pantone \a Pastels-Neons-9160-C';
+}
+.label.pantone-Pastels-Neons-9160-C:after {
+  content: '#f4e5c0';
+}
+.pantone-Pastels-Neons-9180-C {
+  color: #f3e4cd;
+}
+.chip.pantone-Pastels-Neons-9180-C {
+  background: #f3e4cd;
+}
+.label.pantone-Pastels-Neons-9180-C:before {
+  content: 'Pantone \a Pastels-Neons-9180-C';
+}
+.label.pantone-Pastels-Neons-9180-C:after {
+  content: '#f3e4cd';
+}
+.pantone-Pastels-Neons-9181-C {
+  color: #f4e3c9;
+}
+.chip.pantone-Pastels-Neons-9181-C {
+  background: #f4e3c9;
+}
+.label.pantone-Pastels-Neons-9181-C:before {
+  content: 'Pantone \a Pastels-Neons-9181-C';
+}
+.label.pantone-Pastels-Neons-9181-C:after {
+  content: '#f4e3c9';
+}
+.pantone-Pastels-Neons-9200-C {
+  color: #f5e1cc;
+}
+.chip.pantone-Pastels-Neons-9200-C {
+  background: #f5e1cc;
+}
+.label.pantone-Pastels-Neons-9200-C:before {
+  content: 'Pantone \a Pastels-Neons-9200-C';
+}
+.label.pantone-Pastels-Neons-9200-C:after {
+  content: '#f5e1cc';
+}
+.pantone-Pastels-Neons-9201-C {
+  color: #f5e3cc;
+}
+.chip.pantone-Pastels-Neons-9201-C {
+  background: #f5e3cc;
+}
+.label.pantone-Pastels-Neons-9201-C:before {
+  content: 'Pantone \a Pastels-Neons-9201-C';
+}
+.label.pantone-Pastels-Neons-9201-C:after {
+  content: '#f5e3cc';
+}
+.pantone-Pastels-Neons-9220-C {
+  color: #f5e0cf;
+}
+.chip.pantone-Pastels-Neons-9220-C {
+  background: #f5e0cf;
+}
+.label.pantone-Pastels-Neons-9220-C:before {
+  content: 'Pantone \a Pastels-Neons-9220-C';
+}
+.label.pantone-Pastels-Neons-9220-C:after {
+  content: '#f5e0cf';
+}
+.pantone-Pastels-Neons-9221-C {
+  color: #edd6c4;
+}
+.chip.pantone-Pastels-Neons-9221-C {
+  background: #edd6c4;
+}
+.label.pantone-Pastels-Neons-9221-C:before {
+  content: 'Pantone \a Pastels-Neons-9221-C';
+}
+.label.pantone-Pastels-Neons-9221-C:after {
+  content: '#edd6c4';
+}
+.pantone-Pastels-Neons-9184-C {
+  color: #efe4ce;
+}
+.chip.pantone-Pastels-Neons-9184-C {
+  background: #efe4ce;
+}
+.label.pantone-Pastels-Neons-9184-C:before {
+  content: 'Pantone \a Pastels-Neons-9184-C';
+}
+.label.pantone-Pastels-Neons-9184-C:after {
+  content: '#efe4ce';
+}
+.pantone-Pastels-Neons-9185-C {
+  color: #ede1cf;
+}
+.chip.pantone-Pastels-Neons-9185-C {
+  background: #ede1cf;
+}
+.label.pantone-Pastels-Neons-9185-C:before {
+  content: 'Pantone \a Pastels-Neons-9185-C';
+}
+.label.pantone-Pastels-Neons-9185-C:after {
+  content: '#ede1cf';
+}
+.pantone-Pastels-Neons-9202-C {
+  color: #eddecd;
+}
+.chip.pantone-Pastels-Neons-9202-C {
+  background: #eddecd;
+}
+.label.pantone-Pastels-Neons-9202-C:before {
+  content: 'Pantone \a Pastels-Neons-9202-C';
+}
+.label.pantone-Pastels-Neons-9202-C:after {
+  content: '#eddecd';
+}
+.pantone-Pastels-Neons-9182-C {
+  color: #ecdcc8;
+}
+.chip.pantone-Pastels-Neons-9182-C {
+  background: #ecdcc8;
+}
+.label.pantone-Pastels-Neons-9182-C:before {
+  content: 'Pantone \a Pastels-Neons-9182-C';
+}
+.label.pantone-Pastels-Neons-9182-C:after {
+  content: '#ecdcc8';
+}
+.pantone-Pastels-Neons-9183-C {
+  color: #e5d7c5;
+}
+.chip.pantone-Pastels-Neons-9183-C {
+  background: #e5d7c5;
+}
+.label.pantone-Pastels-Neons-9183-C:before {
+  content: 'Pantone \a Pastels-Neons-9183-C';
+}
+.label.pantone-Pastels-Neons-9183-C:after {
+  content: '#e5d7c5';
+}
+.pantone-Pastels-Neons-9203-C {
+  color: #e4d5c4;
+}
+.chip.pantone-Pastels-Neons-9203-C {
+  background: #e4d5c4;
+}
+.label.pantone-Pastels-Neons-9203-C:before {
+  content: 'Pantone \a Pastels-Neons-9203-C';
+}
+.label.pantone-Pastels-Neons-9203-C:after {
+  content: '#e4d5c4';
+}
+.pantone-Pastels-Neons-9186-C {
+  color: #e1d3c4;
+}
+.chip.pantone-Pastels-Neons-9186-C {
+  background: #e1d3c4;
+}
+.label.pantone-Pastels-Neons-9186-C:before {
+  content: 'Pantone \a Pastels-Neons-9186-C';
+}
+.label.pantone-Pastels-Neons-9186-C:after {
+  content: '#e1d3c4';
+}
+.pantone-Pastels-Neons-9224-C {
+  color: #f2e9db;
+}
+.chip.pantone-Pastels-Neons-9224-C {
+  background: #f2e9db;
+}
+.label.pantone-Pastels-Neons-9224-C:before {
+  content: 'Pantone \a Pastels-Neons-9224-C';
+}
+.label.pantone-Pastels-Neons-9224-C:after {
+  content: '#f2e9db';
+}
+.pantone-Pastels-Neons-9225-C {
+  color: #f0e6d8;
+}
+.chip.pantone-Pastels-Neons-9225-C {
+  background: #f0e6d8;
+}
+.label.pantone-Pastels-Neons-9225-C:before {
+  content: 'Pantone \a Pastels-Neons-9225-C';
+}
+.label.pantone-Pastels-Neons-9225-C:after {
+  content: '#f0e6d8';
+}
+.pantone-Pastels-Neons-9226-C {
+  color: #ebe3d7;
+}
+.chip.pantone-Pastels-Neons-9226-C {
+  background: #ebe3d7;
+}
+.label.pantone-Pastels-Neons-9226-C:before {
+  content: 'Pantone \a Pastels-Neons-9226-C';
+}
+.label.pantone-Pastels-Neons-9226-C:after {
+  content: '#ebe3d7';
+}
+.pantone-Pastels-Neons-9222-C {
+  color: #e6d5c8;
+}
+.chip.pantone-Pastels-Neons-9222-C {
+  background: #e6d5c8;
+}
+.label.pantone-Pastels-Neons-9222-C:before {
+  content: 'Pantone \a Pastels-Neons-9222-C';
+}
+.label.pantone-Pastels-Neons-9222-C:after {
+  content: '#e6d5c8';
+}
+.pantone-Pastels-Neons-9223-C {
+  color: #e1d3c7;
+}
+.chip.pantone-Pastels-Neons-9223-C {
+  background: #e1d3c7;
+}
+.label.pantone-Pastels-Neons-9223-C:before {
+  content: 'Pantone \a Pastels-Neons-9223-C';
+}
+.label.pantone-Pastels-Neons-9223-C:after {
+  content: '#e1d3c7';
+}
+.pantone-Pastels-Neons-9242-C {
+  color: #e9d5cd;
+}
+.chip.pantone-Pastels-Neons-9242-C {
+  background: #e9d5cd;
+}
+.label.pantone-Pastels-Neons-9242-C:before {
+  content: 'Pantone \a Pastels-Neons-9242-C';
+}
+.label.pantone-Pastels-Neons-9242-C:after {
+  content: '#e9d5cd';
+}
+.pantone-Pastels-Neons-9243-C {
+  color: #e1cec6;
+}
+.chip.pantone-Pastels-Neons-9243-C {
+  background: #e1cec6;
+}
+.label.pantone-Pastels-Neons-9243-C:before {
+  content: 'Pantone \a Pastels-Neons-9243-C';
+}
+.label.pantone-Pastels-Neons-9243-C:after {
+  content: '#e1cec6';
+}
+.pantone-Pastels-Neons-9244-C {
+  color: #f3e9e2;
+}
+.chip.pantone-Pastels-Neons-9244-C {
+  background: #f3e9e2;
+}
+.label.pantone-Pastels-Neons-9244-C:before {
+  content: 'Pantone \a Pastels-Neons-9244-C';
+}
+.label.pantone-Pastels-Neons-9244-C:after {
+  content: '#f3e9e2';
+}
+.pantone-Pastels-Neons-9240-C {
+  color: #f4e5de;
+}
+.chip.pantone-Pastels-Neons-9240-C {
+  background: #f4e5de;
+}
+.label.pantone-Pastels-Neons-9240-C:before {
+  content: 'Pantone \a Pastels-Neons-9240-C';
+}
+.label.pantone-Pastels-Neons-9240-C:after {
+  content: '#f4e5de';
+}
+.pantone-Pastels-Neons-9260-C {
+  color: #f5deda;
+}
+.chip.pantone-Pastels-Neons-9260-C {
+  background: #f5deda;
+}
+.label.pantone-Pastels-Neons-9260-C:before {
+  content: 'Pantone \a Pastels-Neons-9260-C';
+}
+.label.pantone-Pastels-Neons-9260-C:after {
+  content: '#f5deda';
+}
+.pantone-Pastels-Neons-9241-C {
+  color: #f0ddd7;
+}
+.chip.pantone-Pastels-Neons-9241-C {
+  background: #f0ddd7;
+}
+.label.pantone-Pastels-Neons-9241-C:before {
+  content: 'Pantone \a Pastels-Neons-9241-C';
+}
+.label.pantone-Pastels-Neons-9241-C:after {
+  content: '#f0ddd7';
+}
+.pantone-Pastels-Neons-9261-C {
+  color: #efd7d4;
+}
+.chip.pantone-Pastels-Neons-9261-C {
+  background: #efd7d4;
+}
+.label.pantone-Pastels-Neons-9261-C:before {
+  content: 'Pantone \a Pastels-Neons-9261-C';
+}
+.label.pantone-Pastels-Neons-9261-C:after {
+  content: '#efd7d4';
+}
+.pantone-Pastels-Neons-9262-C {
+  color: #ead5d2;
+}
+.chip.pantone-Pastels-Neons-9262-C {
+  background: #ead5d2;
+}
+.label.pantone-Pastels-Neons-9262-C:before {
+  content: 'Pantone \a Pastels-Neons-9262-C';
+}
+.label.pantone-Pastels-Neons-9262-C:after {
+  content: '#ead5d2';
+}
+.pantone-Pastels-Neons-9263-C {
+  color: #e4d1cd;
+}
+.chip.pantone-Pastels-Neons-9263-C {
+  background: #e4d1cd;
+}
+.label.pantone-Pastels-Neons-9263-C:before {
+  content: 'Pantone \a Pastels-Neons-9263-C';
+}
+.label.pantone-Pastels-Neons-9263-C:after {
+  content: '#e4d1cd';
+}
+.pantone-Pastels-Neons-9286-C {
+  color: #f6dfe0;
+}
+.chip.pantone-Pastels-Neons-9286-C {
+  background: #f6dfe0;
+}
+.label.pantone-Pastels-Neons-9286-C:before {
+  content: 'Pantone \a Pastels-Neons-9286-C';
+}
+.label.pantone-Pastels-Neons-9286-C:after {
+  content: '#f6dfe0';
+}
+.pantone-Pastels-Neons-9281-C {
+  color: #f2ddde;
+}
+.chip.pantone-Pastels-Neons-9281-C {
+  background: #f2ddde;
+}
+.label.pantone-Pastels-Neons-9281-C:before {
+  content: 'Pantone \a Pastels-Neons-9281-C';
+}
+.label.pantone-Pastels-Neons-9281-C:after {
+  content: '#f2ddde';
+}
+.pantone-Pastels-Neons-9300-C {
+  color: #f4dde2;
+}
+.chip.pantone-Pastels-Neons-9300-C {
+  background: #f4dde2;
+}
+.label.pantone-Pastels-Neons-9300-C:before {
+  content: 'Pantone \a Pastels-Neons-9300-C';
+}
+.label.pantone-Pastels-Neons-9300-C:after {
+  content: '#f4dde2';
+}
+.pantone-Pastels-Neons-9282-C {
+  color: #efdadb;
+}
+.chip.pantone-Pastels-Neons-9282-C {
+  background: #efdadb;
+}
+.label.pantone-Pastels-Neons-9282-C:before {
+  content: 'Pantone \a Pastels-Neons-9282-C';
+}
+.label.pantone-Pastels-Neons-9282-C:after {
+  content: '#efdadb';
+}
+.pantone-Pastels-Neons-9301-C {
+  color: #f0dbe1;
+}
+.chip.pantone-Pastels-Neons-9301-C {
+  background: #f0dbe1;
+}
+.label.pantone-Pastels-Neons-9301-C:before {
+  content: 'Pantone \a Pastels-Neons-9301-C';
+}
+.label.pantone-Pastels-Neons-9301-C:after {
+  content: '#f0dbe1';
+}
+.pantone-Pastels-Neons-9321-C {
+  color: #edd5e2;
+}
+.chip.pantone-Pastels-Neons-9321-C {
+  background: #edd5e2;
+}
+.label.pantone-Pastels-Neons-9321-C:before {
+  content: 'Pantone \a Pastels-Neons-9321-C';
+}
+.label.pantone-Pastels-Neons-9321-C:after {
+  content: '#edd5e2';
+}
+.pantone-Pastels-Neons-9302-C {
+  color: #e9ced5;
+}
+.chip.pantone-Pastels-Neons-9302-C {
+  background: #e9ced5;
+}
+.label.pantone-Pastels-Neons-9302-C:before {
+  content: 'Pantone \a Pastels-Neons-9302-C';
+}
+.label.pantone-Pastels-Neons-9302-C:after {
+  content: '#e9ced5';
+}
+.pantone-Pastels-Neons-9021-C {
+  color: #f1e7e4;
+}
+.chip.pantone-Pastels-Neons-9021-C {
+  background: #f1e7e4;
+}
+.label.pantone-Pastels-Neons-9021-C:before {
+  content: 'Pantone \a Pastels-Neons-9021-C';
+}
+.label.pantone-Pastels-Neons-9021-C:after {
+  content: '#f1e7e4';
+}
+.pantone-Pastels-Neons-9022-C {
+  color: #f0e7e9;
+}
+.chip.pantone-Pastels-Neons-9022-C {
+  background: #f0e7e9;
+}
+.label.pantone-Pastels-Neons-9022-C:before {
+  content: 'Pantone \a Pastels-Neons-9022-C';
+}
+.label.pantone-Pastels-Neons-9022-C:after {
+  content: '#f0e7e9';
+}
+.pantone-Pastels-Neons-9023-C {
+  color: #eae3ea;
+}
+.chip.pantone-Pastels-Neons-9023-C {
+  background: #eae3ea;
+}
+.label.pantone-Pastels-Neons-9023-C:before {
+  content: 'Pantone \a Pastels-Neons-9023-C';
+}
+.label.pantone-Pastels-Neons-9023-C:after {
+  content: '#eae3ea';
+}
+.pantone-Pastels-Neons-9283-C {
+  color: #e9d8d7;
+}
+.chip.pantone-Pastels-Neons-9283-C {
+  background: #e9d8d7;
+}
+.label.pantone-Pastels-Neons-9283-C:before {
+  content: 'Pantone \a Pastels-Neons-9283-C';
+}
+.label.pantone-Pastels-Neons-9283-C:after {
+  content: '#e9d8d7';
+}
+.pantone-Pastels-Neons-9303-C {
+  color: #e7d2d6;
+}
+.chip.pantone-Pastels-Neons-9303-C {
+  background: #e7d2d6;
+}
+.label.pantone-Pastels-Neons-9303-C:before {
+  content: 'Pantone \a Pastels-Neons-9303-C';
+}
+.label.pantone-Pastels-Neons-9303-C:after {
+  content: '#e7d2d6';
+}
+.pantone-Pastels-Neons-9322-C {
+  color: #e9d0dc;
+}
+.chip.pantone-Pastels-Neons-9322-C {
+  background: #e9d0dc;
+}
+.label.pantone-Pastels-Neons-9322-C:before {
+  content: 'Pantone \a Pastels-Neons-9322-C';
+}
+.label.pantone-Pastels-Neons-9322-C:after {
+  content: '#e9d0dc';
+}
+.pantone-Pastels-Neons-9323-C {
+  color: #e2ccd6;
+}
+.chip.pantone-Pastels-Neons-9323-C {
+  background: #e2ccd6;
+}
+.label.pantone-Pastels-Neons-9323-C:before {
+  content: 'Pantone \a Pastels-Neons-9323-C';
+}
+.label.pantone-Pastels-Neons-9323-C:after {
+  content: '#e2ccd6';
+}
+.pantone-Pastels-Neons-9360-C {
+  color: #ded8eb;
+}
+.chip.pantone-Pastels-Neons-9360-C {
+  background: #ded8eb;
+}
+.label.pantone-Pastels-Neons-9360-C:before {
+  content: 'Pantone \a Pastels-Neons-9360-C';
+}
+.label.pantone-Pastels-Neons-9360-C:after {
+  content: '#ded8eb';
+}
+.pantone-Pastels-Neons-9341-C {
+  color: #e3d7e6;
+}
+.chip.pantone-Pastels-Neons-9341-C {
+  background: #e3d7e6;
+}
+.label.pantone-Pastels-Neons-9341-C:before {
+  content: 'Pantone \a Pastels-Neons-9341-C';
+}
+.label.pantone-Pastels-Neons-9341-C:after {
+  content: '#e3d7e6';
+}
+.pantone-Pastels-Neons-9342-C {
+  color: #e0d4e2;
+}
+.chip.pantone-Pastels-Neons-9342-C {
+  background: #e0d4e2;
+}
+.label.pantone-Pastels-Neons-9342-C:before {
+  content: 'Pantone \a Pastels-Neons-9342-C';
+}
+.label.pantone-Pastels-Neons-9342-C:after {
+  content: '#e0d4e2';
+}
+.pantone-Pastels-Neons-9343-C {
+  color: #ded1e1;
+}
+.chip.pantone-Pastels-Neons-9343-C {
+  background: #ded1e1;
+}
+.label.pantone-Pastels-Neons-9343-C:before {
+  content: 'Pantone \a Pastels-Neons-9343-C';
+}
+.label.pantone-Pastels-Neons-9343-C:after {
+  content: '#ded1e1';
+}
+.pantone-Pastels-Neons-9361-C {
+  color: #dcd3e7;
+}
+.chip.pantone-Pastels-Neons-9361-C {
+  background: #dcd3e7;
+}
+.label.pantone-Pastels-Neons-9361-C:before {
+  content: 'Pantone \a Pastels-Neons-9361-C';
+}
+.label.pantone-Pastels-Neons-9361-C:after {
+  content: '#dcd3e7';
+}
+.pantone-Pastels-Neons-9362-C {
+  color: #dcd4e5;
+}
+.chip.pantone-Pastels-Neons-9362-C {
+  background: #dcd4e5;
+}
+.label.pantone-Pastels-Neons-9362-C:before {
+  content: 'Pantone \a Pastels-Neons-9362-C';
+}
+.label.pantone-Pastels-Neons-9362-C:after {
+  content: '#dcd4e5';
+}
+.pantone-Pastels-Neons-9363-C {
+  color: #d1c7d9;
+}
+.chip.pantone-Pastels-Neons-9363-C {
+  background: #d1c7d9;
+}
+.label.pantone-Pastels-Neons-9363-C:before {
+  content: 'Pantone \a Pastels-Neons-9363-C';
+}
+.label.pantone-Pastels-Neons-9363-C:after {
+  content: '#d1c7d9';
+}
+.pantone-Pastels-Neons-9380-C {
+  color: #dee1ec;
+}
+.chip.pantone-Pastels-Neons-9380-C {
+  background: #dee1ec;
+}
+.label.pantone-Pastels-Neons-9380-C:before {
+  content: 'Pantone \a Pastels-Neons-9380-C';
+}
+.label.pantone-Pastels-Neons-9380-C:after {
+  content: '#dee1ec';
+}
+.pantone-Pastels-Neons-9384-C {
+  color: #dadfec;
+}
+.chip.pantone-Pastels-Neons-9384-C {
+  background: #dadfec;
+}
+.label.pantone-Pastels-Neons-9384-C:before {
+  content: 'Pantone \a Pastels-Neons-9384-C';
+}
+.label.pantone-Pastels-Neons-9384-C:after {
+  content: '#dadfec';
+}
+.pantone-Pastels-Neons-9381-C {
+  color: #d2d9e8;
+}
+.chip.pantone-Pastels-Neons-9381-C {
+  background: #d2d9e8;
+}
+.label.pantone-Pastels-Neons-9381-C:before {
+  content: 'Pantone \a Pastels-Neons-9381-C';
+}
+.label.pantone-Pastels-Neons-9381-C:after {
+  content: '#d2d9e8';
+}
+.pantone-Pastels-Neons-9382-C {
+  color: #cdd2e6;
+}
+.chip.pantone-Pastels-Neons-9382-C {
+  background: #cdd2e6;
+}
+.label.pantone-Pastels-Neons-9382-C:before {
+  content: 'Pantone \a Pastels-Neons-9382-C';
+}
+.label.pantone-Pastels-Neons-9382-C:after {
+  content: '#cdd2e6';
+}
+.pantone-Pastels-Neons-9383-C {
+  color: #d1d5e3;
+}
+.chip.pantone-Pastels-Neons-9383-C {
+  background: #d1d5e3;
+}
+.label.pantone-Pastels-Neons-9383-C:before {
+  content: 'Pantone \a Pastels-Neons-9383-C';
+}
+.label.pantone-Pastels-Neons-9383-C:after {
+  content: '#d1d5e3';
+}
+.pantone-Pastels-Neons-9385-C {
+  color: #ced5df;
+}
+.chip.pantone-Pastels-Neons-9385-C {
+  background: #ced5df;
+}
+.label.pantone-Pastels-Neons-9385-C:before {
+  content: 'Pantone \a Pastels-Neons-9385-C';
+}
+.label.pantone-Pastels-Neons-9385-C:after {
+  content: '#ced5df';
+}
+.pantone-Pastels-Neons-9403-C {
+  color: #ced9e4;
+}
+.chip.pantone-Pastels-Neons-9403-C {
+  background: #ced9e4;
+}
+.label.pantone-Pastels-Neons-9403-C:before {
+  content: 'Pantone \a Pastels-Neons-9403-C';
+}
+.label.pantone-Pastels-Neons-9403-C:after {
+  content: '#ced9e4';
+}
+.pantone-Pastels-Neons-9400-C {
+  color: #d6e1ec;
+}
+.chip.pantone-Pastels-Neons-9400-C {
+  background: #d6e1ec;
+}
+.label.pantone-Pastels-Neons-9400-C:before {
+  content: 'Pantone \a Pastels-Neons-9400-C';
+}
+.label.pantone-Pastels-Neons-9400-C:after {
+  content: '#d6e1ec';
+}
+.pantone-Pastels-Neons-9401-C {
+  color: #d5e1ed;
+}
+.chip.pantone-Pastels-Neons-9401-C {
+  background: #d5e1ed;
+}
+.label.pantone-Pastels-Neons-9401-C:before {
+  content: 'Pantone \a Pastels-Neons-9401-C';
+}
+.label.pantone-Pastels-Neons-9401-C:after {
+  content: '#d5e1ed';
+}
+.pantone-Pastels-Neons-9402-C {
+  color: #d5e0ea;
+}
+.chip.pantone-Pastels-Neons-9402-C {
+  background: #d5e0ea;
+}
+.label.pantone-Pastels-Neons-9402-C:before {
+  content: 'Pantone \a Pastels-Neons-9402-C';
+}
+.label.pantone-Pastels-Neons-9402-C:after {
+  content: '#d5e0ea';
+}
+.pantone-Pastels-Neons-9420-C {
+  color: #d1e2ec;
+}
+.chip.pantone-Pastels-Neons-9420-C {
+  background: #d1e2ec;
+}
+.label.pantone-Pastels-Neons-9420-C:before {
+  content: 'Pantone \a Pastels-Neons-9420-C';
+}
+.label.pantone-Pastels-Neons-9420-C:after {
+  content: '#d1e2ec';
+}
+.pantone-Pastels-Neons-9421-C {
+  color: #cedfe9;
+}
+.chip.pantone-Pastels-Neons-9421-C {
+  background: #cedfe9;
+}
+.label.pantone-Pastels-Neons-9421-C:before {
+  content: 'Pantone \a Pastels-Neons-9421-C';
+}
+.label.pantone-Pastels-Neons-9421-C:after {
+  content: '#cedfe9';
+}
+.pantone-Pastels-Neons-9422-C {
+  color: #cad9e3;
+}
+.chip.pantone-Pastels-Neons-9422-C {
+  background: #cad9e3;
+}
+.label.pantone-Pastels-Neons-9422-C:before {
+  content: 'Pantone \a Pastels-Neons-9422-C';
+}
+.label.pantone-Pastels-Neons-9422-C:after {
+  content: '#cad9e3';
+}
+.pantone-Pastels-Neons-9423-C {
+  color: #c0d1da;
+}
+.chip.pantone-Pastels-Neons-9423-C {
+  background: #c0d1da;
+}
+.label.pantone-Pastels-Neons-9423-C:before {
+  content: 'Pantone \a Pastels-Neons-9423-C';
+}
+.label.pantone-Pastels-Neons-9423-C:after {
+  content: '#c0d1da';
+}
+.pantone-Pastels-Neons-9424-C {
+  color: #c3e3e7;
+}
+.chip.pantone-Pastels-Neons-9424-C {
+  background: #c3e3e7;
+}
+.label.pantone-Pastels-Neons-9424-C:before {
+  content: 'Pantone \a Pastels-Neons-9424-C';
+}
+.label.pantone-Pastels-Neons-9424-C:after {
+  content: '#c3e3e7';
+}
+.pantone-Pastels-Neons-9440-C {
+  color: #c1e0ea;
+}
+.chip.pantone-Pastels-Neons-9440-C {
+  background: #c1e0ea;
+}
+.label.pantone-Pastels-Neons-9440-C:before {
+  content: 'Pantone \a Pastels-Neons-9440-C';
+}
+.label.pantone-Pastels-Neons-9440-C:after {
+  content: '#c1e0ea';
+}
+.pantone-Pastels-Neons-9441-C {
+  color: #c0e0ec;
+}
+.chip.pantone-Pastels-Neons-9441-C {
+  background: #c0e0ec;
+}
+.label.pantone-Pastels-Neons-9441-C:before {
+  content: 'Pantone \a Pastels-Neons-9441-C';
+}
+.label.pantone-Pastels-Neons-9441-C:after {
+  content: '#c0e0ec';
+}
+.pantone-Pastels-Neons-9442-C {
+  color: #bedde7;
+}
+.chip.pantone-Pastels-Neons-9442-C {
+  background: #bedde7;
+}
+.label.pantone-Pastels-Neons-9442-C:before {
+  content: 'Pantone \a Pastels-Neons-9442-C';
+}
+.label.pantone-Pastels-Neons-9442-C:after {
+  content: '#bedde7';
+}
+.pantone-Pastels-Neons-9461-C {
+  color: #bee2e7;
+}
+.chip.pantone-Pastels-Neons-9461-C {
+  background: #bee2e7;
+}
+.label.pantone-Pastels-Neons-9461-C:before {
+  content: 'Pantone \a Pastels-Neons-9461-C';
+}
+.label.pantone-Pastels-Neons-9461-C:after {
+  content: '#bee2e7';
+}
+.pantone-Pastels-Neons-9462-C {
+  color: #b9dbe0;
+}
+.chip.pantone-Pastels-Neons-9462-C {
+  background: #b9dbe0;
+}
+.label.pantone-Pastels-Neons-9462-C:before {
+  content: 'Pantone \a Pastels-Neons-9462-C';
+}
+.label.pantone-Pastels-Neons-9462-C:after {
+  content: '#b9dbe0';
+}
+.pantone-Pastels-Neons-9443-C {
+  color: #b9d5de;
+}
+.chip.pantone-Pastels-Neons-9443-C {
+  background: #b9d5de;
+}
+.label.pantone-Pastels-Neons-9443-C:before {
+  content: 'Pantone \a Pastels-Neons-9443-C';
+}
+.label.pantone-Pastels-Neons-9443-C:after {
+  content: '#b9d5de';
+}
+.pantone-Pastels-Neons-9480-C {
+  color: #c8e9e9;
+}
+.chip.pantone-Pastels-Neons-9480-C {
+  background: #c8e9e9;
+}
+.label.pantone-Pastels-Neons-9480-C:before {
+  content: 'Pantone \a Pastels-Neons-9480-C';
+}
+.label.pantone-Pastels-Neons-9480-C:after {
+  content: '#c8e9e9';
+}
+.pantone-Pastels-Neons-9481-C {
+  color: #c5e9ea;
+}
+.chip.pantone-Pastels-Neons-9481-C {
+  background: #c5e9ea;
+}
+.label.pantone-Pastels-Neons-9481-C:before {
+  content: 'Pantone \a Pastels-Neons-9481-C';
+}
+.label.pantone-Pastels-Neons-9481-C:after {
+  content: '#c5e9ea';
+}
+.pantone-Pastels-Neons-9500-C {
+  color: #bee9e7;
+}
+.chip.pantone-Pastels-Neons-9500-C {
+  background: #bee9e7;
+}
+.label.pantone-Pastels-Neons-9500-C:before {
+  content: 'Pantone \a Pastels-Neons-9500-C';
+}
+.label.pantone-Pastels-Neons-9500-C:after {
+  content: '#bee9e7';
+}
+.pantone-Pastels-Neons-9482-C {
+  color: #c1e3e4;
+}
+.chip.pantone-Pastels-Neons-9482-C {
+  background: #c1e3e4;
+}
+.label.pantone-Pastels-Neons-9482-C:before {
+  content: 'Pantone \a Pastels-Neons-9482-C';
+}
+.label.pantone-Pastels-Neons-9482-C:after {
+  content: '#c1e3e4';
+}
+.pantone-Pastels-Neons-9501-C {
+  color: #b9e0dd;
+}
+.chip.pantone-Pastels-Neons-9501-C {
+  background: #b9e0dd;
+}
+.label.pantone-Pastels-Neons-9501-C:before {
+  content: 'Pantone \a Pastels-Neons-9501-C';
+}
+.label.pantone-Pastels-Neons-9501-C:after {
+  content: '#b9e0dd';
+}
+.pantone-Pastels-Neons-9483-C {
+  color: #c6dcda;
+}
+.chip.pantone-Pastels-Neons-9483-C {
+  background: #c6dcda;
+}
+.label.pantone-Pastels-Neons-9483-C:before {
+  content: 'Pantone \a Pastels-Neons-9483-C';
+}
+.label.pantone-Pastels-Neons-9483-C:after {
+  content: '#c6dcda';
+}
+.pantone-Pastels-Neons-9463-C {
+  color: #bddadd;
+}
+.chip.pantone-Pastels-Neons-9463-C {
+  background: #bddadd;
+}
+.label.pantone-Pastels-Neons-9463-C:before {
+  content: 'Pantone \a Pastels-Neons-9463-C';
+}
+.label.pantone-Pastels-Neons-9463-C:after {
+  content: '#bddadd';
+}
+.pantone-Pastels-Neons-9042-C {
+  color: #e3e8e3;
+}
+.chip.pantone-Pastels-Neons-9042-C {
+  background: #e3e8e3;
+}
+.label.pantone-Pastels-Neons-9042-C:before {
+  content: 'Pantone \a Pastels-Neons-9042-C';
+}
+.label.pantone-Pastels-Neons-9042-C:after {
+  content: '#e3e8e3';
+}
+.pantone-Pastels-Neons-9041-C {
+  color: #dfece4;
+}
+.chip.pantone-Pastels-Neons-9041-C {
+  background: #dfece4;
+}
+.label.pantone-Pastels-Neons-9041-C:before {
+  content: 'Pantone \a Pastels-Neons-9041-C';
+}
+.label.pantone-Pastels-Neons-9041-C:after {
+  content: '#dfece4';
+}
+.pantone-Pastels-Neons-9040-C {
+  color: #dcebec;
+}
+.chip.pantone-Pastels-Neons-9040-C {
+  background: #dcebec;
+}
+.label.pantone-Pastels-Neons-9040-C:before {
+  content: 'Pantone \a Pastels-Neons-9040-C';
+}
+.label.pantone-Pastels-Neons-9040-C:after {
+  content: '#dcebec';
+}
+.pantone-Pastels-Neons-9044-C {
+  color: #c9e2e0;
+}
+.chip.pantone-Pastels-Neons-9044-C {
+  background: #c9e2e0;
+}
+.label.pantone-Pastels-Neons-9044-C:before {
+  content: 'Pantone \a Pastels-Neons-9044-C';
+}
+.label.pantone-Pastels-Neons-9044-C:after {
+  content: '#c9e2e0';
+}
+.pantone-Pastels-Neons-9045-C {
+  color: #c8deda;
+}
+.chip.pantone-Pastels-Neons-9045-C {
+  background: #c8deda;
+}
+.label.pantone-Pastels-Neons-9045-C:before {
+  content: 'Pantone \a Pastels-Neons-9045-C';
+}
+.label.pantone-Pastels-Neons-9045-C:after {
+  content: '#c8deda';
+}
+.pantone-Pastels-Neons-9503-C {
+  color: #cbdeda;
+}
+.chip.pantone-Pastels-Neons-9503-C {
+  background: #cbdeda;
+}
+.label.pantone-Pastels-Neons-9503-C:before {
+  content: 'Pantone \a Pastels-Neons-9503-C';
+}
+.label.pantone-Pastels-Neons-9503-C:after {
+  content: '#cbdeda';
+}
+.pantone-Pastels-Neons-9504-C {
+  color: #c6dad7;
+}
+.chip.pantone-Pastels-Neons-9504-C {
+  background: #c6dad7;
+}
+.label.pantone-Pastels-Neons-9504-C:before {
+  content: 'Pantone \a Pastels-Neons-9504-C';
+}
+.label.pantone-Pastels-Neons-9504-C:after {
+  content: '#c6dad7';
+}
+.pantone-Pastels-Neons-9525-C {
+  color: #e5efe2;
+}
+.chip.pantone-Pastels-Neons-9525-C {
+  background: #e5efe2;
+}
+.label.pantone-Pastels-Neons-9525-C:before {
+  content: 'Pantone \a Pastels-Neons-9525-C';
+}
+.label.pantone-Pastels-Neons-9525-C:after {
+  content: '#e5efe2';
+}
+.pantone-Pastels-Neons-9540-C {
+  color: #e1f0e5;
+}
+.chip.pantone-Pastels-Neons-9540-C {
+  background: #e1f0e5;
+}
+.label.pantone-Pastels-Neons-9540-C:before {
+  content: 'Pantone \a Pastels-Neons-9540-C';
+}
+.label.pantone-Pastels-Neons-9540-C:after {
+  content: '#e1f0e5';
+}
+.pantone-Pastels-Neons-9541-C {
+  color: #dfece2;
+}
+.chip.pantone-Pastels-Neons-9541-C {
+  background: #dfece2;
+}
+.label.pantone-Pastels-Neons-9541-C:before {
+  content: 'Pantone \a Pastels-Neons-9541-C';
+}
+.label.pantone-Pastels-Neons-9541-C:after {
+  content: '#dfece2';
+}
+.pantone-Pastels-Neons-9521-C {
+  color: #d5e9e1;
+}
+.chip.pantone-Pastels-Neons-9521-C {
+  background: #d5e9e1;
+}
+.label.pantone-Pastels-Neons-9521-C:before {
+  content: 'Pantone \a Pastels-Neons-9521-C';
+}
+.label.pantone-Pastels-Neons-9521-C:after {
+  content: '#d5e9e1';
+}
+.pantone-Pastels-Neons-9522-C {
+  color: #d6e6df;
+}
+.chip.pantone-Pastels-Neons-9522-C {
+  background: #d6e6df;
+}
+.label.pantone-Pastels-Neons-9522-C:before {
+  content: 'Pantone \a Pastels-Neons-9522-C';
+}
+.label.pantone-Pastels-Neons-9522-C:after {
+  content: '#d6e6df';
+}
+.pantone-Pastels-Neons-9523-C {
+  color: #d6e3dc;
+}
+.chip.pantone-Pastels-Neons-9523-C {
+  background: #d6e3dc;
+}
+.label.pantone-Pastels-Neons-9523-C:before {
+  content: 'Pantone \a Pastels-Neons-9523-C';
+}
+.label.pantone-Pastels-Neons-9523-C:after {
+  content: '#d6e3dc';
+}
+.pantone-Pastels-Neons-9502-C {
+  color: #cde3e0;
+}
+.chip.pantone-Pastels-Neons-9502-C {
+  background: #cde3e0;
+}
+.label.pantone-Pastels-Neons-9502-C:before {
+  content: 'Pantone \a Pastels-Neons-9502-C';
+}
+.label.pantone-Pastels-Neons-9502-C:after {
+  content: '#cde3e0';
+}
+.pantone-Pastels-Neons-9544-C {
+  color: #e5efda;
+}
+.chip.pantone-Pastels-Neons-9544-C {
+  background: #e5efda;
+}
+.label.pantone-Pastels-Neons-9544-C:before {
+  content: 'Pantone \a Pastels-Neons-9544-C';
+}
+.label.pantone-Pastels-Neons-9544-C:after {
+  content: '#e5efda';
+}
+.pantone-Pastels-Neons-9560-C {
+  color: #dfefdb;
+}
+.chip.pantone-Pastels-Neons-9560-C {
+  background: #dfefdb;
+}
+.label.pantone-Pastels-Neons-9560-C:before {
+  content: 'Pantone \a Pastels-Neons-9560-C';
+}
+.label.pantone-Pastels-Neons-9560-C:after {
+  content: '#dfefdb';
+}
+.pantone-Pastels-Neons-9561-C {
+  color: #d7e8d2;
+}
+.chip.pantone-Pastels-Neons-9561-C {
+  background: #d7e8d2;
+}
+.label.pantone-Pastels-Neons-9561-C:before {
+  content: 'Pantone \a Pastels-Neons-9561-C';
+}
+.label.pantone-Pastels-Neons-9561-C:after {
+  content: '#d7e8d2';
+}
+.pantone-Pastels-Neons-9562-C {
+  color: #d6e2cf;
+}
+.chip.pantone-Pastels-Neons-9562-C {
+  background: #d6e2cf;
+}
+.label.pantone-Pastels-Neons-9562-C:before {
+  content: 'Pantone \a Pastels-Neons-9562-C';
+}
+.label.pantone-Pastels-Neons-9562-C:after {
+  content: '#d6e2cf';
+}
+.pantone-Pastels-Neons-9563-C {
+  color: #d5ddce;
+}
+.chip.pantone-Pastels-Neons-9563-C {
+  background: #d5ddce;
+}
+.label.pantone-Pastels-Neons-9563-C:before {
+  content: 'Pantone \a Pastels-Neons-9563-C';
+}
+.label.pantone-Pastels-Neons-9563-C:after {
+  content: '#d5ddce';
+}
+.pantone-Pastels-Neons-9542-C {
+  color: #cddacd;
+}
+.chip.pantone-Pastels-Neons-9542-C {
+  background: #cddacd;
+}
+.label.pantone-Pastels-Neons-9542-C:before {
+  content: 'Pantone \a Pastels-Neons-9542-C';
+}
+.label.pantone-Pastels-Neons-9542-C:after {
+  content: '#cddacd';
+}
+.pantone-Pastels-Neons-9543-C {
+  color: #c7d7c9;
+}
+.chip.pantone-Pastels-Neons-9543-C {
+  background: #c7d7c9;
+}
+.label.pantone-Pastels-Neons-9543-C:before {
+  content: 'Pantone \a Pastels-Neons-9543-C';
+}
+.label.pantone-Pastels-Neons-9543-C:after {
+  content: '#c7d7c9';
+}
+.pantone-Pastels-Neons-9020-C {
+  color: #eeeec8;
+}
+.chip.pantone-Pastels-Neons-9020-C {
+  background: #eeeec8;
+}
+.label.pantone-Pastels-Neons-9020-C:before {
+  content: 'Pantone \a Pastels-Neons-9020-C';
+}
+.label.pantone-Pastels-Neons-9020-C:after {
+  content: '#eeeec8';
+}
+.pantone-Pastels-Neons-9600-C {
+  color: #e7edc8;
+}
+.chip.pantone-Pastels-Neons-9600-C {
+  background: #e7edc8;
+}
+.label.pantone-Pastels-Neons-9600-C:before {
+  content: 'Pantone \a Pastels-Neons-9600-C';
+}
+.label.pantone-Pastels-Neons-9600-C:after {
+  content: '#e7edc8';
+}
+.pantone-Pastels-Neons-9601-C {
+  color: #e5e8cd;
+}
+.chip.pantone-Pastels-Neons-9601-C {
+  background: #e5e8cd;
+}
+.label.pantone-Pastels-Neons-9601-C:before {
+  content: 'Pantone \a Pastels-Neons-9601-C';
+}
+.label.pantone-Pastels-Neons-9601-C:after {
+  content: '#e5e8cd';
+}
+.pantone-Pastels-Neons-9122-C {
+  color: #e4e2b7;
+}
+.chip.pantone-Pastels-Neons-9122-C {
+  background: #e4e2b7;
+}
+.label.pantone-Pastels-Neons-9122-C:before {
+  content: 'Pantone \a Pastels-Neons-9122-C';
+}
+.label.pantone-Pastels-Neons-9122-C:after {
+  content: '#e4e2b7';
+}
+.pantone-Pastels-Neons-9602-C {
+  color: #d9dbbd;
+}
+.chip.pantone-Pastels-Neons-9602-C {
+  background: #d9dbbd;
+}
+.label.pantone-Pastels-Neons-9602-C:before {
+  content: 'Pantone \a Pastels-Neons-9602-C';
+}
+.label.pantone-Pastels-Neons-9602-C:after {
+  content: '#d9dbbd';
+}
+.pantone-Pastels-Neons-9603-C {
+  color: #d9d9c3;
+}
+.chip.pantone-Pastels-Neons-9603-C {
+  background: #d9d9c3;
+}
+.label.pantone-Pastels-Neons-9603-C:before {
+  content: 'Pantone \a Pastels-Neons-9603-C';
+}
+.label.pantone-Pastels-Neons-9603-C:after {
+  content: '#d9d9c3';
+}
+.pantone-Pastels-Neons-9123-C {
+  color: #dcd9b9;
+}
+.chip.pantone-Pastels-Neons-9123-C {
+  background: #dcd9b9;
+}
+.label.pantone-Pastels-Neons-9123-C:before {
+  content: 'Pantone \a Pastels-Neons-9123-C';
+}
+.label.pantone-Pastels-Neons-9123-C:after {
+  content: '#dcd9b9';
+}
+.pantone-Pastels-Neons-9580-C {
+  color: #e1efce;
+}
+.chip.pantone-Pastels-Neons-9580-C {
+  background: #e1efce;
+}
+.label.pantone-Pastels-Neons-9580-C:before {
+  content: 'Pantone \a Pastels-Neons-9580-C';
+}
+.label.pantone-Pastels-Neons-9580-C:after {
+  content: '#e1efce';
+}
+.pantone-Pastels-Neons-9581-C {
+  color: #dee7cd;
+}
+.chip.pantone-Pastels-Neons-9581-C {
+  background: #dee7cd;
+}
+.label.pantone-Pastels-Neons-9581-C:before {
+  content: 'Pantone \a Pastels-Neons-9581-C';
+}
+.label.pantone-Pastels-Neons-9581-C:after {
+  content: '#dee7cd';
+}
+.pantone-Pastels-Neons-9584-C {
+  color: #dce1cb;
+}
+.chip.pantone-Pastels-Neons-9584-C {
+  background: #dce1cb;
+}
+.label.pantone-Pastels-Neons-9584-C:before {
+  content: 'Pantone \a Pastels-Neons-9584-C';
+}
+.label.pantone-Pastels-Neons-9584-C:after {
+  content: '#dce1cb';
+}
+.pantone-Pastels-Neons-9582-C {
+  color: #d7dbc8;
+}
+.chip.pantone-Pastels-Neons-9582-C {
+  background: #d7dbc8;
+}
+.label.pantone-Pastels-Neons-9582-C:before {
+  content: 'Pantone \a Pastels-Neons-9582-C';
+}
+.label.pantone-Pastels-Neons-9582-C:after {
+  content: '#d7dbc8';
+}
+.pantone-Pastels-Neons-9583-C {
+  color: #cdd2ba;
+}
+.chip.pantone-Pastels-Neons-9583-C {
+  background: #cdd2ba;
+}
+.label.pantone-Pastels-Neons-9583-C:before {
+  content: 'Pantone \a Pastels-Neons-9583-C';
+}
+.label.pantone-Pastels-Neons-9583-C:after {
+  content: '#cdd2ba';
+}
+.pantone-Pastels-Neons-9585-C {
+  color: #d7dbc6;
+}
+.chip.pantone-Pastels-Neons-9585-C {
+  background: #d7dbc6;
+}
+.label.pantone-Pastels-Neons-9585-C:before {
+  content: 'Pantone \a Pastels-Neons-9585-C';
+}
+.label.pantone-Pastels-Neons-9585-C:after {
+  content: '#d7dbc6';
+}
+.pantone-Pastels-Neons-9163-C {
+  color: #d8cfb9;
+}
+.chip.pantone-Pastels-Neons-9163-C {
+  background: #d8cfb9;
+}
+.label.pantone-Pastels-Neons-9163-C:before {
+  content: 'Pantone \a Pastels-Neons-9163-C';
+}
+.label.pantone-Pastels-Neons-9163-C:after {
+  content: '#d8cfb9';
+}
+.pantone-Pastels-Neons-801-C {
+  color: #009ace;
+}
+.chip.pantone-Pastels-Neons-801-C {
+  background: #009ace;
+}
+.label.pantone-Pastels-Neons-801-C:before {
+  content: 'Pantone \a Pastels-Neons-801-C';
+}
+.label.pantone-Pastels-Neons-801-C:after {
+  content: '#009ace';
+}
+.pantone-Pastels-Neons-802-C {
+  color: #44d62c;
+}
+.chip.pantone-Pastels-Neons-802-C {
+  background: #44d62c;
+}
+.label.pantone-Pastels-Neons-802-C:before {
+  content: 'Pantone \a Pastels-Neons-802-C';
+}
+.label.pantone-Pastels-Neons-802-C:after {
+  content: '#44d62c';
+}
+.pantone-Pastels-Neons-803-C {
+  color: #ffe900;
+}
+.chip.pantone-Pastels-Neons-803-C {
+  background: #ffe900;
+}
+.label.pantone-Pastels-Neons-803-C:before {
+  content: 'Pantone \a Pastels-Neons-803-C';
+}
+.label.pantone-Pastels-Neons-803-C:after {
+  content: '#ffe900';
+}
+.pantone-Pastels-Neons-804-C {
+  color: #ffaa4d;
+}
+.chip.pantone-Pastels-Neons-804-C {
+  background: #ffaa4d;
+}
+.label.pantone-Pastels-Neons-804-C:before {
+  content: 'Pantone \a Pastels-Neons-804-C';
+}
+.label.pantone-Pastels-Neons-804-C:after {
+  content: '#ffaa4d';
+}
+.pantone-Pastels-Neons-805-C {
+  color: #ff7276;
+}
+.chip.pantone-Pastels-Neons-805-C {
+  background: #ff7276;
+}
+.label.pantone-Pastels-Neons-805-C:before {
+  content: 'Pantone \a Pastels-Neons-805-C';
+}
+.label.pantone-Pastels-Neons-805-C:after {
+  content: '#ff7276';
+}
+.pantone-Pastels-Neons-806-C {
+  color: #ff3eb5;
+}
+.chip.pantone-Pastels-Neons-806-C {
+  background: #ff3eb5;
+}
+.label.pantone-Pastels-Neons-806-C:before {
+  content: 'Pantone \a Pastels-Neons-806-C';
+}
+.label.pantone-Pastels-Neons-806-C:after {
+  content: '#ff3eb5';
+}
+.pantone-Pastels-Neons-807-C {
+  color: #ea27c2;
+}
+.chip.pantone-Pastels-Neons-807-C {
+  background: #ea27c2;
+}
+.label.pantone-Pastels-Neons-807-C:before {
+  content: 'Pantone \a Pastels-Neons-807-C';
+}
+.label.pantone-Pastels-Neons-807-C:after {
+  content: '#ea27c2';
+}
+.pantone-Pastels-Neons-901-C {
+  color: #00aada;
+}
+.chip.pantone-Pastels-Neons-901-C {
+  background: #00aada;
+}
+.label.pantone-Pastels-Neons-901-C:before {
+  content: 'Pantone \a Pastels-Neons-901-C';
+}
+.label.pantone-Pastels-Neons-901-C:after {
+  content: '#00aada';
+}
+.pantone-Pastels-Neons-902-C {
+  color: #8de971;
+}
+.chip.pantone-Pastels-Neons-902-C {
+  background: #8de971;
+}
+.label.pantone-Pastels-Neons-902-C:before {
+  content: 'Pantone \a Pastels-Neons-902-C';
+}
+.label.pantone-Pastels-Neons-902-C:after {
+  content: '#8de971';
+}
+.pantone-Pastels-Neons-903-C {
+  color: #fff36d;
+}
+.chip.pantone-Pastels-Neons-903-C {
+  background: #fff36d;
+}
+.label.pantone-Pastels-Neons-903-C:before {
+  content: 'Pantone \a Pastels-Neons-903-C';
+}
+.label.pantone-Pastels-Neons-903-C:after {
+  content: '#fff36d';
+}
+.pantone-Pastels-Neons-904-C {
+  color: #ffcd8a;
+}
+.chip.pantone-Pastels-Neons-904-C {
+  background: #ffcd8a;
+}
+.label.pantone-Pastels-Neons-904-C:before {
+  content: 'Pantone \a Pastels-Neons-904-C';
+}
+.label.pantone-Pastels-Neons-904-C:after {
+  content: '#ffcd8a';
+}
+.pantone-Pastels-Neons-905-C {
+  color: #ff9da7;
+}
+.chip.pantone-Pastels-Neons-905-C {
+  background: #ff9da7;
+}
+.label.pantone-Pastels-Neons-905-C:before {
+  content: 'Pantone \a Pastels-Neons-905-C';
+}
+.label.pantone-Pastels-Neons-905-C:after {
+  content: '#ff9da7';
+}
+.pantone-Pastels-Neons-906-C {
+  color: #ff7cd6;
+}
+.chip.pantone-Pastels-Neons-906-C {
+  background: #ff7cd6;
+}
+.label.pantone-Pastels-Neons-906-C:before {
+  content: 'Pantone \a Pastels-Neons-906-C';
+}
+.label.pantone-Pastels-Neons-906-C:after {
+  content: '#ff7cd6';
+}
+.pantone-Pastels-Neons-907-C {
+  color: #f469db;
+}
+.chip.pantone-Pastels-Neons-907-C {
+  background: #f469db;
+}
+.label.pantone-Pastels-Neons-907-C:before {
+  content: 'Pantone \a Pastels-Neons-907-C';
+}
+.label.pantone-Pastels-Neons-907-C:after {
+  content: '#f469db';
+}
+.pantone-Pastels-Neons-908-C {
+  color: #00afdb;
+}
+.chip.pantone-Pastels-Neons-908-C {
+  background: #00afdb;
+}
+.label.pantone-Pastels-Neons-908-C:before {
+  content: 'Pantone \a Pastels-Neons-908-C';
+}
+.label.pantone-Pastels-Neons-908-C:after {
+  content: '#00afdb';
+}
+.pantone-Pastels-Neons-909-C {
+  color: #a9ee8a;
+}
+.chip.pantone-Pastels-Neons-909-C {
+  background: #a9ee8a;
+}
+.label.pantone-Pastels-Neons-909-C:before {
+  content: 'Pantone \a Pastels-Neons-909-C';
+}
+.label.pantone-Pastels-Neons-909-C:after {
+  content: '#a9ee8a';
+}
+.pantone-Pastels-Neons-910-C {
+  color: #fdf38a;
+}
+.chip.pantone-Pastels-Neons-910-C {
+  background: #fdf38a;
+}
+.label.pantone-Pastels-Neons-910-C:before {
+  content: 'Pantone \a Pastels-Neons-910-C';
+}
+.label.pantone-Pastels-Neons-910-C:after {
+  content: '#fdf38a';
+}
+.pantone-Pastels-Neons-911-C {
+  color: #ffd9a4;
+}
+.chip.pantone-Pastels-Neons-911-C {
+  background: #ffd9a4;
+}
+.label.pantone-Pastels-Neons-911-C:before {
+  content: 'Pantone \a Pastels-Neons-911-C';
+}
+.label.pantone-Pastels-Neons-911-C:after {
+  content: '#ffd9a4';
+}
+.pantone-Pastels-Neons-912-C {
+  color: #ffacb6;
+}
+.chip.pantone-Pastels-Neons-912-C {
+  background: #ffacb6;
+}
+.label.pantone-Pastels-Neons-912-C:before {
+  content: 'Pantone \a Pastels-Neons-912-C';
+}
+.label.pantone-Pastels-Neons-912-C:after {
+  content: '#ffacb6';
+}
+.pantone-Pastels-Neons-913-C {
+  color: #ff92da;
+}
+.chip.pantone-Pastels-Neons-913-C {
+  background: #ff92da;
+}
+.label.pantone-Pastels-Neons-913-C:before {
+  content: 'Pantone \a Pastels-Neons-913-C';
+}
+.label.pantone-Pastels-Neons-913-C:after {
+  content: '#ff92da';
+}
+.pantone-Pastels-Neons-914-C {
+  color: #f57fe0;
+}
+.chip.pantone-Pastels-Neons-914-C {
+  background: #f57fe0;
+}
+.label.pantone-Pastels-Neons-914-C:before {
+  content: 'Pantone \a Pastels-Neons-914-C';
+}
+.label.pantone-Pastels-Neons-914-C:after {
+  content: '#f57fe0';
+}
+.pantone-Pastels-Neons-915-C {
+  color: #00bce3;
+}
+.chip.pantone-Pastels-Neons-915-C {
+  background: #00bce3;
+}
+.label.pantone-Pastels-Neons-915-C:before {
+  content: 'Pantone \a Pastels-Neons-915-C';
+}
+.label.pantone-Pastels-Neons-915-C:after {
+  content: '#00bce3';
+}
+.pantone-Pastels-Neons-916-C {
+  color: #b9efa3;
+}
+.chip.pantone-Pastels-Neons-916-C {
+  background: #b9efa3;
+}
+.label.pantone-Pastels-Neons-916-C:before {
+  content: 'Pantone \a Pastels-Neons-916-C';
+}
+.label.pantone-Pastels-Neons-916-C:after {
+  content: '#b9efa3';
+}
+.pantone-Pastels-Neons-917-C {
+  color: #f7f4a2;
+}
+.chip.pantone-Pastels-Neons-917-C {
+  background: #f7f4a2;
+}
+.label.pantone-Pastels-Neons-917-C:before {
+  content: 'Pantone \a Pastels-Neons-917-C';
+}
+.label.pantone-Pastels-Neons-917-C:after {
+  content: '#f7f4a2';
+}
+.pantone-Pastels-Neons-918-C {
+  color: #ffdfb4;
+}
+.chip.pantone-Pastels-Neons-918-C {
+  background: #ffdfb4;
+}
+.label.pantone-Pastels-Neons-918-C:before {
+  content: 'Pantone \a Pastels-Neons-918-C';
+}
+.label.pantone-Pastels-Neons-918-C:after {
+  content: '#ffdfb4';
+}
+.pantone-Pastels-Neons-919-C {
+  color: #ffc0c8;
+}
+.chip.pantone-Pastels-Neons-919-C {
+  background: #ffc0c8;
+}
+.label.pantone-Pastels-Neons-919-C:before {
+  content: 'Pantone \a Pastels-Neons-919-C';
+}
+.label.pantone-Pastels-Neons-919-C:after {
+  content: '#ffc0c8';
+}
+.pantone-Pastels-Neons-920-C {
+  color: #ffade3;
+}
+.chip.pantone-Pastels-Neons-920-C {
+  background: #ffade3;
+}
+.label.pantone-Pastels-Neons-920-C:before {
+  content: 'Pantone \a Pastels-Neons-920-C';
+}
+.label.pantone-Pastels-Neons-920-C:after {
+  content: '#ffade3';
+}
+.pantone-Pastels-Neons-921-C {
+  color: #f8a3e6;
+}
+.chip.pantone-Pastels-Neons-921-C {
+  background: #f8a3e6;
+}
+.label.pantone-Pastels-Neons-921-C:before {
+  content: 'Pantone \a Pastels-Neons-921-C';
+}
+.label.pantone-Pastels-Neons-921-C:after {
+  content: '#f8a3e6';
+}
+.pantone-Pastels-Neons-808-C {
+  color: #00b796;
+}
+.chip.pantone-Pastels-Neons-808-C {
+  background: #00b796;
+}
+.label.pantone-Pastels-Neons-808-C:before {
+  content: 'Pantone \a Pastels-Neons-808-C';
+}
+.label.pantone-Pastels-Neons-808-C:after {
+  content: '#00b796';
+}
+.pantone-Pastels-Neons-809-C {
+  color: #e3e829;
+}
+.chip.pantone-Pastels-Neons-809-C {
+  background: #e3e829;
+}
+.label.pantone-Pastels-Neons-809-C:before {
+  content: 'Pantone \a Pastels-Neons-809-C';
+}
+.label.pantone-Pastels-Neons-809-C:after {
+  content: '#e3e829';
+}
+.pantone-Pastels-Neons-810-C {
+  color: #ffd635;
+}
+.chip.pantone-Pastels-Neons-810-C {
+  background: #ffd635;
+}
+.label.pantone-Pastels-Neons-810-C:before {
+  content: 'Pantone \a Pastels-Neons-810-C';
+}
+.label.pantone-Pastels-Neons-810-C:after {
+  content: '#ffd635';
+}
+.pantone-Pastels-Neons-811-C {
+  color: #ff8f6c;
+}
+.chip.pantone-Pastels-Neons-811-C {
+  background: #ff8f6c;
+}
+.label.pantone-Pastels-Neons-811-C:before {
+  content: 'Pantone \a Pastels-Neons-811-C';
+}
+.label.pantone-Pastels-Neons-811-C:after {
+  content: '#ff8f6c';
+}
+.pantone-Pastels-Neons-812-C {
+  color: #ff5fa2;
+}
+.chip.pantone-Pastels-Neons-812-C {
+  background: #ff5fa2;
+}
+.label.pantone-Pastels-Neons-812-C:before {
+  content: 'Pantone \a Pastels-Neons-812-C';
+}
+.label.pantone-Pastels-Neons-812-C:after {
+  content: '#ff5fa2';
+}
+.pantone-Pastels-Neons-813-C {
+  color: #fb48c4;
+}
+.chip.pantone-Pastels-Neons-813-C {
+  background: #fb48c4;
+}
+.label.pantone-Pastels-Neons-813-C:before {
+  content: 'Pantone \a Pastels-Neons-813-C';
+}
+.label.pantone-Pastels-Neons-813-C:after {
+  content: '#fb48c4';
+}
+.pantone-Pastels-Neons-814-C {
+  color: #8a69d4;
+}
+.chip.pantone-Pastels-Neons-814-C {
+  background: #8a69d4;
+}
+.label.pantone-Pastels-Neons-814-C:before {
+  content: 'Pantone \a Pastels-Neons-814-C';
+}
+.label.pantone-Pastels-Neons-814-C:after {
+  content: '#8a69d4';
+}
+.pantone-Pastels-Neons-922-C {
+  color: #00c0a3;
+}
+.chip.pantone-Pastels-Neons-922-C {
+  background: #00c0a3;
+}
+.label.pantone-Pastels-Neons-922-C:before {
+  content: 'Pantone \a Pastels-Neons-922-C';
+}
+.label.pantone-Pastels-Neons-922-C:after {
+  content: '#00c0a3';
+}
+.pantone-Pastels-Neons-923-C {
+  color: #ecf166;
+}
+.chip.pantone-Pastels-Neons-923-C {
+  background: #ecf166;
+}
+.label.pantone-Pastels-Neons-923-C:before {
+  content: 'Pantone \a Pastels-Neons-923-C';
+}
+.label.pantone-Pastels-Neons-923-C:after {
+  content: '#ecf166';
+}
+.pantone-Pastels-Neons-924-C {
+  color: #ffe671;
+}
+.chip.pantone-Pastels-Neons-924-C {
+  background: #ffe671;
+}
+.label.pantone-Pastels-Neons-924-C:before {
+  content: 'Pantone \a Pastels-Neons-924-C';
+}
+.label.pantone-Pastels-Neons-924-C:after {
+  content: '#ffe671';
+}
+.pantone-Pastels-Neons-925-C {
+  color: #ffad93;
+}
+.chip.pantone-Pastels-Neons-925-C {
+  background: #ffad93;
+}
+.label.pantone-Pastels-Neons-925-C:before {
+  content: 'Pantone \a Pastels-Neons-925-C';
+}
+.label.pantone-Pastels-Neons-925-C:after {
+  content: '#ffad93';
+}
+.pantone-Pastels-Neons-926-C {
+  color: #ff85bd;
+}
+.chip.pantone-Pastels-Neons-926-C {
+  background: #ff85bd;
+}
+.label.pantone-Pastels-Neons-926-C:before {
+  content: 'Pantone \a Pastels-Neons-926-C';
+}
+.label.pantone-Pastels-Neons-926-C:after {
+  content: '#ff85bd';
+}
+.pantone-Pastels-Neons-927-C {
+  color: #fc76d9;
+}
+.chip.pantone-Pastels-Neons-927-C {
+  background: #fc76d9;
+}
+.label.pantone-Pastels-Neons-927-C:before {
+  content: 'Pantone \a Pastels-Neons-927-C';
+}
+.label.pantone-Pastels-Neons-927-C:after {
+  content: '#fc76d9';
+}
+.pantone-Pastels-Neons-928-C {
+  color: #997adb;
+}
+.chip.pantone-Pastels-Neons-928-C {
+  background: #997adb;
+}
+.label.pantone-Pastels-Neons-928-C:before {
+  content: 'Pantone \a Pastels-Neons-928-C';
+}
+.label.pantone-Pastels-Neons-928-C:after {
+  content: '#997adb';
+}
+.pantone-Pastels-Neons-929-C {
+  color: #2bc9af;
+}
+.chip.pantone-Pastels-Neons-929-C {
+  background: #2bc9af;
+}
+.label.pantone-Pastels-Neons-929-C:before {
+  content: 'Pantone \a Pastels-Neons-929-C';
+}
+.label.pantone-Pastels-Neons-929-C:after {
+  content: '#2bc9af';
+}
+.pantone-Pastels-Neons-930-C {
+  color: #eef386;
+}
+.chip.pantone-Pastels-Neons-930-C {
+  background: #eef386;
+}
+.label.pantone-Pastels-Neons-930-C:before {
+  content: 'Pantone \a Pastels-Neons-930-C';
+}
+.label.pantone-Pastels-Neons-930-C:after {
+  content: '#eef386';
+}
+.pantone-Pastels-Neons-931-C {
+  color: #ffe983;
+}
+.chip.pantone-Pastels-Neons-931-C {
+  background: #ffe983;
+}
+.label.pantone-Pastels-Neons-931-C:before {
+  content: 'Pantone \a Pastels-Neons-931-C';
+}
+.label.pantone-Pastels-Neons-931-C:after {
+  content: '#ffe983';
+}
+.pantone-Pastels-Neons-932-C {
+  color: #ffbba4;
+}
+.chip.pantone-Pastels-Neons-932-C {
+  background: #ffbba4;
+}
+.label.pantone-Pastels-Neons-932-C:before {
+  content: 'Pantone \a Pastels-Neons-932-C';
+}
+.label.pantone-Pastels-Neons-932-C:after {
+  content: '#ffbba4';
+}
+.pantone-Pastels-Neons-933-C {
+  color: #ff9bcb;
+}
+.chip.pantone-Pastels-Neons-933-C {
+  background: #ff9bcb;
+}
+.label.pantone-Pastels-Neons-933-C:before {
+  content: 'Pantone \a Pastels-Neons-933-C';
+}
+.label.pantone-Pastels-Neons-933-C:after {
+  content: '#ff9bcb';
+}
+.pantone-Pastels-Neons-934-C {
+  color: #fc8de0;
+}
+.chip.pantone-Pastels-Neons-934-C {
+  background: #fc8de0;
+}
+.label.pantone-Pastels-Neons-934-C:before {
+  content: 'Pantone \a Pastels-Neons-934-C';
+}
+.label.pantone-Pastels-Neons-934-C:after {
+  content: '#fc8de0';
+}
+.pantone-Pastels-Neons-935-C {
+  color: #ab92e1;
+}
+.chip.pantone-Pastels-Neons-935-C {
+  background: #ab92e1;
+}
+.label.pantone-Pastels-Neons-935-C:before {
+  content: 'Pantone \a Pastels-Neons-935-C';
+}
+.label.pantone-Pastels-Neons-935-C:after {
+  content: '#ab92e1';
+}
+.pantone-Pastels-Neons-936-C {
+  color: #6dd5c3;
+}
+.chip.pantone-Pastels-Neons-936-C {
+  background: #6dd5c3;
+}
+.label.pantone-Pastels-Neons-936-C:before {
+  content: 'Pantone \a Pastels-Neons-936-C';
+}
+.label.pantone-Pastels-Neons-936-C:after {
+  content: '#6dd5c3';
+}
+.pantone-Pastels-Neons-937-C {
+  color: #eff4a4;
+}
+.chip.pantone-Pastels-Neons-937-C {
+  background: #eff4a4;
+}
+.label.pantone-Pastels-Neons-937-C:before {
+  content: 'Pantone \a Pastels-Neons-937-C';
+}
+.label.pantone-Pastels-Neons-937-C:after {
+  content: '#eff4a4';
+}
+.pantone-Pastels-Neons-938-C {
+  color: #fceea8;
+}
+.chip.pantone-Pastels-Neons-938-C {
+  background: #fceea8;
+}
+.label.pantone-Pastels-Neons-938-C:before {
+  content: 'Pantone \a Pastels-Neons-938-C';
+}
+.label.pantone-Pastels-Neons-938-C:after {
+  content: '#fceea8';
+}
+.pantone-Pastels-Neons-939-C {
+  color: #ffcfbe;
+}
+.chip.pantone-Pastels-Neons-939-C {
+  background: #ffcfbe;
+}
+.label.pantone-Pastels-Neons-939-C:before {
+  content: 'Pantone \a Pastels-Neons-939-C';
+}
+.label.pantone-Pastels-Neons-939-C:after {
+  content: '#ffcfbe';
+}
+.pantone-Pastels-Neons-940-C {
+  color: #ffb6d9;
+}
+.chip.pantone-Pastels-Neons-940-C {
+  background: #ffb6d9;
+}
+.label.pantone-Pastels-Neons-940-C:before {
+  content: 'Pantone \a Pastels-Neons-940-C';
+}
+.label.pantone-Pastels-Neons-940-C:after {
+  content: '#ffb6d9';
+}
+.pantone-Pastels-Neons-941-C {
+  color: #fca9e6;
+}
+.chip.pantone-Pastels-Neons-941-C {
+  background: #fca9e6;
+}
+.label.pantone-Pastels-Neons-941-C:before {
+  content: 'Pantone \a Pastels-Neons-941-C';
+}
+.label.pantone-Pastels-Neons-941-C:after {
+  content: '#fca9e6';
+}
+.pantone-Pastels-Neons-942-C {
+  color: #c0aee7;
+}
+.chip.pantone-Pastels-Neons-942-C {
+  background: #c0aee7;
+}
+.label.pantone-Pastels-Neons-942-C:before {
+  content: 'Pantone \a Pastels-Neons-942-C';
+}
+.label.pantone-Pastels-Neons-942-C:after {
+  content: '#c0aee7';
+}
