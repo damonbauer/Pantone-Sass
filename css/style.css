@@ -4,7 +4,12 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
-#intro {
+p {
+  font-size: 12px;
+  line-height: 9px;
+  font-weight: bold;
+}
+.intro {
   position: relative;
   font-size: 12px;
   line-height: 9px;
@@ -12,6 +17,9 @@ body {
   top: 9px;
   width: 318px;
   margin: 12px 12px 72px 12px;
+}
+.colors {
+  /*text-align: center;*/
 }
 .box {
   position: relative;
