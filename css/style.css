@@ -1,63 +1,34 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica,Arial,sans-serif;
 }
-p {
-  font-size: 12px;
-  line-height: 9px;
-  font-weight: bold;
-}
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: #0000ff;
-  line-height: 15px;
-}
-.intro {
-  position: relative;
-  font-size: 12px;
-  line-height: 9px;
-  font-weight: bold;
-  top: 9px;
-  width: 318px;
-  margin: 12px 12px 72px 12px;
-}
+
 .colors {
-  /*text-align: center;*/
+  text-align: center;
 }
+
 .box {
   position: relative;
   display: inline-block;
-  margin: 12px;
+  font-family: sans-serif;
+  margin: 2px;
   width: 100px;
-  height: 165px;
-  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15);
+  height: 100px;
+  font-size: 0.7rem;
+  text-align: center;
 }
-.chip {
-  width: 100%;
-  height: 102px;
-}
-.label {
-  position: relative;
-  width: 100%;
-  height: 50px;
-  padding: 6px 0 0 6px;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: left;
-}
-.label:before,
-.label:after {
-  color: #000;
+.box:before, .box:after {
   position: absolute;
+  width: 80%;
+  height: 50%;
+  left: 10%;
 }
-.label:before {
-  font-weight: bold;
-  white-space: pre;
+.box:before {
+  top: 25px;
 }
-.label:after {
-  top: 36px;
+.box:after {
+  top: 75%;
 }
